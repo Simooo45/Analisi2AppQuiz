@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quiz Analisi 2</string>
+    <string name="capitolo1">Capitolo 1</string>
+    <string name="capitolo2">Capitolo 2</string>
+    <string name="capitolo3">Capitolo 3</string>
+    <string name="capitolo4">Capitolo 4</string>
+    <string name="capitolo5">Capitolo 5</string>
+    <string name="tutti_i_capitioli">Tutti i capitoli</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="titolo_capitolo_1">Funzioni di più variabili reali</string>
+    <string name="titolo_capitolo_2">Calcolo differenziale per le funzioni di più variabili reali</string>
+    <string name="titolo_capitolo_3">Equazioni differenziali ordinarie</string>
+    <string name="titolo_capitolo_4">Misura e integrazione in più dimensioni</string>
+    <string name="titolo_capitolo_5">Integrali curvilinei e campi vettoriali</string>
+    <string name="vedi_domande">Vedi domande</string>
+    <string name="interrogami">Interrogami</string>
+    <string name="soluzione">Soluzione</string>
+    <string name="successivo">Successivo</string>
+    <string name="precedente">Precedente</string>
+    <string name="Versione">v1.0.0</string>
+    <string name="inginfo">2023\nIngegneria Informatica - UNIBO</string>
+    <string name="capitoloN">Capitolo N°</string>
+    <string name="domandaN">- Domanda N°</string>
+    <string name="prossima_domanda">Prossima\nDomanda</string>
+</resources>

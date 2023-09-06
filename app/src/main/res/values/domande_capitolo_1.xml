@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="numero_domande_1">23</integer>
+<!-- Domande capitolo 1 -->
+    <string name="domanda_1_1">
+        \\mbox{Come si definiscono le operazioni
+        \\\\di somma e prodotto per uno
+        \\\\scalare in $R^n$?}
+        \\\\\\mbox{Quali sono le loro principali proprietà?}
+    </string>
+    <string name="soluzione_1_1">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\Dati $x = (x_1, \\dots, x_n)$ e $y = (y_1, \\dots, y_n)$
+        \\\\elementi di $R^n$, definiamo la \\textbf{somma}\\ come
+        \\\\$x+y:=(x_1+y_1, \\dots, x_n+y_n)$.
+        \\\\
+        \\;
+        \\\\Sia poi $\\lambda \\in R$, definiamo il \\textbf{prodotto per}
+        \\\\\\textbf{uno scalare}\\ come $\\lambda x := (\\lambda x_1, \\dots, \\lambda x_n).$
+        \\\\
+        \\;
+        \\\\
+        \\\\$\\forall x, y, z \\in R^n,\\;\\forall \\lambda, \\mu\\in R$ valgono le
+        \\\\seguenti \\textbf{proprietà}:
+        \\\\ \\textit{a)}\\; \\textbf{proprietà commutativa della somma}
+        \\\\ \\quad $x+y = y+x$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\; \\textbf{proprietà associativa della somma}
+        \\\\ \\quad $x+(y+z) = (x+y)+z$
+        \\\\ \\;
+        \\\\ \\textit{c)}\\; \\textbf{esistenza di un elemento neutro}
+        \\\\ \\quad\\textbf{per la somma}\\; $O = (0, \\dots, 0)$ tale che
+        \\\\ \\quad $x+O = O + x = x$
+        \\\\ \\;
+        \\\\ \\textit{d)}\\; \\textbf{esistenza di un inverso additivo}\\; $-x$
+        \\\\ \\quad con $-x = (-x_1, \\dots, -x_n)$ tale che:
+        \\\\ \\quad $x+(-x) = (-x) + x = O$
+        \\\\ \\;
+        \\\\ \\textit{e)}\\; \\textbf{proprietà distributiva del prodotto}
+        \\\\ \\quad \\textbf{rispetto alla somma tra scalari}
+        \\\\ \\quad $(\\lambda + \\mu)x =\\lambda x+\\mu x$
+        \\\\ \\;
+        \\\\ \\textit{f)}\\; \\textbf{proprietà distributiva del prodotto}
+        \\\\ \\quad \\textbf{rispetto alla somma tra vettori}
+        \\\\ \\quad $\\lambda (x+y) =\\lambda x+\\lambda y$
+        \\\\ \\;
+        \\\\ \\textit{g)}\\; \\textbf{proprietà associativa del prodotto}
+        \\\\ \\quad \\textbf{per uno scalare}
+        \\\\ \\quad $\\lambda(\\mu x) = (\\lambda\\mu)x$
+        \\\\ \\;
+        \\\\ \\textit{h)}\\; \\textbf{elemento neutoro del prodotto per}
+        \\\\ \\quad \\textbf{uno scalare}
+        \\\\ \\quad $1x = x$
+        }
+    </string>
+    <string name="domanda_1_2">
+        \\mbox{Come si definiscono il prodotto
+        \\\\scalare e la norma euclidea in $R^n$?
+        \\\\Quali sono le loro principali proprietà?}
+    </string>
+    <string name="soluzione_1_2">
+        \\mbox{\\textit{\\textbf{Soluzione 1.2}}
+        \\\\
+        \\;
+        \\\\Siano $x, y \\in R^n$, definiamo il loro \\textbf{prodotto scalare}
+        \\\\indicato con il simbolo $\\langle x, y \\rangle$ o $x \\cdot y$ come:}
+        \\\\ \\qquad $x\\cdot y = x_1y_1+\\dots+x_ny_n = \\sum_{i=1}^nx_iy_i$
+        \\\\ \\;
+        \\\\ \\mbox{Mentre definiamo la \\textbf{norma euclidea}\\;di un
+        \\\\valore $x\\in R^n$ come:}
+        \\\\ \\qquad $$\\lVert x\\rVert = \\sqrt{x\\cdot x} = \\sqrt{\\sum_{i=1}^nx_i^2}$$
+        \\\\ \\;
+        \\\\ \\mbox{Siano dunque $x, y, z \\in R^n$ e $\\lambda\\in R$
+        \\\\ \\textbf{Proprietà prodotto scalare}:
+        \\\\ \\textit{a)}\\; $(x+y)\\cdot z= x\\cdot +y\\cdot z$
+        \\\\ \\textit{b)}\\; $(\\lambda x)\\cdot y= \\lambda(x\\cdot y)$
+        \\\\ \\textit{c)}\\; $x\\cdot y= y\\cdot x$
+        \\\\ \\textit{d)}\\; $x\\cdot x\\ge 0$
+        \\\\ \\textit{e)}\\; $x \\cdot x= 0$ se e solo se $x = O$
+        \\\\ \\;
+        \\\\ \\textbf{Proprietà della norma euclidea}:
+        \\\\ \\textit{a)}\\; $\\lVert x \\rVert \\ge 0$
+        \\\\ \\textit{b)}\\; $\\lVert x \\rVert= 0$ se e solo se $x = O$
+        \\\\ \\textit{c)}\\; $\\lVert \\lambda x \\rVert= |\\lambda|\\cdot \\lVert x \\rVert$
+        \\\\ \\textit{d)}\\; $\\lVert x +y \\rVert \\le \\lVert x \\rVert + \\lVert y \\rVert$
+        \\\\ \\textit{e)}\\; $\\lVert x \\rVert - \\lVert y \\rVert \\le \\lVert x -y \\rVert$
+        \\\\ \\textit{e)}\\; $|x_i|\\le \\lVert x \\rVert \\quad \\forall i \\in \\{1, \\dots, n\\}$
+        }
+    </string>
+    <string name="domanda_1_3">
+        \\mbox{In cosa consiste la disuguaglianza di
+        \\\\Cauchy-Schwarz?}
+    </string>
+    <string name="soluzione_1_3">
+        \\mbox{\\textit{\\textbf{Soluzione 1.3}}
+        \\\\
+        \\;
+        \\\\Siano $x$ e $y$ elementi di $R^n$, allora la \\textbf{disuguaglianza}
+        \\\\\\textbf{di Cauchy - Schwartz}\\ dice che:}
+        \\\\ \\qquad |x\\cdot y| \\le \\lVert x \\rVert \\cdot \\lVert y \\rVert
+    </string>
+    <string name="domanda_1_4">
+        \\mbox{Come si definisce la distanza (o metrica)
+        \\\\euclidea in $R^n$?
+        \\\\Quali sono le principali proprietà?}
+    </string>
+    <string name="soluzione_1_4">
+    \\mbox{\\textit{\\textbf{Soluzione 1.4}}
+    \\\\
+    \\;
+    \\\\Siano $x, y \\in R^n$, la \\textbf{metrica euclidea} è definita come: }
+    \\\\ \\qquad d:R^n \\times R^n \\to R \\quad d(x, y) ==\\lVert x-y\\rVert
+    \\\\ \\;
+    \\\\ \\textbf{Proprietà della metrica euclidea}
+    \\\\\\mbox{Siano $x, y, z \\in R^n$:
+    \\\\ \\textit{a)}\\; $d(x, y) \\ge 0$
+    \\\\ \\textit{b)}\\; $d(x, y) = d(y, x)$
+    \\\\ \\textit{c)}\\; $d(x, z)\\le d(x, y)+ d(y, z)$
+    }
+    </string>
+    <string name="domanda_1_5">
+        \\mbox{Come si definiscono le palle aperte e che
+        \\\\cosa si intende per interno di
+        \\\\un sottoinsieme di $R^n$ e per
+        \\\\sottoinsieme aperto di $R^n$?}
+    </string>
+    <string name="soluzione_1_5">
+        \\mbox{\\textit{\\textbf{Soluzione 1.5}}
+        \\\\
+        \\;
+        \\\\Siano $x \\in R^n$ e $r \\in R | r > 0$, definiamo una \\textbf{palla aperta}
+        \\\\con centro $x$ e raggio $r$ come:}
+        \\\\ \\qquad B(x, r) := \\{y \\in R^n | d(x, y):\\lVert x-y \\rVert &#60; r\\}
+        \\\\ \\;
+        \\\\ \\mbox{Siano ora $A \\subseteq R^n$, $x_0 \\in R^n$ e $r \\in R$, diremo che $x_0$ appartiene
+        \\\\all\'\\textbf{interno}\\ di $A$ ($x \\in \\mathop A\\limits^ \\circ$) se esiste una palla aperta
+        \\\\$B(x_0, r)$ con $r &#62; 0$ tale che $B(x_0, r) \\subseteq A$.
+        \\\\ \\;
+        \\\\Diremo inoltre che $A$ è \\textbf{aperto}\\ se $A = \\mathop A\\limits^ \\circ$
+        }
+    </string>
+    <string name="domanda_1_6">
+        \\mbox{Che cosa si intende per frontiera
+        \\\\di $A \\subseteq R^n$ e cosa si
+        \\\\intende per sottoinsieme chiuso di $R^n$}
+    </string>
+    <string name="soluzione_1_6">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\Sia $x_0 \\in R^n$ e $A \\subseteq R^n$, diremo che $x_0$ appartiene
+        \\\\alla \\textbf{frontiera}\\ di $A$ se ogn $B(x_0, r)$ con $r>0$ contiene
+        \\\\sia elementi di $A$ che elementi non appartenenti ad $A$.
+        \\\\ \\;
+        \\\\Indichiamo la frontiera con $Fr(A)$ e diremo che $A$ è
+        \\\\\\textbf{chiuso}\\ se $Fr(A)\\subseteq A$.
+        }
+    </string>
+    <string name="domanda_1_7">
+        \\mbox{Come si caratterizzano gli aperti
+        \\\\in termini di frontiera?}
+    </string>
+    <string name="soluzione_1_7">
+        \\mbox{\\textit{\\textbf{Soluzione 1.7}}
+        \\\\
+        \\;
+        \\\\Sia $A \\subseteq R^n$, allora diremo che $A$ è aperto
+        \\\\se e solo se $A\\cap Fr(A) =\\O$
+
+        }
+    </string>
+    <string name="domanda_1_8">
+        \\mbox{Che cosa si intende per chiusura
+        \\\\di un sottoinsieme di $R^n$?}
+    </string>
+    <string name="soluzione_1_8">
+        \\mbox{\\textit{\\textbf{Soluzione 1.8}}
+        \\\\
+        \\;
+        \\\\Sia $A\\subseteq R^n$, definiamo \\textbf{chiusura}\\ di $A$ (indicato con $\\bar A$)
+        \\\\l\'insieme $\\bar A = A \\cup Fr(A)$.
+        }
+    </string>
+    <string name="domanda_1_9">
+        \\mbox{Che cosa si intende per punto
+        \\\\di accumulazione di un sottoinsieme di $R^n$?}
+    </string>
+    <string name="soluzione_1_9">
+        \\mbox{\\textit{\\textbf{Soluzione 1.9}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$ e $x_0 \\in R^n$, diremo che $x_0$ è
+        \\\\un \\textbf{punto di accumulazione}\\ di $A$ se ogni palla aperta
+        \\\\$B(x_0, r)$ con $r > 0$ contiene qualche punto appartenente
+        \\\\ad $A$ diverso da $x_0$.
+        \\\\ \\;
+        \\\\L\'insieme dei punti di accumulazione è definito \\textbf{derivato}
+        \\\\di $A$ ed è indicato con $D(A)$.
+        }
+    </string>
+    <string name="domanda_1_10">
+        \\mbox{Cosa significa la scrittura $\\lim_{x\\to x_0} f(x) = l$
+        \\\\nel caso di $f : A(\\subseteq R^n)\\to R^m$?
+        \\\\(Precisare bene dove devono stare $l$ e $x_0$).}
+    </string>
+    <string name="soluzione_1_10">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_1_11">
+        \\mbox{Esiste un risultato di unicità
+        \\\\del limite?}
+    </string>
+    <string name="soluzione_1_11">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_1_12">
+        \\mbox{Come dipende l’esistenza e il
+        \\\\valore del limite di f dall’esistenza
+        \\\\e dal valore del limite delle
+        \\\\componenti $f_1,\\dots,f_m$?}
+    </string>
+    <string name="domanda_1_13">
+        \\mbox{Conoscete qualche risultato su
+        \\\\limiti di somme, prodotti, quozienti?}
+    </string>
+    <string name="domanda_1_14">
+        \\mbox{Conoscete qualche risultato sui
+        \\\\limiti delle restrizioni?}
+    </string>
+    <string name="domanda_1_15">
+        \\mbox{Come si definisce la continuità
+        \\\\in $x_0$ per $f : A(\\subseteq R^n)→R^m$
+        \\\\(Precisare bene dove devono stare $x_0$)}
+    </string>
+    <string name="domanda_1_16">
+        \\mbox{Conoscete qualche risultato di
+        \\\\collegamento tra continuità e limiti?}
+    </string>
+    <string name="domanda_1_17">
+        \\mbox{Che cosa si può dire della
+        \\\\continuità di una funzione composta?
+        \\\\Precisare il contesto}
+    </string>
+    <string name="domanda_1_18">
+        \\mbox{Che cosa significa dire che un
+        \\\\sottoinsieme A di $R^n$ è limitato?}
+    </string>
+    <string name="domanda_1_19">
+        \\mbox{Conoscete qualche generalizzazione
+        \\\\del teorema di Weierstrass per
+        \\\\funzioni di più variabili?}
+    </string>
+    <string name="domanda_1_20">
+        \\mbox{Che cosa significa dire
+        \\\\che $A \\subseteq R^n$
+        \\\\è connesso per archi?}
+    </string>
+    <string name="domanda_1_21">
+        \\mbox{Dati $x$ e $y$ in $R^n$,
+        \\\\che cosa si intende per segmento
+        \\\\di estremi $x$ e $y$ e che cosa significa
+        \\\\ dire che $A \\subseteq R^n$ è convesso?}
+    </string>
+    <string name="domanda_1_22">
+        \\mbox{Quali sono i sottoinsiemi
+        \\\\connessi per archi di $R$?}
+    </string>
+    <string name="domanda_1_23">
+        \\mbox{Conoscete qualche generalizzazione
+        \\\\del teorema di Bolzano a funzioni
+        \\\\di più variabili e che cosa
+        \\\\comporta questo risultato
+        \\\\nel caso di funzioni a valori reali?}</string>
+    <!--
+    <string name="soluzione_1_1">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    -->
+
+
+<!-- Domande Capitolo 2  -->
+    <integer name="numero_domande_2">1</integer>
+    <string name="domanda_2_1">\\mbox{domanda 2.1}</string>
+<!-- Domande Capitolo 3  -->
+    <integer name="numero_domande_3">1</integer>
+    <string name="domanda_3_1">\\mbox{domanda 3.1}</string>
+<!-- Domande Capitolo 4  -->
+    <integer name="numero_domande_4">1</integer>
+    <string name="domanda_4_1">\\mbox{domanda 4.1}</string>
+<!-- Domande Capitolo 5  -->
+    <integer name="numero_domande_5">1</integer>
+    <string name="domanda_5_1">\\mbox{domanda 5.1}</string>
+
+</resources>
