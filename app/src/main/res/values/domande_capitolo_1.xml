@@ -207,11 +207,15 @@
         \\\\(Precisare bene dove devono stare $l$ e $x_0$).}
     </string>
     <string name="soluzione_1_10">
-        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\mbox{\\textit{\\textbf{Soluzione 1.10}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A\\subseteq R^n$, $f:A\\to R^m$, $x^0\\in D(A)$, $l \\in R^m$.
+        \\\\Scriveremo:}
+        \\\\ \\qquad \\lim_{x \\to x^0} f(x) = l
+        \\\\\\mbox{se $\\forall\\epsilon > 0$ esiste $\\delta(\\epsilon) > 0$ con $\\epsilon, \\delta(\\epsilon)\\in R$ tale che
+        \\\\$\\forall x \\in A \\cap B(x^0, \\delta(\\epsilon))$ con $x \\ne x^0$ si ha:}
+        \\\\ \\qquad \\lVert f(x)-l\\rVert_m &#60; \\epsilon
     </string>
     <string name="domanda_1_11">
         \\mbox{Esiste un risultato di unicità
