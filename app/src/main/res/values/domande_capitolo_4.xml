@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Domande Capitolo 4  -->
+    <integer name="numero_domande_4">6</integer>
+    <string name="domanda_4_1">
+        \\mbox{Come si definisce relazione di ordine,
+        \\\\somma e prodotto in $[0, +\\infty]$?}
+    </string>
+    <string name="soluzione_4_1">
+        \\mbox{\\textit{\\textbf{Soluzione 4.1}}
+        \\\\
+        \\;
+        \\\\Definiamo $[0, +\\infty] $ come $[0, +\\infty] = [0, +\\infty[\\cup \\{+\\infty\\}$.
+        \\\\In particolare la \\textbf{somma}\\ di $+\\infty$ è definita come:}
+        \\\\ \\qquad a + (+\\infty) = (+\\infty) + a = +\\infty
+        \\\\ \\;
+        \\\\ \\mbox{Mentre il \\textbf{prodotto}\\ è definito come:}
+        \\\\ \\qquad a\\cdot (+\\infty) = (+\\infty)\\cdot a = \\begin{cases}
+        +\\infty\\quad&amp;\\text{se } a \\ne 0
+        \\\\0\\quad&amp;\\text{se } a = 0
+        \\end{cases}
+    </string>
+    <string name="domanda_4_2">
+        \\mbox{Come si definisce la somma di una
+        \\\\serie in $[0, +\\infty]$?}
+    </string>
+    <string name="soluzione_4_2">
+        \\mbox{\\textit{\\textbf{Soluzione 4.2}}
+        \\\\
+        \\;
+        \\\\La \\textbf{somma di una serie}\\ $(a_n)_{n \\in N}$ in $[0, +\\infty]$
+        \\\\è definita come:}
+        \\\\ \\quad \\sum_{n = 1}^{\\infty}a_n := \\sup\\{s_n : n \\in N\\}
+    </string>
+    <string name="domanda_4_3">
+        \\mbox{ Che cosa si intende per lunghezza di
+        \\\\un intervallo limitato in $R$?}
+    </string>
+    <string name="soluzione_4_3">
+        \\mbox{\\textit{\\textbf{Soluzione 4.3}}
+        \\\\
+        \\;
+        \\\\Sia $I$ un intervallo limitato in $R$. Poniamo}
+        \\\\ \\;
+        \\\\ \\qquad l(I):= \\begin{cases}
+        \\sup(I)-\\inf(I)\\qquad&amp;\\text{se } I \\ne \\O
+        \\\\0\\qquad&amp;\\text{se } I = \\O
+        \\end{cases}
+        \\\\ \\;
+        \\\\\\mbox{Chiameremo $l(I)$ \\textbf{lunghezza}\\ dell\'intervallo $I$.}
+    </string>
+    <string name="domanda_4_4">
+        \\mbox{Che cosa si intende per intervallo $n$−dimensionale
+        \\\\e per volume $n$−dimensionale di un
+        \\\\intervallo $n$−dimensionale?}
+    </string>
+    <string name="soluzione_4_4">
+        \\mbox{\\textit{\\textbf{Soluzione 4.4}}
+        \\\\
+        \\;
+        \\\\Sia $I \\subseteq R^n$ diremo che $I$ è un \\textbf{intervallo $n$-dimensionale}
+        \\\\se $I$ può essere espresso come un prodotto cartesiano di $n$
+        \\\\intervalli limitati in $R$, ovvero, presi $I_1, \\dots, I_n$
+        \\\\intervalli limitati in $R$:}
+        \\\\ \\;
+        \\\\ \\qquad I = I_1\\times\\dots\\times I_n
+        \\\\ \\;
+        \\\\\\mbox{Sia dunque $I$ un intervallo $n$-dimensionale, definiamo il
+        \\\\\\textbf{volume $n$-dimensionale}\\ $vol_n(I)$ come:}
+        \\\\ \\;
+        \\\\ \\qquad vol_n(I) = l(I_1)\\cdot\\dots\\cdot l(I_n)
+    </string>
+    <string name="domanda_4_5">
+        \\mbox{Che cosa si intende per misura esterna
+        \\\\di un sottoinsieme di $R^n$?
+        \\\\ \\;
+        \\\\Quali sono le sue principali proprietà}
+    </string>
+    <string name="soluzione_4_5">
+        \\mbox{\\textit{\\textbf{Soluzione 4.5}}
+        \\\\
+        \\;
+        \\\\Sia $E\\subseteq R^n$, definiamo la \\textbf{misura esterna}\\ di
+        \\\\$E$ come:}
+        \\\\ \\;
+        \\\\ \\qquad L^*_n(E) :=\\inf\\bigg\\{\\sum_{k=1}^{+\\infty}vol_n(I^k): E \\subseteq \\bigcup_{k\\in N} I^k\\bigg\\}
+        \\\\ \\;
+        \\\\\\mbox{\\textbf{Proprietà misura esterna}
+        \\\\\\;
+        \\\\ \\quad\\textit{a)}\\ Se $I$ è un intervallo $n$-dimensionale
+        \\\\ \\qquad si ha $L_n^*(I) = vol_n(I)$
+        \\\\ \\quad\\textit{b)}\\ $L_n^*(\\O) = 0$
+        \\\\ \\quad\\textit{c)}\\ Se $A\\subseteq B \\subseteq R^n$, si ha $L_n^*(A)\\le L_n^*(B)$
+        \\\\ \\quad\\textit{d)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in N$ tale che}
+        \\\\ \\qquad E\\subseteq \\bigcup_{k\\in N}E^k\\mbox{ si ha:}
+        \\\\ \\qquad\\;\\qquad L_n^*(E)\\le \\sum_{k=1}^{\\infty}L_n^*(E^k)
+        \\\\ \\;
+        \\\\ \\quad\\mbox{\\textit{e)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in \\{1,\\dots, m\\}$ tale che}
+        \\\\ \\qquad E\\subseteq \\bigcup_{1 \\le k\\le m}E^k\\mbox{ si ha:}
+        \\\\ \\qquad\\;\\qquad L_n^*(E)\\le \\sum_{k=1}^mL_n^*(E^k)
+
+    </string>
+    <string name="domanda_4_6">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_4_6">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <!--
+    <string name="domanda_5_1">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_1_1">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    -->
+</resources>

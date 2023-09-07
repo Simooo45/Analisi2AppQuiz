@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    <string name="domanda_5_1">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_1_1">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>-->
+    <!-- Domande Capitolo 5  -->
+    <integer name="numero_domande_5">1</integer>
+    <string name="domanda_5_1">\\mbox{domanda 5.1}</string>
+</resources>

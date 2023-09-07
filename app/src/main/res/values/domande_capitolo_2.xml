@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Domande Capitolo 2  -->
+    <integer name="numero_domande_2">1</integer>
+    <string name="domanda_2_1">\\mbox{domanda 2.1}</string>
+    <!--
+    <string name="domanda_5_1">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_1_1">
+        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    -->
+</resources>

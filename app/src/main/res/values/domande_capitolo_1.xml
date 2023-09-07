@@ -222,10 +222,12 @@
         \\\\del limite?}
     </string>
     <string name="soluzione_1_11">
-        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+        \\mbox{\\textit{\\textbf{Soluzione 1.11}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A \\subseteq R^n$, $F:A\\to R^m$, $x^0 \\in D(A)$ e $l, l\'\\in R^m$. Supponiamo
+        \\\\che valgano contemporaneamente $\\lim_{x\\to x^0}f(x) = l$ e
+        \\\\$\\lim_{x\\to x^0}f(x) = l\'$, allora $l = l\'$.
         }
     </string>
     <string name="domanda_1_12">
@@ -234,58 +236,209 @@
         \\\\e dal valore del limite delle
         \\\\componenti $f_1,\\dots,f_m$?}
     </string>
+    <string name="soluzione_1_12">
+        \\mbox{\\textit{\\textbf{Soluzione 1.12}}
+        \\\\
+        \\;
+        \\\\Siano $A\\subseteq R^n$, $f:A \\to R^m$, $x^0 \\in D(A)$ e $l \\in R^m$ con
+        \\\\$f(x) = (f_1(x), \\dots, f_m(x))$ e $l = (l_1, \\dots, l_m)$, allora le
+        \\\\seguenti condizioni sono equivalenti:
+        \\\\\\;
+        \\\\\\textit{a)}}
+        \\\\ \\qquad \\lim_{x\\to x^0}f(x) = l
+        \\\\ \\;
+        \\\\\\mbox{\\textit b)}
+        \\\\\ \\qquad \\lim_{x\\to x^0}f_i(x) = l_i\\qquad \\forall i \\in \\{1, \\dots, m\\}
+    </string>
     <string name="domanda_1_13">
         \\mbox{Conoscete qualche risultato su
         \\\\limiti di somme, prodotti, quozienti?}
+    </string>
+    <string name="soluzione_1_13">
+        \\mbox{\\textit{\\textbf{Soluzione 1.13}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$, $f, g :A \\to R^m$, $x^0\\in D(A)$, $l, p \\in R^m$
+        \\\\e valgano $\\lim_{x\\to x^0}f(x) = l$ e $\\lim_{x\\to x^0}g(x) = l\'$. Allora:
+        \\\\ \\;
+        \\\\\\textit{a)}\\ Esiste $\\lim_{x\\to x^0}(f(x)+ g(x))$ e vale $l + l\'$
+        \\\\ \\;
+        \\\\\\textit{b)}\\ Se $m = 1$ esiste $\\lim_{x\\to x^0}(f(x)\\cdot g(x))$ e vale $l \\cdot l\'$
+        \\\\ \\;
+        \\\\\\textit{c)}\\ Se $m = 1$, $g(x)\\ne 0\\; \\forall x \\in A$ e $l\'\\ne 0$
+        \\\\\\quad esiste $\\lim_{x\\to x^0}(\\frac{f(x)}{g(x)}$ e vale $\\frac{l}{l\'}$
+        }
+
     </string>
     <string name="domanda_1_14">
         \\mbox{Conoscete qualche risultato sui
         \\\\limiti delle restrizioni?}
     </string>
+    <string name="soluzione_1_14">
+        \\mbox{\\textit{\\textbf{Soluzione 1.14}}
+        \\\\
+        \\;
+        \\\\Siano $A\\subseteq B \\subseteq R^n$, $f:B \\to R^m$ e $l\\in R^m$, allora
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ Se $x^0\\in D(A)$, si ha $x^0 \\in D(B)$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $x^0\\in D(A)$, se vale $\\lim_{x\\to x^0} = l$ si
+        \\\\\\quad ha anche $\\lim_{x\\to x^0}f_{|A}(x) = l$
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ Se esiste $r >0$ per cui si ha $B(x^0, r)\\cap B)\\setminus \\{x^0\\}\\subseteq A$
+        \\\\\\quad e vale $\\lim_{x\\to x^0}f_{|A}(x) = l$, si ha anche $\\lim_{x\\to x^0} = l$
+        }
+    </string>
     <string name="domanda_1_15">
-        \\mbox{Come si definisce la continuità
-        \\\\in $x_0$ per $f : A(\\subseteq R^n)→R^m$
+        \\mbox{Come si definisce la continuità in $x_0$ per
+        \\\\$f : A(\\subseteq R^n)→R^m$?
+        \\\\ \\;
         \\\\(Precisare bene dove devono stare $x_0$)}
+    </string>
+    <string name="soluzione_1_15">
+        \\mbox{\\textit{\\textbf{Soluzione 1.15}}
+        \\\\
+        \\;
+        \\\\Siano $A\\subseteq R^n$, $x^0\\in A \\to R^m$. Diremo che $f$
+        \\\\è \\textbf{continua in $x_0$}\\ se $\\forall\\epsilon \> 0$ esiste
+        \\\\\\delta(\\epsilon)\>0 tale che $\\forall x \\in A\\cap B_n(x^0, \\delta(\\epsilon))$ si
+        \\\\ha $\\lVert f(x) - f(x^0)\\rVert &#60; \\epsilon$.
+        \\\\ \\;
+        \\\\ Diremo che $f$ è \\textbf{continua}\\ in $A$ se è continua
+        \\\\in corrispondenza di ogni $x_0\\in A$.
+        }
     </string>
     <string name="domanda_1_16">
         \\mbox{Conoscete qualche risultato di
         \\\\collegamento tra continuità e limiti?}
     </string>
+    <string name="soluzione_1_16">
+        \\mbox{\\textit{\\textbf{Soluzione 1.16}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$, $x^0 \\in A$, $f :A\\to R^m$. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ Se $x^0\\in A \\setminus D(A)$, $f$ è continua in $x^0$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $x^0\\in A \\cap D(A)$, $f$ è continua in $x^0$ se e
+        \\\\\\quad solo se esiste $\\lim_{x\\to x^0}f(x)$ e coincide com $f(x^0)$
+        }
+    </string>
     <string name="domanda_1_17">
-        \\mbox{Che cosa si può dire della
-        \\\\continuità di una funzione composta?
+        \\mbox{Che cosa si può dire della continuità
+        \\\\di una funzione composta?
+        \\\\ \\;
         \\\\Precisare il contesto}
+    </string>
+    <string name="soluzione_1_17">
+        \\mbox{\\textit{\\textbf{Soluzione 1.17}}
+        \\\\
+        \\;
+        \\\\Siano $A\\subseteq R^n$, $B\\subseteq R^m$, $f:A\\to R^m$ tale
+        \\\\che $f(A)\\subseteq B$ e $g:B\\to R^l$, allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ Se $x^0\\in A$ tale che $f$ è continua in $x^0$ e $g$ è
+        \\\\ \\quad continua in $f(x^0)$. Allora anche $g\\circ f$ è continua in $x^0$.
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $f$ e $g$ sono continue lo è anche $g\\circ f$.
+        }
     </string>
     <string name="domanda_1_18">
         \\mbox{Che cosa significa dire che un
         \\\\sottoinsieme A di $R^n$ è limitato?}
+    </string>
+    <string name="soluzione_1_18">
+        \\mbox{\\textit{\\textbf{Soluzione 1.18}}
+        \\\\
+        \\;
+        \\\\Sia $A\\subseteq R^n$ con $n \\in N$. Diremo che $A$ è \\textbf{limitato}
+        \\\\se esiste $M \\ge 0$ tale che $\\lVert x\\rVert \\le M\\; \\forall x \\in A$.
+        }
     </string>
     <string name="domanda_1_19">
         \\mbox{Conoscete qualche generalizzazione
         \\\\del teorema di Weierstrass per
         \\\\funzioni di più variabili?}
     </string>
+    <string name="soluzione_1_19">
+        \\mbox{\\textit{\\textbf{Soluzione 1.19}}
+        \\\\
+        \\;
+        \\\\Siano $A\\subseteq R^n$ non vuoto, chiuso e limitato, $f:A \\to R^m$
+        \\\\continua. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $f(A)$ è chiuso e limitato in $R^m$.
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $m = 1$, $f$ ammette massimo e minimo.
+        }
+    </string>
     <string name="domanda_1_20">
-        \\mbox{Che cosa significa dire
-        \\\\che $A \\subseteq R^n$
+        \\mbox{Che cosa significa dire che $A \\subseteq R^n$
         \\\\è connesso per archi?}
     </string>
+    <string name="soluzione_1_20">
+        \\mbox{\\textit{\\textbf{Soluzione 1.20}}
+        \\\\
+        \\;
+        \\\\Sia $A\\subseteq R^n$, diremo che $A$ è \\textbf{connesso per archi}
+        \\\\se comunque si prendano $x$ e $y$ in $A$, esistono $a$ e $b$
+        \\\\reali con $a\\le b$ e $\\phi:[a, b]\\to R^n$ continua, tali
+        \\\\che:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $\\phi(a) = x$, $\\phi(a) = y$.
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ $\\phi([a, b])\\subseteq A$.
+        }
+    </string>
     <string name="domanda_1_21">
-        \\mbox{Dati $x$ e $y$ in $R^n$,
-        \\\\che cosa si intende per segmento
-        \\\\di estremi $x$ e $y$ e che cosa significa
-        \\\\ dire che $A \\subseteq R^n$ è convesso?}
+        \\mbox{Dati $x$ e $y$ in $R^n$, che cosa si
+        \\\\intende per segmento di estremi $x$
+        \\\\e $y$ e che cosa significa dire che
+        \\\\$A \\subseteq R^n$ è convesso?}
+    </string>
+    <string name="soluzione_1_21">
+        \\mbox{\\textit{\\textbf{Soluzione 1.21}}
+        \\\\
+        \\;
+        \\\\Siano $x, y \\in R^n$. Chiamiamo \\textbf{segmento di estremi $x, y$},
+        \\\\indicato con $[x, y]$ il luogo geometrico dei punti tali che:}
+        \\\\ \\;
+        \\\\\\qquad [x, y]:= \\{x+t(y-x):t\\in [0, 1]\\}
+        \\\\ \\;
+        \\\\\\mbox{Dato $A\\subseteq R^n$, diremo che $A$ è \\textbf{convesso}\\ se per ogni
+        \\\\coppia di punti $x_1, x_2\\in A$ è vero che $[x_1, x_2]\\subseteq A$.}
     </string>
     <string name="domanda_1_22">
         \\mbox{Quali sono i sottoinsiemi
         \\\\connessi per archi di $R$?}
     </string>
+    <string name="soluzione_1_22">
+        \\mbox{\\textit{\\textbf{Soluzione 1.22}}
+        \\\\
+        \\;
+        \\\\In $R$ solo gli \\textit{intervalli}\\ sono connessi
+        \\\\per archi.
+        }
+    </string>
+
     <string name="domanda_1_23">
         \\mbox{Conoscete qualche generalizzazione
         \\\\del teorema di Bolzano a funzioni
         \\\\di più variabili e che cosa
         \\\\comporta questo risultato
         \\\\nel caso di funzioni a valori reali?}</string>
+    <string name="soluzione_1_23">
+        \\mbox{\\textit{\\textbf{Soluzione 1.23}}
+        \\\\
+        \\;
+        \\\\Siano $A\\subseteq R^n$ connesso per archi, $f:A \\to R^m$
+        \\\\continua. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $f(A)$ è connesso per archi in $R^m$.
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $m = 1$, $f(A)$ è un intervallo.
+        }
+    </string>
     <!--
     <string name="soluzione_1_1">
         \\mbox{\\textit{\\textbf{Soluzione 1.1}}
@@ -297,17 +450,5 @@
     -->
 
 
-<!-- Domande Capitolo 2  -->
-    <integer name="numero_domande_2">1</integer>
-    <string name="domanda_2_1">\\mbox{domanda 2.1}</string>
-<!-- Domande Capitolo 3  -->
-    <integer name="numero_domande_3">1</integer>
-    <string name="domanda_3_1">\\mbox{domanda 3.1}</string>
-<!-- Domande Capitolo 4  -->
-    <integer name="numero_domande_4">1</integer>
-    <string name="domanda_4_1">\\mbox{domanda 4.1}</string>
-<!-- Domande Capitolo 5  -->
-    <integer name="numero_domande_5">1</integer>
-    <string name="domanda_5_1">\\mbox{domanda 5.1}</string>
 
 </resources>
