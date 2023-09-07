@@ -7,6 +7,7 @@
         \\mbox{Come si definiscono le operazioni
         \\\\di somma e prodotto per uno
         \\\\scalare in $R^n$?}
+        \\\\ \\;
         \\\\\\mbox{Quali sono le loro principali proprietà?}
     </string>
     <string name="soluzione_1_1">
@@ -51,7 +52,7 @@
         \\\\ \\quad \\textbf{per uno scalare}
         \\\\ \\quad $\\lambda(\\mu x) = (\\lambda\\mu)x$
         \\\\ \\;
-        \\\\ \\textit{h)}\\; \\textbf{elemento neutoro del prodotto per}
+        \\\\ \\textit{h)}\\; \\textbf{elemento neutro del prodotto per}
         \\\\ \\quad \\textbf{uno scalare}
         \\\\ \\quad $1x = x$
         }
@@ -59,6 +60,7 @@
     <string name="domanda_1_2">
         \\mbox{Come si definiscono il prodotto
         \\\\scalare e la norma euclidea in $R^n$?
+        \\\\ \\;
         \\\\Quali sono le loro principali proprietà?}
     </string>
     <string name="soluzione_1_2">
@@ -100,19 +102,21 @@
         \\;
         \\\\Siano $x$ e $y$ elementi di $R^n$, allora la \\textbf{disuguaglianza}
         \\\\\\textbf{di Cauchy - Schwartz}\\ dice che:}
+        \\\\ \\;
         \\\\ \\qquad |x\\cdot y| \\le \\lVert x \\rVert \\cdot \\lVert y \\rVert
     </string>
     <string name="domanda_1_4">
         \\mbox{Come si definisce la distanza (o metrica)
         \\\\euclidea in $R^n$?
+        \\\\ \\;
         \\\\Quali sono le principali proprietà?}
     </string>
     <string name="soluzione_1_4">
     \\mbox{\\textit{\\textbf{Soluzione 1.4}}
     \\\\
     \\;
-    \\\\Siano $x, y \\in R^n$, la \\textbf{metrica euclidea} è definita come: }
-    \\\\ \\qquad d:R^n \\times R^n \\to R \\quad d(x, y) ==\\lVert x-y\\rVert
+    \\\\Siano $x, y \\in R^n$, la \\textbf{metrica euclidea}\\ è definita come: }
+    \\\\ \\qquad d:R^n \\times R^n \\to R \\quad d(x, y) =\\lVert x-y\\rVert
     \\\\ \\;
     \\\\ \\textbf{Proprietà della metrica euclidea}
     \\\\\\mbox{Siano $x, y, z \\in R^n$:
@@ -135,17 +139,17 @@
         \\\\con centro $x$ e raggio $r$ come:}
         \\\\ \\qquad B(x, r) := \\{y \\in R^n | d(x, y):\\lVert x-y \\rVert &#60; r\\}
         \\\\ \\;
-        \\\\ \\mbox{Siano ora $A \\subseteq R^n$, $x_0 \\in R^n$ e $r \\in R$, diremo che $x_0$ appartiene
-        \\\\all\'\\textbf{interno}\\ di $A$ ($x \\in \\mathop A\\limits^ \\circ$) se esiste una palla aperta
-        \\\\$B(x_0, r)$ con $r &#62; 0$ tale che $B(x_0, r) \\subseteq A$.
+        \\\\ \\mbox{ Siano ora $A \\subseteq R^n$, $x_0 \\in R^n$ e $r \\in R$, diremo che $x_0$ appartiene
+        \\\\all\'\\textbf{interno}\\ di $A$ ($x \\in \\mathop A\\limits^ \\circ$) se esiste una palla aperta $B(x_0, r)$
+        \\\\con $r &#62; 0$ tale che $B(x_0, r) \\subseteq A$.
         \\\\ \\;
-        \\\\Diremo inoltre che $A$ è \\textbf{aperto}\\ se $A = \\mathop A\\limits^ \\circ$
+        \\\\ Diremo inoltre che $A$ è \\textbf{aperto}\\ se $A = \\mathop A\\limits^ \\circ$
         }
     </string>
     <string name="domanda_1_6">
         \\mbox{Che cosa si intende per frontiera
-        \\\\di $A \\subseteq R^n$ e cosa si
-        \\\\intende per sottoinsieme chiuso di $R^n$}
+        \\\\di $A \\subseteq R^n$? e cosa si intende per
+        \\\\sottoinsieme chiuso di $R^n$?}
     </string>
     <string name="soluzione_1_6">
         \\mbox{\\textit{\\textbf{Soluzione 1.1}}
@@ -185,25 +189,26 @@
         }
     </string>
     <string name="domanda_1_9">
-        \\mbox{Che cosa si intende per punto
-        \\\\di accumulazione di un sottoinsieme di $R^n$?}
+        \\mbox{Che cosa si intende per punto di accumulazione
+        \\\\di un sottoinsieme di $R^n$?}
     </string>
     <string name="soluzione_1_9">
         \\mbox{\\textit{\\textbf{Soluzione 1.9}}
         \\\\
         \\;
-        \\\\Siano $A \\subseteq R^n$ e $x_0 \\in R^n$, diremo che $x_0$ è
-        \\\\un \\textbf{punto di accumulazione}\\ di $A$ se ogni palla aperta
+        \\\\Siano $A \\subseteq R^n$ e $x_0 \\in R^n$, diremo che $x_0$ è un
+        \\\\\\textbf{punto di accumulazione}\\ di $A$ se ogni palla aperta
         \\\\$B(x_0, r)$ con $r > 0$ contiene qualche punto appartenente
         \\\\ad $A$ diverso da $x_0$.
         \\\\ \\;
-        \\\\L\'insieme dei punti di accumulazione è definito \\textbf{derivato}
+        \\\\ L\'insieme dei punti di accumulazione è definito \\textbf{derivato}
         \\\\di $A$ ed è indicato con $D(A)$.
         }
     </string>
     <string name="domanda_1_10">
         \\mbox{Cosa significa la scrittura $\\lim_{x\\to x_0} f(x) = l$
         \\\\nel caso di $f : A(\\subseteq R^n)\\to R^m$?
+        \\\\ \\;
         \\\\(Precisare bene dove devono stare $l$ e $x_0$).}
     </string>
     <string name="soluzione_1_10">
@@ -213,7 +218,7 @@
         \\\\Siano $A\\subseteq R^n$, $f:A\\to R^m$, $x^0\\in D(A)$, $l \\in R^m$.
         \\\\Scriveremo:}
         \\\\ \\qquad \\lim_{x \\to x^0} f(x) = l
-        \\\\\\mbox{se $\\forall\\epsilon > 0$ esiste $\\delta(\\epsilon) > 0$ con $\\epsilon, \\delta(\\epsilon)\\in R$ tale che
+        \\\\\\mbox{se $\\forall\\epsilon > 0\\ \\exists\\delta(\\epsilon) > 0$ con $\\epsilon, \\delta(\\epsilon)\\in R$ tale che
         \\\\$\\forall x \\in A \\cap B(x^0, \\delta(\\epsilon))$ con $x \\ne x^0$ si ha:}
         \\\\ \\qquad \\lVert f(x)-l\\rVert_m &#60; \\epsilon
     </string>
@@ -225,14 +230,14 @@
         \\mbox{\\textit{\\textbf{Soluzione 1.11}}
         \\\\
         \\;
-        \\\\Siano $A \\subseteq R^n$, $F:A\\to R^m$, $x^0 \\in D(A)$ e $l, l\'\\in R^m$. Supponiamo
-        \\\\che valgano contemporaneamente $\\lim_{x\\to x^0}f(x) = l$ e
-        \\\\$\\lim_{x\\to x^0}f(x) = l\'$, allora $l = l\'$.
+        \\\\Siano $A \\subseteq R^n$, $F:A\\to R^m$, $x^0 \\in D(A)$ e $l, l\'\\in R^m$.
+        \\\\Supponiamo che valgano contemporaneamente $\\lim_{x\\to x^0}f(x) = l$
+        \\\\e $\\lim_{x\\to x^0}f(x) = l\'$, allora $l = l\'$.
         }
     </string>
     <string name="domanda_1_12">
         \\mbox{Come dipende l’esistenza e il
-        \\\\valore del limite di f dall’esistenza
+        \\\\valore del limite di $f$ dall’esistenza
         \\\\e dal valore del limite delle
         \\\\componenti $f_1,\\dots,f_m$?}
     </string>

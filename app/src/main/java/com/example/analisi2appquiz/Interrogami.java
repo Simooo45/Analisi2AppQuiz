@@ -48,7 +48,7 @@ public class Interrogami extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Interrogami.this, SoluzioniDomande.class);
-                intent.putExtra("capitolo", capitolo);
+                intent.putExtra("capitolo", cap);
                 intent.putExtra("domanda", domanda);
                 startActivity(intent);
             }

@@ -2,14 +2,98 @@
 <resources>
 
     <!-- Domande Capitolo 2  -->
-    <integer name="numero_domande_2">1</integer>
-    <string name="domanda_2_1">\\mbox{domanda 2.1}</string>
-    <!--
-    <string name="domanda_5_1">
-        \\mbox{domanda 5.1}
+    <integer name="numero_domande_2">6</integer>
+    <string name="domanda_2_1">
+        \\mbox{domanda 2.1}
     </string>
-    <string name="soluzione_1_1">
-        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+    <string name="soluzione_2_1">
+        \\mbox{\\textit{\\textbf{Soluzione 2.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_2">
+        \\mbox{Come si definiscono le derivate parziali
+        \\\\del primo ordine $D_jf(x^0)$?}
+    </string>
+    <string name="soluzione_2_2">
+        \\mbox{\\textit{\\textbf{Soluzione 2.2}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$ con $1 ≤ j ≤ n$, $x^0 \\in A$, tale che
+        \\\\$0 \\in D(A_{x^0,e^j})$. Chiamiamo \\textbf{derivata parziale}
+        \\\\\\textbf{prima}\\ rispetto alla variabile $x_j$ nel punto $x^0$
+        \\\\la derivata $\\frac{\\partial f}{\\partial e^j} (x^0)$ (se esiste).
+        \\\\ \\;
+        \\\\Tale derivata sarà indicata con il simbolo $\\frac{\\partial f}{\\partial x_j}$
+        \\\\o con il simbolo $D_jf(x^0)$
+        }
+    </string>
+    <string name="domanda_2_3">
+        \\mbox{L’esistenza delle derivate parziali del
+        \\\\primo ordine e delle derivate direzionali
+        \\\\implica la continuità della funzione?}
+    </string>
+    <string name="soluzione_2_3">
+        \\mbox{\\textit{\\textbf{Soluzione 2.3}}
+        \\\\
+        \\;
+        \\\\Per funzioni di più variabili, l’esistenza
+        \\\\di tutte le derivate parziali prime
+        \\\\finite in un punto non implica la continuità
+        \\\\della funzione in quel punto.
+        }
+    </string>
+    <string name="domanda_2_4">
+        \\mbox{Dare la definizione di $f$ di classe $C^1$
+        \\\\sull’aperto A
+    </string>
+    <string name="soluzione_2_4">
+        \\mbox{\\textit{\\textbf{Soluzione 2.4}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$ aperto, $f : A \\to R$. Diremo che
+        \\\\$f$ è \\textbf{di classe $C^1$ in $A$}, espresso come $f \\in C^1(A)$,
+        \\\\se $\\forall x \\in A$, $\\forall j \\in {1, \\dots, n}$ esiste a valori reali $D_jf(x)$.
+        \\\\ \\;
+        \\\\Inoltre le funzioni $f, D_1f, \\dots, D_nf$ sono continue
+        \\\\su $A$.
+        }
+    </string>
+    <string name="domanda_2_5">
+        \\mbox{Che cosa dice il teorema del differenziale totale?}
+    </string>
+    <string name="soluzione_2_5">
+        \\mbox{\\textit{\\textbf{Soluzione 2.5}}
+        \\\\
+        \\;
+        \\\\Siano $A$ un aperto in $R^n, f \\in C^1(A)$,
+        \\\\$x \\in A$, $\\nu \\in R^n$. Allora esiste $\\frac{\\partial f}{\\partial \\nu} (x)$ e:        }
+        \\\\ \\;
+        \\\\ \\qquad \\frac{\\partial f}{\\partial \\nu} (x) = \\nabla f(x)\\cdot \\nu =\\sum_{j=1}^nD_jf(x)\\nu_j
+    </string>
+    <string name="domanda_2_6">
+        \\mbox{Conoscete qualche generalizzazione del
+        \\\\teorema del valor medio per funzioni di
+        \\\\più variabili?}
+    </string>
+    <string name="soluzione_2_6">
+        \\mbox{\\textit{\\textbf{Soluzione 2.6}}
+        \\\\
+        \\;
+        \\\\Siano $A$ un aperto in $R^n$, $f \\in C^1(A)$,
+        \\\\$x, y \\in A$ tali che $[x, y] \\subseteq A$.
+        \\\\Allora esiste $z \\in [x, y]$, tale che:}
+        \\\\ \\;
+        \\\\ \\qquad f(y) − f(x) = \\nabla f(z) \\cdot (y − x)
+    </string>
+    <!--
+    <string name="domanda_2_1">
+        \\mbox{domanda 2.1}
+    </string>
+    <string name="soluzione_2_1">
+        \\mbox{\\textit{\\textbf{Soluzione 2.1}}
         \\\\
         \\;
         \\\\

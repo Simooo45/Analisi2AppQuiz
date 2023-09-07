@@ -1,16 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Domande Capitolo 3. -->
+    <integer name="numero_domande_3">20</integer>
+    <string name="domanda_3_1">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_1">
+        \\mbox{\\textit{\\textbf{Soluzione 3.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_2">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_2">
+        \\mbox{\\textit{\\textbf{Soluzione 3.2}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_3">
+        \\mbox{domanda 3.3}
+    </string>
+    <string name="soluzione_3_3">
+        \\mbox{\\textit{\\textbf{Soluzione 3.3}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_4">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_4">
+        \\mbox{\\textit{\\textbf{Soluzione 3.4}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_5">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_5">
+        \\mbox{\\textit{\\textbf{Soluzione 3.5}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_6">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_6">
+        \\mbox{\\textit{\\textbf{Soluzione 3.6}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_7">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_7">
+        \\mbox{\\textit{\\textbf{Soluzione 3.7}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_8">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_8">
+        \\mbox{\\textit{\\textbf{Soluzione 3.8}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_9">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_9">
+        \\mbox{\\textit{\\textbf{Soluzione 3.9}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_10">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_10">
+        \\mbox{\\textit{\\textbf{Soluzione 3.10}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_11">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_11">
+        \\mbox{\\textit{\\textbf{Soluzione 3.11}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_12">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_12">
+        \\mbox{\\textit{\\textbf{Soluzione 3.12}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_13">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_13">
+        \\mbox{\\textit{\\textbf{Soluzione 3.13}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_14">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_14">
+        \\mbox{\\textit{\\textbf{Soluzione 3.14}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_15">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_15">
+        \\mbox{\\textit{\\textbf{Soluzione 3.15}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_16">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_16">
+        \\mbox{\\textit{\\textbf{Soluzione 3.16}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_17">
+        \\mbox{Che cosa si intende per integrale generale
+        \\\\di un\’equazione differenziale lineare?}
+    </string>
+    <string name="soluzione_3_17">
+        \\mbox{\\textit{\\textbf{Soluzione 3.17}}
+        \\\\
+        \\;
+        \\\\Per \\textbf{integrale generale} di un\’equazione differenziale
+        \\\\ordinaria lineare si intende l\’insieme delle soluzioni
+        \\\\massimali (e quindi di dominio $I$).
+        }
+    </string>
+    <string name="domanda_3_18">
+        \\mbox{Qual è la struttura dell\’integrale generale
+        \\\\di un\’equazione differenziale ordinaria lineare
+        \\\\omogenea di ordine $m$?}
+    </string>
+    <string name="soluzione_3_18">
+        \\mbox{\\textit{\\textbf{Soluzione 3.18}}
+        \\\\
+        \\;
+        \\\\Nel caso di un\’equazione differenziale ordinaria
+        \\\\lineare omogenea (cioè con $b(t) = 0$ $\\forall t \\in I$) di
+        \\\\ordine $m$, l\’integrale generale è un \\textbf{sottospazio}
+        \\\\\\textbf{vettoriale}\\ di $C^m(I)$ di dimensione $m$.
+        }
+    </string>
+    <string name="domanda_3_19">
+        \\mbox{ Che cosa si intende per sistema fondamentale
+        \\\\di soluzioni?}
+    </string>
+    <string name="soluzione_3_19">
+        \\mbox{\\textit{\\textbf{Soluzione 3.19}}
+        \\\\
+        \\;
+        \\\\Data un\’equazione differenziale lineare omogenea di
+        \\\\ordine $m$, si definisce sistema fondamentale di soluzioni
+        \\\\una base qualunque dell’integrale generale.
+        \\\\ \\;
+        \\\Tutti i sistemi fondamentali di soluzioni hanno m elementi.
+        }
+    </string>
+    <string name="domanda_3_20">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_20">
+        \\mbox{\\textit{\\textbf{Soluzione 3.20}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+
+
+
+
     <!--
-        <string name="domanda_5_1">
-            \\mbox{domanda 5.1}
-        </string>
-        <string name="soluzione_1_1">
-            \\mbox{\\textit{\\textbf{Soluzione 1.1}}
-            \\\\
-            \\;
-            \\\\
-            }
-        </string>-->    <!-- Domande Capitolo 3  -->
-    <integer name="numero_domande_3">1</integer>
-    <string name="domanda_3_1">\\mbox{domanda 3.1}</string>
+    <string name="domanda_3_1">
+        \\mbox{domanda 3.1}
+    </string>
+    <string name="soluzione_3_1">
+        \\mbox{\\textit{\\textbf{Soluzione 3.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    -->
+
 </resources>

@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Domande Capitolo 4  -->
-    <integer name="numero_domande_4">6</integer>
+    <integer name="numero_domande_4">12</integer>
     <string name="domanda_4_1">
         \\mbox{Come si definisce relazione di ordine,
         \\\\somma e prodotto in $[0, +\\infty]$?}
@@ -34,7 +34,7 @@
         \\\\ \\quad \\sum_{n = 1}^{\\infty}a_n := \\sup\\{s_n : n \\in N\\}
     </string>
     <string name="domanda_4_3">
-        \\mbox{ Che cosa si intende per lunghezza di
+        \\mbox{Che cosa si intende per lunghezza di
         \\\\un intervallo limitato in $R$?}
     </string>
     <string name="soluzione_4_3">
@@ -52,8 +52,8 @@
     </string>
     <string name="domanda_4_4">
         \\mbox{Che cosa si intende per intervallo $n$−dimensionale
-        \\\\e per volume $n$−dimensionale di un
-        \\\\intervallo $n$−dimensionale?}
+        \\\\e per volume $n$−dimensionale di un intervallo
+        \\\\$n$−dimensionale?}
     </string>
     <string name="soluzione_4_4">
         \\mbox{\\textit{\\textbf{Soluzione 4.4}}
@@ -75,7 +75,7 @@
         \\mbox{Che cosa si intende per misura esterna
         \\\\di un sottoinsieme di $R^n$?
         \\\\ \\;
-        \\\\Quali sono le sue principali proprietà}
+        \\\\Quali sono le sue principali proprietà?}
     </string>
     <string name="soluzione_4_5">
         \\mbox{\\textit{\\textbf{Soluzione 4.5}}
@@ -96,13 +96,13 @@
         \\\\ \\qquad E\\subseteq \\bigcup_{k\\in N}E^k\\mbox{ si ha:}
         \\\\ \\qquad\\;\\qquad L_n^*(E)\\le \\sum_{k=1}^{\\infty}L_n^*(E^k)
         \\\\ \\;
-        \\\\ \\quad\\mbox{\\textit{e)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in \\{1,\\dots, m\\}$ tale che}
+        \\\\\\mbox{ \\quad\\textit{e)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in \\{1,\\dots, m\\}$ tale che}
         \\\\ \\qquad E\\subseteq \\bigcup_{1 \\le k\\le m}E^k\\mbox{ si ha:}
         \\\\ \\qquad\\;\\qquad L_n^*(E)\\le \\sum_{k=1}^mL_n^*(E^k)
 
     </string>
     <string name="domanda_4_6">
-        \\mbox{domanda 5.1}
+        \\mbox{domanda 4.1}
     </string>
     <string name="soluzione_4_6">
         \\mbox{\\textit{\\textbf{Soluzione 1.1}}
@@ -111,12 +111,102 @@
         \\\\
         }
     </string>
-    <!--
-    <string name="domanda_5_1">
-        \\mbox{domanda 5.1}
+    <string name="domanda_4_7">
+        \\mbox{A che cosa è uguale la misura
+        \\\\esterna di un intervallo $n$-dimensionale?}
     </string>
-    <string name="soluzione_1_1">
-        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+    <string name="soluzione_4_7">
+        \\mbox{\\textit{\\textbf{Soluzione 4.7}}
+        \\\\
+        \\;
+        \\\\Se $I$ è un intervallo $n$-dimensionale, si ha:}
+        \\\\ \\;
+        \\\\ \\qquad L^∗_n(I) = vol_n(I)
+    </string>
+    <string name="domanda_4_8">
+        \\mbox{Come si definiscono gli insiemi misurabili
+        \\\\secondo Lebesgue?}
+    </string>
+    <string name="soluzione_4_8">
+        \\mbox{\\textit{\\textbf{Soluzione 4.8}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$, diremo che $A$ è \\textbf{misurabile}
+        \\\\\\textbf{secondo Lebesgue}\\ se, $\\forall E \\subseteq R^n, si ha:}
+        \\\\ \\;
+        \\\\ \\qquad L^∗_n(E) = L^∗_n(E\\cap A) + L^∗_n(E\\cap A^c)
+        \\\\ \\;
+        \\\\\\mbox{Indicheremo con $M_n$ la classe degli insiemi
+        \\\\misurabili secondo Lebesgue in R^n.}
+    </string>
+    <string name="domanda_4_9">
+        \\mbox{Che cos’`e la misura di Lebesgue?}
+    </string>
+    <string name="soluzione_4_9">
+        \\mbox{\\textit{\\textbf{Soluzione 4.9}}
+        \\\\
+        \\;
+        \\\\Indichiamo con $L_n$ la restrizione della funzione misura
+        \\\\esterna $L^∗_n$ a $M_n$. Chiameremo $L_n$ \\textbf{misura di}
+        \\\\\\textbf{Lesbesgue} in $R^n$.
+        }
+    </string>
+    <string name="domanda_4_10">
+        \\mbox{domanda 4.1}
+    </string>
+    <string name="soluzione_4_10">
+        \\mbox{\\textit{\\textbf{Soluzione 4.10}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_11">
+        \\mbox{domanda 4.1}
+    </string>
+    <string name="soluzione_4_11">
+        \\mbox{\\textit{\\textbf{Soluzione 4.11}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_12">
+        \\mbox{Che cos\’è una funzione semplice?}
+    </string>
+    <string name="soluzione_4_12">
+        \\mbox{\\textit{\\textbf{Soluzione 4.12}}
+        \\\\
+        \\;
+        \\\\Siano $A \\in M_n$, $f : A \\to R$. Diremo che $f$ è
+        \\\\una \\textbf{funzione semplice} se esistono $A_1, \\dots, A_m$
+        \\\\sottoinsiemi misurabili di $A$ a due a due disgiunti,
+        \\\\con unione $A$, e dei numeri reali $\\alpha_1, \\dots, \\alpha_m$,
+        \\\\tali che, se $x \\in A_i (1 \\le i \\le m)$, $f(x) = \\alpha_i$.}
+    </string>
+    <string name="domanda_4_13">
+        \\mbox{Quali sono le proprietà della
+        \\\\classe delle funzioni semplici
+        \\\\rispetto a somme, prodotti e quozienti?}
+    </string>
+    <string name="soluzione_4_13">
+        \\mbox{\\textit{\\textbf{Soluzione 4.13}}
+        \\\\
+        \\;
+        \\\\Siano $A \\in M_n$, $f, g : A \\to R$ semplici.
+        \\\\Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)} $f+g$ e $fg$ sono semplici.
+        \\\\ \\;
+        \\\\ \\textit{b)} Se $\\forall x\\in A\\; g(x)\\ne 0$, $\\frac{f}{g}$ è semplice.
+        }
+    </string>
+    <!--
+    <string name="domanda_4_1">
+        \\mbox{domanda 4.1}
+    </string>
+    <string name="soluzione_4_1">
+        \\mbox{\\textit{\\textbf{Soluzione 4.1}}
         \\\\
         \\;
         \\\\

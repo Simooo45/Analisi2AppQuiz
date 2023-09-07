@@ -1,17 +1,220 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--
+    <!-- Domande Capitolo 5  -->
+    <integer name="numero_domande_5">18</integer>
     <string name="domanda_5_1">
         \\mbox{domanda 5.1}
     </string>
-    <string name="soluzione_1_1">
-        \\mbox{\\textit{\\textbf{Soluzione 1.1}}
+    <string name="soluzione_5_1">
+        \\mbox{\\textit{\\textbf{Soluzione 5.1}}
         \\\\
         \\;
         \\\\
         }
-    </string>-->
-    <!-- Domande Capitolo 5  -->
-    <integer name="numero_domande_5">1</integer>
-    <string name="domanda_5_1">\\mbox{domanda 5.1}</string>
+    </string>
+    <string name="domanda_5_2">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_2">
+        \\mbox{\\textit{\\textbf{Soluzione 5.2}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_3">
+        \\mbox{domanda 5.3}
+    </string>
+    <string name="soluzione_5_3">
+        \\mbox{\\textit{\\textbf{Soluzione 5.3}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_4">
+        \\mbox{Sotto quali condizioni la lunghezza  di un cammino
+        \\\\è riconducibile a un integrale?}
+    </string>
+    <string name="soluzione_5_4">
+        \\mbox{\\textit{\\textbf{Soluzione 5.4}}
+        \\\\
+        \\;
+        \\\\Sia $\\alpha : [a, b] \\to R^n$ un cammino di classe $C^1.
+        \\\\Allora \\alpha è rettificabile e}
+        \\\\ \\qquad l(\\alpha) = \\int_a^b\\lVert\\alpha\'(t)\\rVertdt
+    </string>
+    <string name="domanda_5_5">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_5">
+        \\mbox{\\textit{\\textbf{Soluzione 5.5}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_6">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_6">
+        \\mbox{\\textit{\\textbf{Soluzione 5.6}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_7">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_7">
+        \\mbox{\\textit{\\textbf{Soluzione 5.7}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_8">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_8">
+        \\mbox{\\textit{\\textbf{Soluzione 5.8}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_9">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_9">
+        \\mbox{\\textit{\\textbf{Soluzione 5.9}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_10">
+        \\mbox{Sotto quale condizione si può dire che
+        \\\\una funzione con il gradiente identicamente nullo
+        \\\\è costante?
+}
+    </string>
+    <string name="soluzione_5_10">
+        \\mbox{\\textit{\\textbf{Soluzione 5.10}}
+        \\\\
+        \\;
+        \\\\Sia $A$ un aperto connesso per archi in $R^n$,
+        \\\\$f \\in C^1(A)$ tale che $\\nabla f(x) = O\\ \\forall x \\in A$.
+        \\\\Allora $f$ è \\textbf{costante in $A$}.
+        }
+    </string>
+    <string name="domanda_5_11">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_11">
+        \\mbox{\\textit{\\textbf{Soluzione 5.11}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_12">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_12">
+        \\mbox{\\textit{\\textbf{Soluzione 5.12}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_13">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_13">
+        \\mbox{\\textit{\\textbf{Soluzione 5.13}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_14">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_14">
+        \\mbox{\\textit{\\textbf{Soluzione 5.14}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_15">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_15">
+        \\mbox{\\textit{\\textbf{Soluzione 5.15}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_5_16">
+        \\mbox{Sotto quali condizioni si può dire che un
+        \\\\campo vettoriale chiuso è esatto?}
+    </string>
+    <string name="soluzione_5_16">
+        \\mbox{\\textit{\\textbf{Soluzione 5.16}}
+        \\\\
+        \\;
+        \\\\Siano $A$ un aperto in $R^n$, \\textbf{stellato rispetto}
+        \\\\\\textbf{a qualche suo punto}\\ $x^0$, $F \\in C^1(A; R^n)$ un
+        \\\\campo vettoriale chiuso. Allora $F$ è esatto.
+        }
+    </string>
+    <string name="domanda_5_17">
+        \\mbox{Che cosa vuol dire che un sottoinsieme
+        \\\\di $R^n$ è stellato rispetto a
+        \\\\qualche suo punto?}
+    </string>
+    <string name="soluzione_5_17">
+        \\mbox{\\textit{\\textbf{Soluzione 5.17}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$, $x^0 \\in A$, diremo che
+        \\\\$A$ è stellato rispetto a $x^0$ se, $\\forall x \\in A$ si ha:
+        \\;
+        \\\\ \\qquad [x^0, x] \\subseteq A
+    </string>
+    <string name="domanda_5_18">
+        \\mbox{Che cosa sono i campi vettoriali centrali?}
+    </string>
+    <string name="soluzione_5_18">
+        \\mbox{\\textit{\\textbf{Soluzione 5.18}}
+        \\\\
+        \\;
+        \\\\Sia $A \\subseteq R^n$, $F : A \\to R^n$, diremo che $F$
+        \\\\è un campo centrale se esiste $g : R^+ \\to R$ continua,
+        \\\\tale che:}
+        \\\\ \\;
+        \\\\ \\qquadF(x) = g(\\lVert x\\rVert^2)x\\ ∀x ∈ A
+
+    </string>
+
+
+
+
+    <!--
+    <string name="domanda_5_1">
+        \\mbox{domanda 5.1}
+    </string>
+    <string name="soluzione_5_1">
+        \\mbox{\\textit{\\textbf{Soluzione 5.1}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    -->
+
 </resources>
