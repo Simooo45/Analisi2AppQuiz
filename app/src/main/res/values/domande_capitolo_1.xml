@@ -184,9 +184,11 @@
         \\mbox{\\textit{\\textbf{Soluzione 1.8}}
         \\\\
         \\;
-        \\\\Sia $A\\subseteq R^n$, definiamo \\textbf{chiusura}\\ di $A$ (indicato con $\\bar A$)
-        \\\\l\'insieme $\\bar A = A \\cup Fr(A)$.
-        }
+        \\\\Sia $A\\subseteq R^n$, definiamo \\textbf{chiusura}\\ di $A$
+        \\\\(indicato con $\\bar A$) l\'insieme}
+        \\\\ \\;
+        \\\\ \\qquad \\bar A = A \\cup Fr(A)
+
     </string>
     <string name="domanda_1_9">
         \\mbox{Che cosa si intende per punto di accumulazione
@@ -197,17 +199,19 @@
         \\\\
         \\;
         \\\\Siano $A \\subseteq R^n$ e $x_0 \\in R^n$, diremo che $x_0$ è un
-        \\\\\\textbf{punto di accumulazione}\\ di $A$ se ogni palla aperta
-        \\\\$B(x_0, r)$ con $r > 0$ contiene qualche punto appartenente
-        \\\\ad $A$ diverso da $x_0$.
+        \\\\\\textbf{punto di accumulazione}\\ di $A$ se ogni palla
+        \\\\aperta $B(x_0, r)$ con $r > 0$ contiene qualche punto
+        \\\\appartenente ad $A$ diverso da $x_0$.
         \\\\ \\;
         \\\\ L\'insieme dei punti di accumulazione è definito
         \\\\\\textbf{derivato}\\ di $A$ ed è indicato con $D(A)$.
         }
     </string>
     <string name="domanda_1_10">
-        \\mbox{Cosa significa la scrittura $\\lim_{x\\to x_0} f(x) = l$
-        \\\\nel caso di $f : A(\\subseteq R^n)\\to R^m$?
+        \\mbox{Cosa significa la scrittura}
+        \\\\ \\;
+        \\\\ \\qquad \\lim_{x\\to x_0} f(x) = l
+        \\\\\\mbox{nel caso di $f : A(\\subseteq R^n)\\to R^m$?
         \\\\ \\;
         \\\\(Precisare bene dove devono stare $l$ e $x_0$).}
     </string>
@@ -232,8 +236,8 @@
         \\\\
         \\;
         \\\\Siano $A \\subseteq R^n$, $F:A\\to R^m$, $x^0 \\in D(A)$ e $l, l\'\\in R^m$.
-        \\\\Supponiamo che valgano contemporaneamente $\\lim_{x\\to x^0}f(x) = l$
-        \\\\e $\\lim_{x\\to x^0}f(x) = l\'$, allora $l = l\'$.
+        \\\\Supponiamo che valgano contemporaneamente
+        \\\\$\\lim_{x\\to x^0}f(x) = l$ e $\\lim_{x\\to x^0}f(x) = l\'$, allora $l = l\'$.
         }
     </string>
     <string name="domanda_1_12">
@@ -296,8 +300,8 @@
         }
     </string>
     <string name="domanda_1_15">
-        \\mbox{Come si definisce la continuità in $x_0$ per
-        \\\\$f : A(\\subseteq R^n)→R^m$?
+        \\mbox{Come si definisce la continuità in $x_0$
+        \\\\per $f : A(\\subseteq R^n)→R^m$?
         \\\\ \\;
         \\\\(Precisare bene dove devono stare $x_0$)}
     </string>

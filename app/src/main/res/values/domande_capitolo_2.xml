@@ -4,9 +4,11 @@
     <!-- Domande Capitolo 2  -->
     <integer name="numero_domande_2">22</integer>
     <string name="domanda_2_1">
-        \\mbox{Come si definisce la derivata rispetto al vettore $nu$ $\\frac{\\partial f}{\\partial \\nu}(x^0)$?
+        \\mbox{Come si definisce la derivata rispetto al
+        \\\\vettore $\nu$ $\\frac{\\partial f}{\\partial \\nu}(x^0)$?
         \\\\ \\;
-        \\\\(Precisare bene tutte le condizioni su $f$, il suo dominio $A$, $x^0$ e $\\nu$).}
+        \\\\(Precisare bene tutte le condizioni
+        \\\\su $f$, il suo dominio $A$, $x^0$ e \$\\nu$).}
     </string>
     <string name="soluzione_2_1">
         \\mbox{\\textit{\\textbf{Soluzione 2.1}}
@@ -14,16 +16,19 @@
         \\;
         \\\\Siano $A \\subseteq R^n$ con $\\nu \\in R^n$, $x^0 \\in A$.
         \\\\Poniamo $A_{x^0,\\nu} := \\{t \\in R : x^0 + t\\nu \\in A\\}$.
+        \\\\Sia $f : A \\to R$. Per $t \\in A_{x^0,\\nu} \\setminus \\{0\\}$, poniamo
         \\\\ \\;
-        \\\\Sia $f : A \\to R$. Per $t \\in A_{x^0,\\nu} \\setminus \\{0\\},
-        \\\\poniamo $r_{x^0,\\nu}(t) := \\frac{f(x^0+t\\nu)−f(x^0)}{t} e
-        \\\\supponiamo che $0 \\in D(A_{x^0},\\nu)$.
+        \\\\ \\qquad $r_{x^0,\\nu}(t) := \\frac{f(x^0+t\\nu)−f(x^0)}{t}$
+        \\\\ \\;
+        \\\\e supponiamo che $0 \\in D(A_{x^0},\\nu)$.
         \\\\Se esiste}
         \\\\ \\;
         \\\\ \\qquad \\lim_{t\\to 0}r_{x^0, \\nu}(t) = \\lim_{t\\to 0}\\frac{f(x^0+t\\nu)-f(x^0)}{t}
         \\\\ \\;
-        \\\\\\mbox{lo chiameremo \\textbf{derivata di $f$ rispetto al vettore $\\nu$ in $x^0$}
-        \\\\e lo indicheremo con la notazione $\\frac{\\partial f}{\\partial \\nu}(x^0)$}
+        \\\\\\mbox{lo chiameremo \\textbf{derivata di $f$ rispetto al vettore}
+        \\\\\\textbf{$\\nu$ in $x^0$}\\ e lo indicheremo con la notazione}
+        \\\\ \\;
+        \\\\ \\qquad\\frac{\\partial f}{\\partial \\nu}(x^0)
     </string>
     <string name="domanda_2_2">
         \\mbox{Come si definiscono le derivate parziali
@@ -36,7 +41,9 @@
         \\\\Siano $A \\subseteq R^n$ con $1 ≤ j ≤ n$, $x^0 \\in A$, tale che
         \\\\$0 \\in D(A_{x^0,e^j})$. Chiamiamo \\textbf{derivata parziale}
         \\\\\\textbf{prima}\\ rispetto alla variabile $x_j$ nel punto $x^0$
-        \\\\la derivata $\\frac{\\partial f}{\\partial e^j} (x^0)$ (se esiste).
+        \\\\la derivata $\\frac{\\partial f}{\\partial e^j} (x^0)$ (se esiste), con $e^j$
+        \\\\definito come il $j$-esimo vettore della base canoinica (tutti $0$
+        \\\\tranne un $1$ in $j$-esima posizione).
         \\\\ \\;
         \\\\Tale derivata sarà indicata con il simbolo $\\frac{\\partial f}{\\partial x_j}$
         \\\\o con il simbolo $D_jf(x^0)$
@@ -95,8 +102,8 @@
         \\\\
         \\;
         \\\\Siano $A$ un aperto in $R^n$, $f \\in C^1(A)$,
-        \\\\$x, y \\in A$ tali che $[x, y] \\subseteq A$.
-        \\\\Allora esiste $z \\in [x, y]$, tale che:}
+        \\\\$x, y \\in A$ tali che $[x, y] \\subseteq A$. Allora
+        \\\\esiste $z \\in [x, y]$, tale che:}
         \\\\ \\;
         \\\\ \\qquad f(y) − f(x) = \\nabla f(z) \\cdot (y − x)
     </string>
@@ -196,12 +203,13 @@
         \\mbox{\\textit{\\textbf{Soluzione 2.13}}
         \\\\
         \\;
-        \\\\Siano $A \\subseteq R^n$ aperto, $f \\in C^1(A)$,
-        \\\\$x^0 \\in A$. Diremo che $x^0$ è un \\textbf{punto critico}\\ di
-        \\\\$f$ se $\\nabla f(x^0) = O$.
+        \\\\Siano $A \\subseteq R^n$ aperto, $f \\in C^1(A)$, $x^0 \\in A$.
+        \\\\Diremo che $x^0$ è un \\textbf{punto critico}\\ di $f$ se
         \\\\ \\;
-        \\\\Supponiamo che $x^0$ sia un estremante relativo di $f$.
-        \\\\Allora $x^0$ è un punto critico di $f$.
+        \\\\ \\qquad$\\nabla f(x^0) = O$.
+        \\\\ \\;
+        \\\\Supponiamo che $x^0$ sia un estremante relativo di $f$,
+        \\\\allora $x^0$ è un punto critico di $f$.
 
         }
     </string>
@@ -214,8 +222,9 @@
         \\\\
         \\;
         \\\\Sia $A \\subseteq R^n$ aperto, $f \\in C^1(A)$.
-        \\\\Chiameremo \\textbf{punti di sella di $f$}\\ i suoi punti
-        \\\\critici che non sono estremanti relativi.
+        \\\\Chiameremo \\textbf{punti di sella di $f$}\\ i
+        \\\\suoi punti critici che non sono
+        \\\\estremanti relativi.
         }
     </string>
     <string name="domanda_2_15">
@@ -239,14 +248,23 @@
         }
     </string>
     <string name="domanda_2_17">
-        \\mbox{domanda 2.17}
+        \\mbox{Che cosa vuol dire che una funzione
+        \\\\a valori in $R^m$ è di classe $C^k$?}
     </string>
     <string name="soluzione_2_17">
         \\mbox{\\textit{\\textbf{Soluzione 2.17}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A$ un aperto di $R^n$, $f : A \\to R^m$. Diremo
+        \\\\che $f$ è \\textbf{di classe $C^k$}, con $k \\in N$, se
+        \\\\possiede a valori reali tutte le derivate parziali
+        \\\\di ordine non superiore a $k$ in ogni punto di $A$
+        \\\\e tali derivate sono continue in $A$.
+        \\\\ \\;
+        \\\\Scriveremo, per indicare tale eventualità:}
+        \\\\ \\;
+        \\\\ \\qquad f \\in C^k(A; R^m)
+
     </string>
     <string name="domanda_2_18">
         \\mbox{domanda 2.18}
@@ -302,11 +320,11 @@
         \\\\
         \\;
         \\\\Siano $A$ aperto in $R^n$, $B$ aperto in $R^m$,
-        \\\\$g \\in C^k(A)$, $f \\in C^k(B; R^n)$, tale
-        \\\\che $f(B) \\subseteq A$.
-        \\\\\\;
-        \\\\Allora $g \\circ f \\in C^k(B)
-        }
+        \\\\$g \\in C^k(A)$, $f \\in C^k(B; R^n)$, tale che
+        \\\\$f(B) \\subseteq A$. Allora}
+        \\\\ \\;
+        \\\\ \\qquad g \\circ f \\in C^k(B)
+
     </string>
     <!--
     <string name="domanda_2_1">

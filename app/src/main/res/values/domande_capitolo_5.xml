@@ -3,23 +3,51 @@
     <!-- Domande Capitolo 5  -->
     <integer name="numero_domande_5">18</integer>
     <string name="domanda_5_1">
-        \\mbox{domanda 5.1}
+        \\mbox{Come si definisce un cammino
+        \\\\continuo? e un cammino continuo
+        \\\\$C^1$ a tratti?}
     </string>
     <string name="soluzione_5_1">
         \\mbox{\\textit{\\textbf{Soluzione 5.1}}
         \\\\
         \\;
-        \\\\
+        \\\\Un \\textbf{cammino}\\ (continuo) \\alpha è una funzione
+        \\\\continua da $J$ a $R^n$, con $J$ intervallo
+        \\\\chiuso e limitato in $R$.
+        \\\\ \\;
+        \\\\Se $J = [a, b]$, $\\alpha(a)$ e $\\alpha(b)$ ($\\in R^n$)
+        \\\\si chiamano estremi del cammino.
+        \\\\ \\;
+        \\\\Se $\\alpha \\in C^1(J; R^n)$, si dice che è un \\textbf{cammino}
+        \\\\\\textbf{di classe $C^1$}.
+        \\\\ \\;
+        \\\\Sia $J = [a, b]$. Diremo che $\\alpha$$ è \\textbf{$C^1$}
+        \\\\\\textbf{a tratti}\\ se esistono $t_0, t_1, \\dots, t_k$, con
+        \\\\$a = t_0 &#60; t_1 &#60; \\dots &#60; t_k = b$, tali che,
+        \\\\per $j = 1, \\dots, k$, $\\alpha[t_{j−1},t_j]$ è di classe
+        \\\\$C^1$.
+        \\\\ \\;
+        \\\\L\'immagine $\\alpha(J)$ si chiama \\textbf{sostegno} di $\\alpha$.
         }
     </string>
     <string name="domanda_5_2">
-        \\mbox{domanda 5.1}
+        \\mbox{Che cosa vuol dire che due cammini
+        \\\\di classe $C^1$ sono equivalenti e
+        \\\\positivamente equivalenti?}
     </string>
     <string name="soluzione_5_2">
         \\mbox{\\textit{\\textbf{Soluzione 5.2}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$
+        \\\\due cammini continui. Essi si dicono \\textbf{equivalenti}
+        \\\\se esiste $u : [c, d] \\to [a, b]$, iniettiva e
+        \\\\suriettiva, di classe $C^1$ con $u\'(s) \\ne 0$
+        \\\\$\\forall s \\in [c, d]$, tale che $\\beta(s) = \\alpha(u(s))$
+        \\\\$\\forall s \\in [c, d]$.
+        \\\\ \\;
+        \\\\Diremo che $\\alpha$ e $\\beta$ sono positivamente
+        \\\\\equivalenti se $u$ è crescente.
         }
     </string>
     <string name="domanda_5_3">
@@ -80,13 +108,23 @@
         \\\\\\qquad \\int_\\beta f(x) ds =\\int_\\alpha f(x) ds
     </string>
     <string name="domanda_5_7">
-        \\mbox{domanda 5.1}
+        \\mbox{Come si definisce l\'integrale
+        \\\\curvilineo di seconda specie $\\int f \\cdot d\\alpha$?}
     </string>
     <string name="soluzione_5_7">
         \\mbox{\\textit{\\textbf{Soluzione 5.7}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $a, b \\in R$, con $a &#60; b$, $\\alpha \\in C^1([a, b]; R^n)$,
+        \\\\$f : \\alpha([a, b]) \\to R^n$. Supponiamo che
+        \\\\$t \\to f(\\alpha(t)) \\cdot \\alpha\'(t)$ sia
+        \\\\sommabile in $[a, b]$. Allora poniamo}
+        \\\\ \\;
+        \\\\ \\int f \\cdot d\\alpha := \\int_{[a,b]}f(\\alpha(t)) \\cdot \\alpha \'(t) dt
+        \\\\ \\;
+        \\\\\\mbox{Chiamiamo $\\int f \\cdot d\\alpha$ \\textbf{integrale curvilineo}
+        \\\\\\textbf{di seconda specie}\\ di f sul cammino α.
+
         }
     </string>
     <string name="domanda_5_8">
@@ -108,12 +146,14 @@
         \\mbox{\\textit{\\textbf{Soluzione 5.9}}
         \\\\
         \\;
-        \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$
-        \\\\cammini $C^1$ a tratti equivalenti. Sia poi
-        \\\\$f : \\alpha([a, b]) = \\beta([c, d])\\to R^n$, tale
-        \\\\che è definito $\\int f \\cdot d\\alpha$. Allora è definito
-        \\\\anche $\\int f \\cdot d\\beta$ e, se $u$ è la funzione che
-        \\\\interviene nella definizione di cammini equivalenti,}
+        \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$ cammini
+        \\\\$C^1$ a tratti equivalenti. Sia poi
+        \\\\ \\;
+        \\\\$f : \\alpha([a, b]) = \\beta([c, d])\\to R^n$
+        \\\\ \\;
+        \\\\tale che è definito $\\int f \\cdot d\\alpha$. Allora è definito anche
+        \\\\$\\int f \\cdot d\\beta$ e, se $u$ è la funzione che interviene
+        \\\\nella definizione di cammini equivalenti,}
         \\\\ \\;
         \\\\ \\quad \\int f \\cdot dβ = \\begin{cases}
         \\int f \\cdot d\\alpha \\quad &amp; \\text{se $u$ è crescente}
@@ -136,13 +176,23 @@
         }
     </string>
     <string name="domanda_5_11">
-        \\mbox{domanda 5.1}
+        \\mbox{Che cos\'è un campo vettoriale? che cosa si
+        \\\\intende per potenziale di un campo vettoriale?
+        \\\\quando si dice che un campo vettoriale è esatto?
+        }
     </string>
     <string name="soluzione_5_11">
         \\mbox{\\textit{\\textbf{Soluzione 5.11}}
         \\\\
         \\;
-        \\\\
+        \\\\Sia $A$ un aperto connesso per archi in $R^n$.
+        \\\\Un \\textbf{campo vettoriale}\\ in $A$ è una funzione $F : A \\to R^n$
+        \\\\continua.
+        \\\\ \\;
+        \\\\Un \\textbf{potenziale}\\ del campo vettoriale $F$ è una funzione
+        \\\\$U \\in C^1(A)$, tale che $\\nabla U(x) = F(x)$ $\\forall x \\in A$.
+        \\\\Il campo vettoriale F si dice \\textbf{esatto}\\ se possiede
+        \\\\dei potenziali.
         }
     </string>
     <string name="domanda_5_12">
@@ -156,8 +206,8 @@
         }
     </string>
     <string name="domanda_5_13">
-        \\mbox{Che cosa vuol dire che un
-        \\\\campo vettoriale è conservativo?}
+        \\mbox{Che cosa vuol dire che un campo
+        \\\\vettoriale è conservativo?}
     </string>
     <string name="soluzione_5_13">
         \\mbox{\\textit{\\textbf{Soluzione 5.13}}
@@ -171,8 +221,6 @@
         \\\\e lo stesso secondo estremo, si ha}
         \\\\ \\;
         \\\\ \\qquad \\int F \\cdot d\\alpha = \\int F \\cdot d\\beta
-
-        }
     </string>
     <string name="domanda_5_14">
         \\mbox{Che relazione c’è tra la nozione di campo
@@ -192,13 +240,26 @@
         }
     </string>
     <string name="domanda_5_15">
-        \\mbox{domanda 5.1}
+        \\mbox{Che cosa vuol dire che un campo
+        \\\\vettoriale è \\textit{chiuso} e che relazione
+        \\\\c’è tra la nozione di campo
+        \\\\vettoriale esatto e quella
+        \\\\di campo vettoriale chiuso?
+}
     </string>
     <string name="soluzione_5_15">
         \\mbox{\\textit{\\textbf{Soluzione 5.15}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A$ un aperto connesso per archi
+        \\\\in $R^n$, $F \\in C^1(A; R^n). Diremo
+        \\\\che il campo vettoriale $F$ è \\textbf{chiuso}
+        \\\\se $\\forall i, \\forall j \\in {1, \\dots, n}$
+        \\\\ \\;
+        \\\\ \\qquad \\frac{\\partial F_i}{\\partial x_j} =\\frac{\\partial F_j}{\\partial x_i}
+        \\\\ \\;
+        \\\\Sotto le stesse condizioni, se $F$ è esatto, $F$ è
+        \\\\\\textit{chiuso}
         }
     </string>
     <string name="domanda_5_16">
@@ -236,7 +297,7 @@
         \\\\
         \\;
         \\\\Sia $A \\subseteq R^n$, $F : A \\to R^n$, diremo che $F$
-        \\\\è un campo centrale se esiste $g : R^+ \\to R$ continua,
+        \\\\è un \\textbf{campo centrale}\\ se esiste $g : R^+ \\to R$ continua,
         \\\\tale che:}
         \\\\ \\;
         \\\\ \\qquad F(x) = g(\\lVert x\\rVert^2)x\\quad ∀x ∈ A

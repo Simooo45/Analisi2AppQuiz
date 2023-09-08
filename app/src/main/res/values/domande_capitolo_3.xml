@@ -13,13 +13,35 @@
         }
     </string>
     <string name="domanda_3_2">
-        \\mbox{domanda 3.1}
+        \\mbox{In cosa consiste il problema di
+        \\\\Cauchy per i sistemi di equazioni
+        \\\\differenziali di primo ordine?
+        \\\\ \\;
+        \\\\(precisare bene come devono essere
+        \\\\presi i dati)
+}
     </string>
     <string name="soluzione_3_2">
         \\mbox{\\textit{\\textbf{Soluzione 3.2}}
         \\\\
         \\;
-        \\\\
+        \\\\Il problema di Cauchy consiste nel determinare
+        \\\\le soluzioni locali dell’equazione differenziale
+        \\\\$x\'(t) = f(t, x(t))$ che, in un prefissato $t_0$,
+        \\\\assumono un prefissato valore $x^0$.
+        \\\\ \\;
+        \\\\Siano Ω un aperto in $R^{n+1}$, $f : Ω \\to R^n$,
+        \\\\$t_0 \\in R$, $x^0 \\in R^n$, tali che $(t_0, x^0) \\in Ω$. Per
+        \\\\soluzione locale del problema di Cauchy}
+        \\\\ \\;
+        \\\\ \\qquad \\begin{cases}
+        x\'(t) = f(t, x(t))
+        \\\\x(t_0) = x^0
+        \\end{cases}
+        \\\\ \\;
+        \\\\\\mbox{intendiamo una soluzione locale $x$ dell\'equazione
+        \\\\$x\'(t) = f(t, x(t))$, di dominio $I$, tale che
+        \\\\$t_0\\in I$ e $x(t_0) = x^0$.
         }
     </string>
     <string name="domanda_3_3">
@@ -41,9 +63,9 @@
         \\;
         \\\\Siano $Ω$ un aperto in $R^{n+1}$ con $f : Ω \\to R^n$,
         \\\\$t_0 \\in R$, $x^0 \\in R^n$, tali che $(t_0, x^0) \\in Ω$. Supponiamo
-        \\\\inoltre che $f$ sia continua. Considerando il problema di
-        \\\\Cauchy, allora esiste una soluzione locale definita su un
-        \\\\intervallo aperto contenente $t_0$.}
+        \\\\inoltre che $f$ sia continua. Considerando il problema
+        \\\\di Cauchy, allora esiste una soluzione locale definita
+        \\\\su un intervallo aperto contenente $t_0$.}
     </string>
     <string name="domanda_3_5">
         \\mbox{Che cosa si intende per soluzione
@@ -82,7 +104,7 @@
         \\\\ \\textit{a)}\\ $x$ non è una soluzione massimale di
         \\\\ \\qquad $x\'(t) = f(t, x(t))$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ per almeno un $j \\in \\{0, 1\\} esiste
+        \\\\ \\textit{b)}\\ per almeno un $j \\in \\{0, 1\\}$ esiste
         \\\\ \\qquad $\\lim {t\\to a_j}(t, x(t))$ e tale limite appartiene
         \\\\ \\qquad a $Ω$.}
     </string>
@@ -98,8 +120,8 @@
     </string>
     <string name="domanda_3_8">
         \\mbox{Che cosa si per soluzione locale
-        \\\\nel caso di un\'equazione scalare di ordine
-        \\\\$m$?}
+        \\\\nel caso di un\'equazione scalare
+        \\\\di ordine $m$?}
     </string>
     <string name="soluzione_3_8">
         \\mbox{\\textit{\\textbf{Soluzione 3.8}}
@@ -231,7 +253,7 @@
         \\mbox{\\textit{\\textbf{Soluzione 3.17}}
         \\\\
         \\;
-        \\\\Per \\textbf{integrale generale} di un\’equazione differenziale
+        \\\\Per \\textbf{integrale generale}\\ di un\’equazione differenziale
         \\\\ordinaria lineare si intende l\’insieme delle soluzioni
         \\\\massimali (e quindi di dominio $I$).
         }
@@ -277,10 +299,11 @@
         }
     </string>
     <string name="domanda_3_21">
-        \\mbox{Come si determina un sistema fondamentale
-        \\\\di soluzioni per un\'equazione
-        \\\\differenziale lineare ordinaria del
-        \\\\secondo ordine a coefficienti costanti?
+        \\mbox{Come si determina un sistema
+        \\\\fondamentale di soluzioni per
+        \\\\un\'equazione differenziale lineare
+        \\\\ordinaria del secondo ordine a
+        \\\\coefficienti costanti?
 }
     </string>
     <string name="soluzione_3_21">
@@ -293,37 +316,33 @@
         \\\\ \\;
         \\\\ \\quad x^{(m)}(t) = a_0(t)x(t) + \\dots + a_{m−1}(t)x^{(m−1)}(t)
         \\\\ \\;
-        \\\\ \\mbox{il polinomio $P(\\lambda) := \\lambda^m − a_{m−1}\\lambda^{m−1} − \\dots − a_0.
+        \\\\ \\mbox{il polinomio $P(\\lambda) := \\lambda^m − a_{m−1}\\lambda^{m−1} − \\dots − a_0$.
         \\\\ \\;
-        \\\\Siano $\\lambda_0 \\in R$, tale che $P(\\lambda_0) = 0$ e $x(t) = e^{\\lambda_0t}.
-        \\\\Allora $x$ è soluzione in tutto $R$ dell’equazione
-        \\\\differenziale.
+        \\\\ \\;
+        \\\\Siano $\\lambda_0 \\in R$, tale che $P(\\lambda_0) = 0$ e $x(t) = e^{\\lambda_0t}$.
+        \\\\Allora $x$ è soluzione in tutto $R$ dell’equazione differenziale.
+        \\\\ \\;
         \\\\Nel caso di un’equazione differenziale ordinaria lineare a
         \\\\coefficienti costanti del secondo ordine, consideriamo in
         \\\\un intervallo con interno non vuoto $I$ l’equazione
         \\\\ \\;
         \\\\ \\qquad $x\'\'(t) = a_0x(t) + a_1x\'(t)$
         \\\\ \\;
-        \\\\con $a_0, a_1 \\in R$.
+        \\\\con $a_0, a_1 \\in R$. Sia $P(\\lambda) = \\lambda^2 − a_1\\lambda − a_0$ il suo \\textbf{polinomio}
+        \\\\\\textbf{caratteristico}. Allora:
         \\\\ \\;
-        \\\\Sia $P(\\lambda) = \\lmabda^2 − a_1\\lambda − a_0$ il suo
-        \\\\polinomio caratteristico. Allora:
-        \\\\ \\;
-        \\\\ \\textit{a)}\\ se $P$ ha due zeri reali e distinti
-        \\\\\\qquad $\\lambda_0$ e $\\lambda_1$, le funzioni $\\psi_0(t) = e^{\\lambda_0t}$ e
-        \\\\\\qquad $\\psi_1(t) = e^{\\lambda_1t} costituiscono un
-        \\\\\\qquad sistema fondamentale di soluzioni
-        \\\\ \\;
-        \\\\ \\textit{b)}\\ se $P$ ha l\'unico zero reale $\\lambda_0$ di
-        \\\\\\qquad molteplicità algebrica 2, le funzioni $\\psi_0(t) = e^{\\lambda_0t}$ e
-        \\\\\\qquad $\\psi_1(t) = te^{\\lambda_0t}$ costituiscono un sistema
+        \\\\ \\textit{a)}\\ se $P$ ha \\textbf{due zeri reali e distinti}\\ $\\lambda_0$ e $\\lambda_1$, le funzioni
+        \\\\\\qquad $\\psi_0(t) = e^{\\lambda_0t}$ e $\\psi_1(t) = e^{\\lambda_1t}$ costituiscono un sistema
         \\\\\\qquad fondamentale di soluzioni
         \\\\ \\;
-        \\\\ \\textit{c)} se $P$ ha gli zeri complessi coniugati
-        \\\\\\qquad $\\alpha \\pm i\\beta$ ($\\alpha, \\beta \\in R$, $\\beta \\ne 0$),
-        \\\\\\qquad le funzioni $\\psi_0(t) = e^{\\alpha t} \\cos(\\beta t)$ e
-        \\\\\\qquad $\\psi_1(t) = e^{\\alpha t} \\sin(\\beta t)$ costituiscono
-        \\\\\\qquad un sistema fondamentale di soluzioni.
+        \\\\ \\textit{b)}\\ se $P$ ha un \\textbf{unico zero reale}\\ $\\lambda_0$ di molteplicità algebrica
+        \\\\\\qquad 2, le funzioni $\\psi_0(t) = e^{\\lambda_0t}$ e $\\psi_1(t) = te^{\\lambda_0t}$
+        \\\\\\qquad costituiscono un sistema fondamentale di soluzioni.
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ se $P$ ha gli \\textbf{zeri complessi coniugati}\\ $\\alpha \\pm i\\beta$ ($\\alpha, \\beta \\in R$,
+        \\\\\\qquad $\\beta \\ne 0$), le funzioni $\\psi_0(t) = e^{\\alpha t} \\cos(\\beta t)$ e
+        \\\\\\qquad $\\psi_1(t) = e^{\\alpha t} \\sin(\\beta t)$ costituiscono un sistema
+        \\\\\\qquad fondamentale di soluzioni.
         }
     </string>
     <string name="domanda_3_22">
