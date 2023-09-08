@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Domande Capitolo 2  -->
-    <integer name="numero_domande_2">6</integer>
+    <integer name="numero_domande_2">22</integer>
     <string name="domanda_2_1">
-        \\mbox{domanda 2.1}
+        \\mbox{Come si definisce la derivata rispetto al vettore $nu$ $\\frac{\\partial f}{\\partial \\nu}(x^0)$?
+        \\\\ \\;
+        \\\\(Precisare bene tutte le condizioni su $f$, il suo dominio $A$, $x^0$ e $\\nu$).}
     </string>
     <string name="soluzione_2_1">
         \\mbox{\\textit{\\textbf{Soluzione 2.1}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A \\subseteq R^n$ con $\\nu \\in R^n$, $x^0 \\in A$.
+        \\\\Poniamo $A_{x^0,\\nu} := \\{t \\in R : x^0 + t\\nu \\in A\\}$.
+        \\\\ \\;
+        \\\\Sia $f : A \\to R$. Per $t \\in A_{x^0,\\nu} \\setminus \\{0\\},
+        \\\\poniamo $r_{x^0,\\nu}(t) := \\frac{f(x^0+t\\nu)−f(x^0)}{t} e
+        \\\\supponiamo che $0 \\in D(A_{x^0},\\nu)$.
+        \\\\Se esiste}
+        \\\\ \\;
+        \\\\ \\qquad \\lim_{t\\to 0}r_{x^0, \\nu}(t) = \\lim_{t\\to 0}\\frac{f(x^0+t\\nu)-f(x^0)}{t}
+        \\\\ \\;
+        \\\\\\mbox{lo chiameremo \\textbf{derivata di $f$ rispetto al vettore $\\nu$ in $x^0$}
+        \\\\e lo indicheremo con la notazione $\\frac{\\partial f}{\\partial \\nu}(x^0)$}
     </string>
     <string name="domanda_2_2">
         \\mbox{Come si definiscono le derivate parziali
@@ -87,6 +99,214 @@
         \\\\Allora esiste $z \\in [x, y]$, tale che:}
         \\\\ \\;
         \\\\ \\qquad f(y) − f(x) = \\nabla f(z) \\cdot (y − x)
+    </string>
+    <string name="domanda_2_7">
+        \\mbox{Come si definiscono le derivate parziali
+        \\\\di ordine superiore al primo?}
+    </string>
+    <string name="soluzione_2_7" tools:ignore="TypographyEllipsis">
+        \\mbox{\\textit{\\textbf{Soluzione 2.7}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$, $f : A \\to R$, $1 \\le j \\le n$.
+        \\\\Poniamo $A_j := \\{x \\in A : \\exists D_jf(x) \\in R\\}$.
+        \\\\ \\;
+        \\\\Su $A_j$ è definita la funzione $D_jf$, che associa
+        \\\\a ogni elemento $x$ di $A_j$ la derivata $D_jf(x)$.
+        \\\\Se $x \\in A_j$ e $1 \\le i \\le n$, può esistere la derivata
+        \\\\$D_i(D_jf)(x)$ di $D_jf$ in $x$.
+        \\\\Essa viene chiamata \\textbf{derivata seconda di $f$ in $x$}
+        \\\\\\textbf{rispetto alle variabili $x_i, x_j$}\\ (nell’ordine)
+        \\\\e viene indicata con uno dei simboli
+        \\\\$D_{ij}f(x)$, $\\frac{\\partial^2f}{\\partial x_i\\partial x_j}(x)$ ($D^2_jf(x)$, $\\frac{\\partial^2f}{\\partial x_i^2}(x)$ se $i= j$).
+        \\\\ \\;
+        \\\\Iterando il procedimento, si possono definire le
+        \\\\derivate terze, quarte, ecc. (o derivate di ordine 3,
+        \\\\4, ecc.).
+        \\\\ \\;
+        \\\\Dato $k \\in N$, $j_1, \\dots, j_k \\in \\{1, \\dots, n\\}$,
+        \\\\non necessariamente a due a due distinti, porremo:}
+        \\\\ \\;
+        \\\\ D_{j_1,...,j_k}f(x) = D_{j_1}(D_{j_2}(...(D_{j_k}f))...)(x) = \\frac{\\partial^kf}{\\partial_{x_{j_1}}\\dots\\partial_{x_{j_{k}}}}(x)
+    </string>
+    <string name="domanda_2_8">
+        \\mbox{domanda 2.1}
+    </string>
+    <string name="soluzione_2_8">
+        \\mbox{\\textit{\\textbf{Soluzione 2.8}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_9">
+        \\mbox{Che cosa dice il teorema di Schwarz?}
+    </string>
+    <string name="soluzione_2_9">
+        \\mbox{\\textit{\\textbf{Soluzione 2.9}}
+        \\\\
+        \\;
+        \\\\Siano $A$ un aperto in $R^n$, $f : A \\to R$, $1 ≤ i, j ≤ n$.
+        \\\\Supponiamo che, $\\forall x \\in A$, siano definite e a valori
+        \\\\reali $D_if(x), D_jf(x), D_{ij}f(x), D_{ji}f(x)$. Sia poi $x^0\\in A$,
+        \\\\tale che $D_{ij}f$ e $D_{ji}f$ sono continue in $x^0$. Allora:}
+        \\\\ \\;
+        \\\\ \\qquad D_{ij}f(x^0) = D_{ji}f(x^0)
+    </string>
+    <string name="domanda_2_10">
+        \\mbox{domanda 2.10}
+    </string>
+    <string name="soluzione_2_10">
+        \\mbox{\\textit{\\textbf{Soluzione 2.10}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_11">
+        \\mbox{domanda 2.11}
+    </string>
+    <string name="soluzione_2_11">
+        \\mbox{\\textit{\\textbf{Soluzione 2.11}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_12">
+        \\mbox{domanda 2.12}
+    </string>
+    <string name="soluzione_2_12">
+        \\mbox{\\textit{\\textbf{Soluzione 2.12}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_13">
+        \\mbox{Che cos\'è un punto critico e
+        \\\\qual è il legame tra punti critici ed
+        \\\\estremanti relativi?
+        \\\\ \\;
+        \\\\(Precisare bene tutte le ipotesi sulla
+        \\\\funzione)
+}
+    </string>
+    <string name="soluzione_2_13">
+        \\mbox{\\textit{\\textbf{Soluzione 2.13}}
+        \\\\
+        \\;
+        \\\\Siano $A \\subseteq R^n$ aperto, $f \\in C^1(A)$,
+        \\\\$x^0 \\in A$. Diremo che $x^0$ è un \\textbf{punto critico}\\ di
+        \\\\$f$ se $\\nabla f(x^0) = O$.
+        \\\\ \\;
+        \\\\Supponiamo che $x^0$ sia un estremante relativo di $f$.
+        \\\\Allora $x^0$ è un punto critico di $f$.
+
+        }
+    </string>
+    <string name="domanda_2_14">
+        \\mbox{Che cosa si intende per punto
+        \\\\di sella?}
+    </string>
+    <string name="soluzione_2_14">
+        \\mbox{\\textit{\\textbf{Soluzione 2.14}}
+        \\\\
+        \\;
+        \\\\Sia $A \\subseteq R^n$ aperto, $f \\in C^1(A)$.
+        \\\\Chiameremo \\textbf{punti di sella di $f$}\\ i suoi punti
+        \\\\critici che non sono estremanti relativi.
+        }
+    </string>
+    <string name="domanda_2_15">
+        \\mbox{domanda 2.15}
+    </string>
+    <string name="soluzione_2_15">
+        \\mbox{\\textit{\\textbf{Soluzione 2.15}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_16">
+        \\mbox{domanda 2.16}
+    </string>
+    <string name="soluzione_2_16">
+        \\mbox{\\textit{\\textbf{Soluzione 2.16}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_17">
+        \\mbox{domanda 2.17}
+    </string>
+    <string name="soluzione_2_17">
+        \\mbox{\\textit{\\textbf{Soluzione 2.17}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_18">
+        \\mbox{domanda 2.18}
+    </string>
+    <string name="soluzione_2_18">
+        \\mbox{\\textit{\\textbf{Soluzione 2.18}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_19">
+        \\mbox{domanda 2.19}
+    </string>
+    <string name="soluzione_2_19">
+        \\mbox{\\textit{\\textbf{Soluzione 2.19}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_20">
+        \\mbox{Come dipende la derivata di una funzione a
+        \\\\valori in $R^n$ dalle derivate delle
+        \\\\componenti?}
+    </string>
+    <string name="soluzione_2_20">
+        \\mbox{\\textit{\\textbf{Soluzione 2.20}}
+        \\\\
+        \\;
+        \\\\Se $f(t) = (f_1(t), \\dots, f_m(t))$, $f$ è derivabile in $t^0$ se
+        \\\\e solo se ciascuna delle funzioni $f_1, \\dots, f_m$ è derivabile in $t^0$.
+        \\\\In tal caso, si ha:}
+        \\\\ \\;
+        \\\\ \\qquad f\'(t^0) = (f_1\'(t^0), \\dots, f_m\'(t^0))
+    </string>
+    <string name="domanda_2_21">
+        \\mbox{domanda 2.21}
+    </string>
+    <string name="soluzione_2_21">
+        \\mbox{\\textit{\\textbf{Soluzione 2.21}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_2_22">
+        \\mbox{Che cosa si può dire della composizione
+        \\\\di funzioni di classe $C^k$?}
+    </string>
+    <string name="soluzione_2_22">
+        \\mbox{\\textit{\\textbf{Soluzione 2.22}}
+        \\\\
+        \\;
+        \\\\Siano $A$ aperto in $R^n$, $B$ aperto in $R^m$,
+        \\\\$g \\in C^k(A)$, $f \\in C^k(B; R^n)$, tale
+        \\\\che $f(B) \\subseteq A$.
+        \\\\\\;
+        \\\\Allora $g \\circ f \\in C^k(B)
+        }
     </string>
     <!--
     <string name="domanda_2_1">

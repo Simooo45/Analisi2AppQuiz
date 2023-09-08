@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Domande Capitolo 4  -->
-    <integer name="numero_domande_4">12</integer>
+    <integer name="numero_domande_4">31</integer>
     <string name="domanda_4_1">
         \\mbox{Come si definisce relazione di ordine,
         \\\\somma e prodotto in $[0, +\\infty]$?}
@@ -61,8 +61,8 @@
         \\;
         \\\\Sia $I \\subseteq R^n$ diremo che $I$ è un \\textbf{intervallo $n$-dimensionale}
         \\\\se $I$ può essere espresso come un prodotto cartesiano di $n$
-        \\\\intervalli limitati in $R$, ovvero, presi $I_1, \\dots, I_n$
-        \\\\intervalli limitati in $R$:}
+        \\\\intervalli limitati in $R$, ovvero, presi $I_1, \\dots, I_n$ intervalli
+        \\\\limitati in $R$:}
         \\\\ \\;
         \\\\ \\qquad I = I_1\\times\\dots\\times I_n
         \\\\ \\;
@@ -132,7 +132,7 @@
         \\\\
         \\;
         \\\\Siano $A \\subseteq R^n$, diremo che $A$ è \\textbf{misurabile}
-        \\\\\\textbf{secondo Lebesgue}\\ se, $\\forall E \\subseteq R^n, si ha:}
+        \\\\\\textbf{secondo Lebesgue}\\ se, $\\forall E \\subseteq R^n$, si ha:}
         \\\\ \\;
         \\\\ \\qquad L^∗_n(E) = L^∗_n(E\\cap A) + L^∗_n(E\\cap A^c)
         \\\\ \\;
@@ -162,13 +162,23 @@
         }
     </string>
     <string name="domanda_4_11">
-        \\mbox{domanda 4.1}
+        \\mbox{Conoscete delle condizioni che assicurino
+        \\\\che un insieme sia misurabile?}
     </string>
     <string name="soluzione_4_11">
         \\mbox{\\textit{\\textbf{Soluzione 4.11}}
         \\\\
         \\;
-        \\\\
+        \\\\Sia $n \\in N$. Allora
+        \\\\\ \\;
+        \\\\\ \\textit{a)}\\ Ogni intervallo $n$-dimensionale appartiene a $M_n$
+        \\\\\ \\;
+        \\\\\ \\textit{b)}\\ Ogni sottoinsieme aperto di $R^n$ appartiene a $M_n$
+        \\\\\ \\;
+        \\\\\ \\textit{c)}\\ Ogni sottoinsieme chiuso di $R^n$ appartiene a $M_n$
+        \\\\\ \\;
+        \\\\\ \\textit{d)}\\ Se $A \\subseteq R^n$ e $L^∗_n(A) = 0$, allora $A \\in M_n$
+
         }
     </string>
     <string name="domanda_4_12">
@@ -179,10 +189,10 @@
         \\\\
         \\;
         \\\\Siano $A \\in M_n$, $f : A \\to R$. Diremo che $f$ è
-        \\\\una \\textbf{funzione semplice} se esistono $A_1, \\dots, A_m$
+        \\\\una \\textbf{funzione semplice}\\ se esistono $A_1, \\dots, A_m$
         \\\\sottoinsiemi misurabili di $A$ a due a due disgiunti,
         \\\\con unione $A$, e dei numeri reali $\\alpha_1, \\dots, \\alpha_m$,
-        \\\\tali che, se $x \\in A_i (1 \\le i \\le m)$, $f(x) = \\alpha_i$.}
+        \\\\tali che, se $x \\in A_i\\ (1 \\le i \\le m)$, $f(x) = \\alpha_i$.}
     </string>
     <string name="domanda_4_13">
         \\mbox{Quali sono le proprietà della
@@ -201,12 +211,228 @@
         \\\\ \\textit{b)} Se $\\forall x\\in A\\; g(x)\\ne 0$, $\\frac{f}{g}$ è semplice.
         }
     </string>
-    <!--
-    <string name="domanda_4_1">
-        \\mbox{domanda 4.1}
+    <string name="domanda_4_14">
+        \\mbox{domanda 4.14}
     </string>
-    <string name="soluzione_4_1">
-        \\mbox{\\textit{\\textbf{Soluzione 4.1}}
+    <string name="soluzione_4_14">
+        \\mbox{\\textit{\\textbf{Soluzione 4.14}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_15">
+        \\mbox{domanda 4.15}
+    </string>
+    <string name="soluzione_4_15">
+        \\mbox{\\textit{\\textbf{Soluzione 4.15}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_16">
+        \\mbox{Come si definiscono le funzioni
+        \\\\misurabili?}
+    </string>
+    <string name="soluzione_4_16">
+        \\mbox{\\textit{\\textbf{Soluzione 4.16}}
+        \\\\
+        \\;
+        \\\\Siano $A \\in M_n$, $f : A \\to [−\\infty, +\\infty]$. Diremo
+        \\\\che $f$ è misurabile se esiste una
+        \\\\successione $(\\phi_k)_{k\\in N} di funzioni
+        \\\\semplici di dominio $A$, tali che $\\forall x \\in A$}
+        \\\\ \\;
+        \\\\ \\qquad f(x) = lim_{k\\to +\\infty}\\phi_k(x).
+
+    </string>
+    <string name="domanda_4_17">
+        \\mbox{domanda 4.17}
+    </string>
+    <string name="soluzione_4_17">
+        \\mbox{\\textit{\\textbf{Soluzione 4.17}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_18">
+        \\mbox{Conoscete un risultato di misurabilità
+        \\\\per le funzioni continue?}
+    </string>
+    <string name="soluzione_4_18">
+        \\mbox{\\textit{\\textbf{Soluzione 4.18}}
+        \\\\
+        \\;
+        \\\\Siano $A ∈ M_n$, $f : A \\to R$ continua.
+        \\\\Allora $f$ è misurabile.
+        }
+    </string>
+    <string name="domanda_4_19">
+        \\mbox{domanda 4.19}
+    </string>
+    <string name="soluzione_4_19">
+        \\mbox{\\textit{\\textbf{Soluzione 4.19}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_20">
+        \\mbox{domanda 4.20}
+    </string>
+    <string name="soluzione_4_20">
+        \\mbox{\\textit{\\textbf{Soluzione 4.20}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_21">
+        \\mbox{domanda 4.21}
+    </string>
+    <string name="soluzione_4_21">
+        \\mbox{\\textit{\\textbf{Soluzione 4.21}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_22">
+        \\mbox{domanda 4.22}
+    </string>
+    <string name="soluzione_4_22">
+        \\mbox{\\textit{\\textbf{Soluzione 4.22}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_23">
+        \\mbox{domanda 4.23}
+    </string>
+    <string name="soluzione_4_23">
+        \\mbox{\\textit{\\textbf{Soluzione 4.23}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_24">
+        \\mbox{Nel caso di un intervallo chiuso e limitato,
+        \\\\che relazione c’è tra integrabilità secondo
+        \\\\Riemann e sommabilità tra i rispettivi integrali?
+}
+    </string>
+    <string name="soluzione_4_24">
+        \\mbox{\\textit{\\textbf{Soluzione 4.24}}
+        \\\\
+        \\;
+        \\\\Siano $a, b \\in R$, con $a &#60; b$, $f : [a, b] \\to R$
+        \\\\integrabile nel senso di Riemann. Allora $f$ è sommabile e
+        \\\\l’integrale nel senso di Lebesgue di $f$ coincide con
+        \\\\l’integrale nel senso di Riemann.
+        }
+    </string>
+    <string name="domanda_4_25">
+        \\mbox{domanda 4.25}
+    </string>
+    <string name="soluzione_4_25">
+        \\mbox{\\textit{\\textbf{Soluzione 4.25}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_26">
+        \\mbox{domanda 4.26}
+    </string>
+    <string name="soluzione_4_26">
+        \\mbox{\\textit{\\textbf{Soluzione 4.26}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_27">
+        \\mbox{domanda 4.27}
+    </string>
+    <string name="soluzione_4_27">
+        \\mbox{\\textit{\\textbf{Soluzione 4.27}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_28">
+        \\mbox{domanda 4.28}
+    </string>
+    <string name="soluzione_4_28">
+        \\mbox{\\textit{\\textbf{Soluzione 4.28}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_4_29">
+        \\mbox{Che cos’è un cambiamento di variabile?}
+    </string>
+    <string name="soluzione_4_29">
+        \\mbox{\\textit{\\textbf{Soluzione 4.29}}
+        \\\\
+        \\;
+        \\\\Siano $Ω$ un aperto in $R^n$, $T : Ω \\to R^n$.
+        \\\\Diremo che $T$ è un cambiamento di variabile se:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $T$ è iniettiva
+        \\\\ \\;
+        \\\\ \\textit{b)} $T$ è di classe $C^1$
+        \\\\ \\;
+        \\\\ \\textit{c)} $\\forall x ∈ Ω$, il determinante della
+        \\\\ \\qquad matrice jacobiana $J_T (x)$ è diverso da 0.
+        }
+    </string>
+    <string name="domanda_4_30">
+        \\mbox{Che cosa dice il teorema del
+        \\\\cambiamento di variabile per
+        \\\\integrali multipli?}
+    </string>
+    <string name="soluzione_4_30">
+        \\mbox{\\textit{\\textbf{Soluzione 4.30}}
+        \\\\
+        \\;
+        \\\\Siano Ω un aperto in $R^n$, $T : Ω → R^n$ un
+        \\\\cambiamento di variabile, $A \\in M_n$, $f : A \\to [0, +\\infty]
+        \\\\oppure $f : A \\to R$. Supponiamo inoltre che
+        \\\\$A \\subseteq T(Ω)$. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $T^{−1}(A) \\in M_n$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ $f$ è integrabile su $A$ se
+        \\\\ \\qquad e solo se la funzione $x \\to f(T(x)) \\cdot |\\det(J_T (x))|$,
+        \\\\ \\qquad di dominio $T^{−1}(A), è integrabile su $T^{−1}(A)
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ nel caso ciò avvenga:}
+        \\\\ \\;
+        \\\\ \\qquad \\int_Af(y) dy =\\int_{T^{−1}(A)}f(T(x)) \\cdot |det(J_T (x))| dx
+    </string>
+    <string name="domanda_4_31">
+        \\mbox{domanda 4.31}
+    </string>
+    <string name="soluzione_4_31">
+        \\mbox{\\textit{\\textbf{Soluzione 4.31}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <!--
+    <string name="domanda_4_2">
+        \\mbox{domanda 4.2}
+    </string>
+    <string name="soluzione_4_2">
+        \\mbox{\\textit{\\textbf{Soluzione 4.2}}
         \\\\
         \\;
         \\\\

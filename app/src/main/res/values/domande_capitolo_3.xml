@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Domande Capitolo 3. -->
-    <integer name="numero_domande_3">20</integer>
+    <integer name="numero_domande_3">24</integer>
     <string name="domanda_3_1">
         \\mbox{domanda 3.1}
     </string>
@@ -33,34 +33,58 @@
         }
     </string>
     <string name="domanda_3_4">
-        \\mbox{domanda 3.1}
+        \\mbox{Che cosa dice il teorema di Peano?}
     </string>
     <string name="soluzione_3_4">
         \\mbox{\\textit{\\textbf{Soluzione 3.4}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $Ω$ un aperto in $R^{n+1}$ con $f : Ω \\to R^n$,
+        \\\\$t_0 \\in R$, $x^0 \\in R^n$, tali che $(t_0, x^0) \\in Ω$. Supponiamo
+        \\\\inoltre che $f$ sia continua. Considerando il problema di
+        \\\\Cauchy, allora esiste una soluzione locale definita su un
+        \\\\intervallo aperto contenente $t_0$.}
     </string>
     <string name="domanda_3_5">
-        \\mbox{domanda 3.1}
+        \\mbox{Che cosa si intende per soluzione
+        \\\\massimale di un sistema?}
     </string>
     <string name="soluzione_3_5">
         \\mbox{\\textit{\\textbf{Soluzione 3.5}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano Ω un aperto in $R^{nm+1}$, $f : Ω \\to R^n$.
+        \\\\Una soluzione locale $x$ dell’equazione
+        \\\\$x^{(m)}(t) = f(t, x(t), \\dots, x(m−1)(t))$
+        \\\\si dice \\textbf{massimale}\\ se non esiste un\'altra
+        \\\\soluzione locale $y$ che sia prolungamento proprio di $x$
+        \\\\(tale, cioè, che $x$ sia una restrizione di $y$ e il
+        \\\\dominio di $x$ non coincida con il dominio di $y$).
         }
     </string>
     <string name="domanda_3_6">
-        \\mbox{domanda 3.1}
+        \\mbox{Che cosa si può dire delle soluzioni
+        \\\\massimali nelle ipotesi del teorema
+        \\\\di Picard?}
     </string>
     <string name="soluzione_3_6">
         \\mbox{\\textit{\\textbf{Soluzione 3.6}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano soddisfatte le ipotesi del teorema di Picard. Allora
+        \\\\il problema di Cauchy possiede un\’unica soluzione massimale
+        \\\\e tale soluzione ha come dominio un intervallo aperto in $R$.
+        \\\\ \\;
+        \\\\Sia poi $x : I =]a_0, a_{1}[\\to R^n$ una soluzione locale
+        \\\\del sistema $x\'(t) = f(t, x(t))$, con $−\\infty \\le a0 &#60; a1 \\le +\\infty$.
+        \\\\Allora sono equivalenti:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $x$ non è una soluzione massimale di
+        \\\\ \\qquad $x\'(t) = f(t, x(t))$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ per almeno un $j \\in \\{0, 1\\} esiste
+        \\\\ \\qquad $\\lim {t\\to a_j}(t, x(t))$ e tale limite appartiene
+        \\\\ \\qquad a $Ω$.}
     </string>
     <string name="domanda_3_7">
         \\mbox{domanda 3.1}
@@ -73,13 +97,28 @@
         }
     </string>
     <string name="domanda_3_8">
-        \\mbox{domanda 3.1}
+        \\mbox{Che cosa si per soluzione locale
+        \\\\nel caso di un\'equazione scalare di ordine
+        \\\\$m$?}
     </string>
     <string name="soluzione_3_8">
         \\mbox{\\textit{\\textbf{Soluzione 3.8}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano Ω un aperto in $R^{nm+1}$, $f : Ω \\to R^n$.
+        \\\\Una \\textbf{soluzione locale}\\ dell’equazione}
+        \\\\ \\;
+        \\\\ \\qquad x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t))
+        \\\\ \\;
+        \\\\\\mbox{è una funzione $x : I → R^n$, tale che:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $I$ è un intervallo in R con
+        \\\\ \\qquadinterno non vuoto
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ $x$ è derivabile $m$ volte in $I$
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ $\\forall t \\in I)$, $(t, x(t), \\dots, x^{(m−1)}(t)) \\in Ω$
+        \\\\ \\qquad e vale x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t)).
         }
     </string>
     <string name="domanda_3_9">
@@ -113,13 +152,15 @@
         }
     </string>
     <string name="domanda_3_12">
-        \\mbox{domanda 3.1}
+        \\mbox{Quando  un\'equazione differenziale ordinaria
+        \\\\lineare si dice omogenea?}
     </string>
     <string name="soluzione_3_12">
         \\mbox{\\textit{\\textbf{Soluzione 3.12}}
         \\\\
         \\;
-        \\\\
+        \\\\Un\'equazione differenziale ordinaria lineare di
+        \\\\ordine $m$ si dice omogenea se $b(t) = 0\\ \\forall t \\in I$.
         }
     </string>
     <string name="domanda_3_13">
@@ -133,13 +174,22 @@
         }
     </string>
     <string name="domanda_3_14">
-        \\mbox{domanda 3.1}
+        \\mbox{Qual è il dominio di una soluzione massimale?}
     </string>
     <string name="soluzione_3_14">
         \\mbox{\\textit{\\textbf{Soluzione 3.14}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano soddisfatte le condizioni $a_0, \\dots, a_{m−1}, b : I \\to R$
+        \\\\continue e $I$ intervallo aperto in $R$.
+        \\\\Sia poi $x$ una soluzione massimale di un’equazione
+        \\\\differenziale ordinaria lineare di ordine $m$.
+        \\\\Allora il dominio di $x$ è $I$.
+        \\\\ \\;
+        \\\\Nel caso di un problema di Cauchy, comunque si
+        \\\\prendano $_t0 \\in I$ e $y^0, \\dots, y^{m−1} \\in R$,
+        \\\\il problema ammette un\'unica soluzione massimale,
+        \\\\la quale appartiene a $C^m(I).
         }
     </string>
     <string name="domanda_3_15">
@@ -153,13 +203,24 @@
         }
     </string>
     <string name="domanda_3_16">
-        \\mbox{domanda 3.1}
+        \\mbox{Spiegare perchè alcune equazioni
+        \\\\differenziali si dicono lineari.
+}
     </string>
     <string name="soluzione_3_16">
         \\mbox{\\textit{\\textbf{Soluzione 3.16}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $I$ un intervallo aperto non vuoto
+        \\\\in $R$ e $a_0, \\dots, a_{m−1} \\in $C(I)$}
+        \\\\ \\;
+        \\\\\\begin{cases}
+        T : C^m(I) \\to C(I)
+        \\\\ T x = x^{(m)} − a_0x − \\dots − a_{m−1}x^{(m−1)}
+        \\end{cases}
+        \\\\ \\;
+        \\\\\\mbox{Allora $T$ è un operatore lineare
+        \\\\tra gli spazi vettoriali $C^m(I)$ e $C(I)$.
         }
     </string>
     <string name="domanda_3_17">
@@ -215,16 +276,131 @@
         \\\\
         }
     </string>
+    <string name="domanda_3_21">
+        \\mbox{Come si determina un sistema fondamentale
+        \\\\di soluzioni per un\'equazione
+        \\\\differenziale lineare ordinaria del
+        \\\\secondo ordine a coefficienti costanti?
+}
+    </string>
+    <string name="soluzione_3_21">
+        \\mbox{\\textit{\\textbf{Soluzione 3.21}}
+        \\\\
+        \\;
+        \\\\Siano $a_0, \\dots, aj , \\dots, a_{m−1}$ numeri reali.
+        \\\\Chiameremo \\textbf{polinomio caratteristico}\\ dell\'equazione
+        \\\\differenziale}
+        \\\\ \\;
+        \\\\ \\quad x^{(m)}(t) = a_0(t)x(t) + \\dots + a_{m−1}(t)x^{(m−1)}(t)
+        \\\\ \\;
+        \\\\ \\mbox{il polinomio $P(\\lambda) := \\lambda^m − a_{m−1}\\lambda^{m−1} − \\dots − a_0.
+        \\\\ \\;
+        \\\\Siano $\\lambda_0 \\in R$, tale che $P(\\lambda_0) = 0$ e $x(t) = e^{\\lambda_0t}.
+        \\\\Allora $x$ è soluzione in tutto $R$ dell’equazione
+        \\\\differenziale.
+        \\\\Nel caso di un’equazione differenziale ordinaria lineare a
+        \\\\coefficienti costanti del secondo ordine, consideriamo in
+        \\\\un intervallo con interno non vuoto $I$ l’equazione
+        \\\\ \\;
+        \\\\ \\qquad $x\'\'(t) = a_0x(t) + a_1x\'(t)$
+        \\\\ \\;
+        \\\\con $a_0, a_1 \\in R$.
+        \\\\ \\;
+        \\\\Sia $P(\\lambda) = \\lmabda^2 − a_1\\lambda − a_0$ il suo
+        \\\\polinomio caratteristico. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ se $P$ ha due zeri reali e distinti
+        \\\\\\qquad $\\lambda_0$ e $\\lambda_1$, le funzioni $\\psi_0(t) = e^{\\lambda_0t}$ e
+        \\\\\\qquad $\\psi_1(t) = e^{\\lambda_1t} costituiscono un
+        \\\\\\qquad sistema fondamentale di soluzioni
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ se $P$ ha l\'unico zero reale $\\lambda_0$ di
+        \\\\\\qquad molteplicità algebrica 2, le funzioni $\\psi_0(t) = e^{\\lambda_0t}$ e
+        \\\\\\qquad $\\psi_1(t) = te^{\\lambda_0t}$ costituiscono un sistema
+        \\\\\\qquad fondamentale di soluzioni
+        \\\\ \\;
+        \\\\ \\textit{c)} se $P$ ha gli zeri complessi coniugati
+        \\\\\\qquad $\\alpha \\pm i\\beta$ ($\\alpha, \\beta \\in R$, $\\beta \\ne 0$),
+        \\\\\\qquad le funzioni $\\psi_0(t) = e^{\\alpha t} \\cos(\\beta t)$ e
+        \\\\\\qquad $\\psi_1(t) = e^{\\alpha t} \\sin(\\beta t)$ costituiscono
+        \\\\\\qquad un sistema fondamentale di soluzioni.
+        }
+    </string>
+    <string name="domanda_3_22">
+        \\mbox{Qual è la struttura dell\'integrale generale
+        \\\\di un\'equazione differenziale ordinaria lineare
+        \\\\non omogenea di ordine $m$?
+}
+    </string>
+    <string name="soluzione_3_22">
+        \\mbox{\\textit{\\textbf{Soluzione 3.22}}
+        \\\\
+        \\;
+        \\\\Si consideri un’equazione differenziale ordinaria
+        \\\\lineare di ordine $m$ con le opportune condizioni.
+        \\\\ \\;
+        \\\\Siano ${\\psi_0, \\dots, \\psi_{m−1}} un sistema fondamentale
+        \\\\di soluzioni dell\'equazione omogenea associata
+        \\\\e sia $\\phi$ una soluzione massimale (qualunque)
+        \\\\dell\'equazione differenziale ordinaria lineare considerata.
+        \\\\Allora l’integrale generale dell’equazione differenziale
+        \\\\coincide con:}
+        \\\\ \\;
+        \\\\ \\quad \\{c_0\\psi_0 + \\dots + c_{m−1}\\psi_{m−1} + \\phi : c_0, \\dots, c_{m−1} \\in R\\}
+
+    </string>
+    <string name="domanda_3_23">
+        \\mbox{domanda 3.23}
+    </string>
+    <string name="soluzione_3_23">
+        \\mbox{\\textit{\\textbf{Soluzione 3.23}}
+        \\\\
+        \\;
+        \\\\
+        }
+    </string>
+    <string name="domanda_3_24">
+        \\mbox{In cosa consiste il metodo dell\'annullatore?}
+    </string>
+    <string name="soluzione_3_24">
+        \\mbox{\\textit{\\textbf{Soluzione 3.24}}
+        \\\\
+        \\;
+        \\\\Il metodo dell\'annullatore è un metodo per determinare,
+        \\\\noto un sistema fondamentale di soluzioni dell’omogenea
+        \\\\associata, una soluzione particolare di un’equazione
+        \\\\differenziale lineare a coefficienti costanti del secondo
+        \\\\ordine non omogenea.
+        \\\\ \\;
+        \\\\Consideriamo un\'equazione del secondo ordine a coefficienti
+        \\\\costanti non omogenea del tipo:}
+        \\\\ \\;
+        \\\\ \\qquad x\'\'(t) = a_0x(t) + a_1x\'(t) + b(t)
+        \\\\ \\;
+        \\\\ \\mbox{con $a_0, a_1 \\in R$.
+        \\\\Supponiamo che $b$ sia della forma $b(t) = t^me^{\\alpha t}\\cos(\\beta t)$
+        \\\\oppure $b(t) = t^me^{\\alpha t}\\sin(\\beta t)$, con $m \\in N_0$ e
+        \\\\$\\alpha, \\beta \\in R$. Sia $P$ il polinomio caratteristico
+        \\\\dell\'equazione omogenea associata. Supponiamo che $\\alpha + i\\beta$
+        \\\\sia uno zero di molteplicità $r \\in N_0$ di $P$, intendendo che
+        \\\\la molteplicità è nulla se $P(\\alpha + i\\beta) \\ne 0$. Allora
+        \\\\si potrebbe dimostrare che l\'equazione differenziale non
+        \\\\omogenea ammette una soluzione $\\phi$ della forma:}
+        \\\\ \\;
+        \\\\ \\quad \\phi(t) = t^r[P(t) e^{\\alpha t} \\cos(\\beta t) + Q(t)e^{\\alpha t} \\sin(\\beta t)]
+        \\\\ \\;
+        \\\\\\mbox{con $P$ e $Q$ polinomi di grado non superiore a $m$}
+    </string>
 
 
 
 
     <!--
-    <string name="domanda_3_1">
-        \\mbox{domanda 3.1}
+    <string name="domanda_3_2">
+        \\mbox{domanda 3.2}
     </string>
-    <string name="soluzione_3_1">
-        \\mbox{\\textit{\\textbf{Soluzione 3.1}}
+    <string name="soluzione_3_2">
+        \\mbox{\\textit{\\textbf{Soluzione 3.2}}
         \\\\
         \\;
         \\\\

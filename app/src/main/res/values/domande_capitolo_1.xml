@@ -101,7 +101,7 @@
         \\\\
         \\;
         \\\\Siano $x$ e $y$ elementi di $R^n$, allora la \\textbf{disuguaglianza}
-        \\\\\\textbf{di Cauchy - Schwartz}\\ dice che:}
+        \\\\\\textbf{di Cauchy - Schwarz}\\ dice che:}
         \\\\ \\;
         \\\\ \\qquad |x\\cdot y| \\le \\lVert x \\rVert \\cdot \\lVert y \\rVert
     </string>
@@ -201,8 +201,8 @@
         \\\\$B(x_0, r)$ con $r > 0$ contiene qualche punto appartenente
         \\\\ad $A$ diverso da $x_0$.
         \\\\ \\;
-        \\\\ L\'insieme dei punti di accumulazione è definito \\textbf{derivato}
-        \\\\di $A$ ed è indicato con $D(A)$.
+        \\\\ L\'insieme dei punti di accumulazione è definito
+        \\\\\\textbf{derivato}\\ di $A$ ed è indicato con $D(A)$.
         }
     </string>
     <string name="domanda_1_10">
@@ -216,7 +216,8 @@
         \\\\
         \\;
         \\\\Siano $A\\subseteq R^n$, $f:A\\to R^m$, $x^0\\in D(A)$, $l \\in R^m$.
-        \\\\Scriveremo:}
+        \\\\Scriveremo}
+        \\\\ \\;
         \\\\ \\qquad \\lim_{x \\to x^0} f(x) = l
         \\\\\\mbox{se $\\forall\\epsilon > 0\\ \\exists\\delta(\\epsilon) > 0$ con $\\epsilon, \\delta(\\epsilon)\\in R$ tale che
         \\\\$\\forall x \\in A \\cap B(x^0, \\delta(\\epsilon))$ con $x \\ne x^0$ si ha:}

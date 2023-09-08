@@ -45,13 +45,13 @@ public class SoluzioniDomande extends AppCompatActivity {
         String soluzione = (String) getResources().getText(resourceID);
         int lines = countMatches(soluzione, "\\\\");
         JLatexMathDrawable drawable = JLatexMathDrawable.builder(soluzione)
-                .textSize(50)
+                .textSize(60)
                 .padding(8)
                 .background(0xFFffffff)
                 .align(JLatexMathDrawable.ALIGN_RIGHT)
                 .build();
         JLatexMathView latexView = (JLatexMathView) findViewById(R.id.soluzione_domanda_latex);
-        latexView.getLayoutParams().height = 400 + lines*40;
+        latexView.getLayoutParams().height = 400 + lines*45;
         latexView.setLatexDrawable(drawable);
 
     }

@@ -23,14 +23,20 @@
         }
     </string>
     <string name="domanda_5_3">
-        \\mbox{domanda 5.3}
+        \\mbox{Come si definisce la lunghezza di
+        \\\\un cammino?}
     </string>
     <string name="soluzione_5_3">
         \\mbox{\\textit{\\textbf{Soluzione 5.3}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Sia $\\alpha : [a, b] → R^n$ un cammino continuo.
+        \\\\Chiameremo \\textbf{lunghezza di \\alpha}\\ e indicheremo
+        \\\\con la scrittura $l(\\alpha):$}
+        \\\\\\quad\\sup\\bigg\\{\\sum_{j=1}^k\\lVert\\alpha(t_j ) − α(t_{j−1})\\rVert : k \\in N, a = t_0 &#60; t_1 &#60;\\dots &#60; t_k = b\\bigg\\}
+        \\\\ \\;
+        \\\\\\mbox{Diremo che $\\alpha$ è \\textbf{rettificabile}\\ se $l(α) &#60; +\\infty$}
+
     </string>
     <string name="domanda_5_4">
         \\mbox{Sotto quali condizioni la lunghezza  di un cammino
@@ -55,14 +61,23 @@
         }
     </string>
     <string name="domanda_5_6">
-        \\mbox{domanda 5.1}
+        \\mbox{Come cambia l’integrale di prima
+        \\\\specie se si passa a un cammino
+        \\\\equivalente?}
     </string>
     <string name="soluzione_5_6">
         \\mbox{\\textit{\\textbf{Soluzione 5.6}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$
+        \\\\cammini $C^1$ a tratti equivalenti. Sia poi
+        \\\\ \\;
+        \\\\ \\qquad $f : \\alpha([a, b]) = \\beta([c, d]) \\to R
+        \\\\ \\;
+        \\\\tale che è definito $\\int_\\alpha f(x) ds$. Allora è definito
+        \\\\anche $\\int_\\betaf(x) ds e}
+        \\\\ \\;
+        \\\\\\qquad \\int_\\beta f(x) ds =\\int_\\alpha f(x) ds
     </string>
     <string name="domanda_5_7">
         \\mbox{domanda 5.1}
@@ -85,14 +100,25 @@
         }
     </string>
     <string name="domanda_5_9">
-        \\mbox{domanda 5.1}
+        \\mbox{Come cambia l’integrale curvilineo di
+        \\\\seconda specie se si passa a un
+        \\\\cammino equivalente?}
     </string>
     <string name="soluzione_5_9">
         \\mbox{\\textit{\\textbf{Soluzione 5.9}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$
+        \\\\cammini $C^1$ a tratti equivalenti. Sia poi
+        \\\\$f : \\alpha([a, b]) = \\beta([c, d])\\to R^n$, tale
+        \\\\che è definito $\\int f \\cdot d\\alpha$. Allora è definito
+        \\\\anche $\\int f \\cdot d\\beta$ e, se $u$ è la funzione che
+        \\\\interviene nella definizione di cammini equivalenti,}
+        \\\\ \\;
+        \\\\ \\quad \\int f \\cdot dβ = \\begin{cases}
+        \\int f \\cdot d\\alpha \\quad &amp; \\text{se $u$ è crescente}
+        \\\\−\\int f \\cdot d\\alpha \\quad &amp; \\text{se $u$ è decrescente}
+        \\end{cases}
     </string>
     <string name="domanda_5_10">
         \\mbox{Sotto quale condizione si può dire che
@@ -130,23 +156,39 @@
         }
     </string>
     <string name="domanda_5_13">
-        \\mbox{domanda 5.1}
+        \\mbox{Che cosa vuol dire che un
+        \\\\campo vettoriale è conservativo?}
     </string>
     <string name="soluzione_5_13">
         \\mbox{\\textit{\\textbf{Soluzione 5.13}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A$ un aperto connesso per archi in $R^n$,
+        \\\\$F \\in C(A; R^n)$. Diremo che il campo vettoriale F è
+        \\\\\\textbf{conservativo}\\ se, comunque si prendano due
+        \\\\cammini $\\alpha$ e $\\beta$ di classe $C^1$ a tratti,
+        \\\\con sostegno in $A$ e aventi lo stesso primo estremo
+        \\\\e lo stesso secondo estremo, si ha}
+        \\\\ \\;
+        \\\\ \\qquad \\int F \\cdot d\\alpha = \\int F \\cdot d\\beta
+
         }
     </string>
     <string name="domanda_5_14">
-        \\mbox{domanda 5.1}
+        \\mbox{Che relazione c’è tra la nozione di campo
+        \\\\vettoriale esatto e quella di campo vettoriale
+        \\\\conservativo?}
     </string>
     <string name="soluzione_5_14">
         \\mbox{\\textit{\\textbf{Soluzione 5.14}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A \\subseteq R^n$ un aperto connesso per archi,
+        \\\\$F \\in C(A; R^n)$.
+        \\\\Allora le condizioni seguenti sono equivalenti:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $F$ è esatto
+        \\\\ \\textit{b)}\\ $F$ è conservativo
         }
     </string>
     <string name="domanda_5_15">
@@ -197,7 +239,7 @@
         \\\\è un campo centrale se esiste $g : R^+ \\to R$ continua,
         \\\\tale che:}
         \\\\ \\;
-        \\\\ \\qquadF(x) = g(\\lVert x\\rVert^2)x\\ ∀x ∈ A
+        \\\\ \\qquad F(x) = g(\\lVert x\\rVert^2)x\\quad ∀x ∈ A
 
     </string>
 
