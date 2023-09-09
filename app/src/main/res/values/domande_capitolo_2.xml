@@ -137,13 +137,26 @@
         \\\\ D_{j_1,...,j_k}f(x) = D_{j_1}(D_{j_2}(...(D_{j_k}f))...)(x) = \\frac{\\partial^kf}{\\partial_{x_{j_1}}\\dots\\partial_{x_{j_{k}}}}(x)
     </string>
     <string name="domanda_2_8">
-        \\mbox{domanda 2.1}
+        \\mbox{Che cosa vuol dire che una funzione
+        \\\\è di classe $C^k$?}
     </string>
     <string name="soluzione_2_8">
         \\mbox{\\textit{\\textbf{Soluzione 2.8}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A$ un aperto di $R^n$, $f : A \\to R$.
+        \\\\Diremo che $f$ è \\textbf{di classe $C^k$}\\ ($k \\in N$) se
+        \\\\possiede a valori reali tutte le derivate
+        \\\\parziali di ordine non superiore a k in ogni
+        \\\\punto di A e tali derivate sono continue in $A$.
+        \\\\Scriveremo, per indicare tale eventualità,
+        \\\\ \\;
+        \\\\ \\qquad $f \\in C^k(A)$.
+        \\\\ \\;
+        \\\\Se $f \\in C^k(A)$ per ogni $k \\in N$ (e quindi
+        \\\\possiede derivate parziali continue di
+        \\\\ogni ordine), scriveremo $f \\in C^{\\infty}(A).
+
         }
     </string>
     <string name="domanda_2_9">
@@ -161,33 +174,66 @@
         \\\\ \\qquad D_{ij}f(x^0) = D_{ji}f(x^0)
     </string>
     <string name="domanda_2_10">
-        \\mbox{domanda 2.10}
+        \\mbox{Quali conseguenze ha il teorema di
+        \\\\Schwarz sull\'eguaglianza di derivate
+        \\\\di ordine superiore al primo?}
     </string>
     <string name="soluzione_2_10">
         \\mbox{\\textit{\\textbf{Soluzione 2.10}}
         \\\\
         \\;
-        \\\\
+        \\\\Dal teorema di Schwarz, segue subito che, se $f ∈ C^2(A)$,
+        \\\\con $A$ aperto in $R^n$, $\\forall i, j \\in \\{1, \\dots, n\\}$,
+        \\\\si ha $D_{ij}f = D_{ji}f$. Più in generale, se $f \\in C^k(A)$,
+        \\\\due derivate qualunque di ordine non superiore a $k$,
+        \\\\che si ottengono applicando lo stesso numero di volte
+        \\\\le singole derivate parziali del primo ordine, coincidono
         }
     </string>
     <string name="domanda_2_11">
-        \\mbox{domanda 2.11}
+        \\mbox{In cosa consiste la formula di Taylor
+        \\\\per funzioni di più variabili?}
     </string>
     <string name="soluzione_2_11">
         \\mbox{\\textit{\\textbf{Soluzione 2.11}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A$ un aperto in $R^n$, $k \\in N$, $f \\in C^k(A)$,
+        \\\\$x^0 = (x^0_1, \\dots, x^0_n) \\in A$. Introduciamo il
+        \\\\seguente polinomio di $n$ variabili reali:}
+        \\\\ \\;
+        \\\\P(x1, \\dots, xn) = f(x^0) +
+        \\\\+ \\sum_{j=1}^n D_jf(x^0)(x_j − x^0_j) + \\dots+
+        \\\\+\\frac{1}{i!}\\sum_{j_{1}=1}^n\\dots \\sum_{j_i=1}^n D_{j_1,\\dots,j_i}f(x^0)(x_{j_{1}} − x^0_{j_{1}})\\dots(x_{j_i} − x^0_{j_i}) + \\dots+
+        \\\\+ \\frac{1}{k!} \\sum_{j_{1}=1}^n\\dots\\sum_{j_k=1}^nD_{j_1,\\dots,j_k}f(x^0)(x_{j_{1}} − x^0_{j_{1}})\\dots(x_{j_k} − x^0_{j_k})
+        \\\\ \\;
+        \\\\ \\mbox{Chiamiamo $P$ \\textbf{polinomio di Taylor}
+        \\\\\\textbf{di grado non superiore a $k$} con punto
+        \\\\iniziale $x^0 per $f$. Allora
+        \\\\ \\;
+        \\\\ \\qquad $f − P = o(\\lVert x − x^0\\rVert^k)
+        \\\\ \\;
+        \\\\per $x \\to x^0$, nel senso che vale}
+        \\\\ \\;
+        \\\\ \\qquad $lim_{x\\to x_0}\\frac{f(x) − P(x)}{\\lVert x − x_0\\rVert^k}= 0
+
     </string>
     <string name="domanda_2_12">
-        \\mbox{domanda 2.12}
+        \\mbox{Che cosa si intende per punto di
+        \\\\massimo (minimo) relativo per una
+        \\\\funzione di più variabili?}
     </string>
     <string name="soluzione_2_12">
         \\mbox{\\textit{\\textbf{Soluzione 2.12}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A \\subseteq R^n$, $f : A \\to R$, $x^0 \\in A$.
+        \\\\Diremo che $x^0$ è un \\textbf{punto di massimo (minimo) relativo}
+        \\\\per $f$ se esiste $r > 0$, tale che $f(x^0) \\ge f(x)$
+        \\\\(risp. $f(x^0) \\le f(x))$) $\\forall x \\in A \\cap B(x^0, r)$.
+        \\\\ \\;
+        \\\\Chiameremo \\textbf{estremanti relativi}\\ di $f$ i
+        \\\\suoi punti di massimo o minimo relativo.
         }
     </string>
     <string name="domanda_2_13">
@@ -228,24 +274,54 @@
         }
     </string>
     <string name="domanda_2_15">
-        \\mbox{domanda 2.15}
+        \\mbox{Come si generalizzano le definizioni di
+        \\\\derivata direzionale e derivata parziale
+        \\\\al caso di funzioni a valori in $R^m$?
+}
     </string>
     <string name="soluzione_2_15">
         \\mbox{\\textit{\\textbf{Soluzione 2.15}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A \\subseteq R^n$, $v \\in R^n$, $x^0 \\in A$.
+        \\\\Sia $f : A \\to R^m$. Per $t \\in A_{x^0,v} \\setminus \\{0\\}$, poniamo
+        \\\\ \\;
+        \\\\ \\qquad $r_{x^0,v(t)} := \\frac{f(x^0+tv)−f(x0)}t$
+        \\\\ \\;
+        \\\\e supponiamo che $0 \\in D(A_{x^0},v)$. Se esiste
+        \\\\ \\;
+        \\\\ \\qquad $\\lim_{t\\to 0}r_{x^0,v}(t) = \\lim_{t\\to0}\\frac{f(x^0+tv)−f(x^0)}t$
+        \\\\ \\;
+        \\\\lo chiameremo \\textbf{derivata di $f$ rispetto al}
+        \\\\\\textbf{vettore $v$ in $x^0$}\\ e lo indicheremo con
+        \\\\la notazione
+        \\\\ \\;
+        \\\\ \\qquad $\\frac{\\partial f}{\\partial v} (x^0)$
+        \\\\ \\;
+        \\\\Nel caso $v = e^j$ ($j$-esimo elemento della
+        \\\\base canonica di $R^n$), parleremo di derivata
+        \\\\parziale prima rispetto alla variabile $x_j$.}
     </string>
     <string name="domanda_2_16">
-        \\mbox{domanda 2.16}
+        \\mbox{Che rapporto c’è tra la derivata
+        \\\\della funzione e le derivate
+        \\\\delle componenti?}
     </string>
     <string name="soluzione_2_16">
         \\mbox{\\textit{\\textbf{Soluzione 2.16}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A \\subseteq R^n$, $v \\in R^n$, $x^0 \\in A$.
+        \\\\Sia $f : A \\to R^m$.
+        \\\\$\\frac{\\partial f}{\\partial v}(x^0)$ esiste se e solo se,
+        \\\\per ciascun $i = 1, \\dots, m$, esistono a valori reali le
+        \\\\derivate $\\frac{\\partial f_i}{\\partial v}(x^0)$. Si ha inoltre \
+        \\\\ \\;
+        \\\\ \\qquad $\\frac{\\partial f}{\\partial v}(x^0) = \\frac{\\partial f_{1}}{\\partial v}(x^0), \\dots, \\frac{\\partial f_m}{\\partial v}(x^0)$
+        \\\\ \\;
+        \\\\in particolare, per $j = 1, \\dots, n$, si ha}
+        \\\\ \\;
+        \\\\ \\qquad D_jf(x^0) =(D_jf_j(x^0), \\dots, D_jf_m(x^0))
     </string>
     <string name="domanda_2_17">
         \\mbox{Che cosa vuol dire che una funzione
@@ -267,23 +343,52 @@
 
     </string>
     <string name="domanda_2_18">
-        \\mbox{domanda 2.18}
+        \\mbox{Come si definisce la matrice jacobiana?}
     </string>
     <string name="soluzione_2_18">
         \\mbox{\\textit{\\textbf{Soluzione 2.18}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A \\subseteq R^n$ aperto, $f : A → R^m$,
+        \\\\$f \\in C^1(A; R^m)$, $x^0 \\in A$. Chiamiamo
+        \\\\\\textbf{matrice jacobiana}\\ di $f$ in $x^0$, e
+        \\\\indichiamo con la notazione $J_f(x^0)$, la
+        \\\\matrice:}
+        \\\\ \\;
+        \\\\ \\;
+        \\\\ \\begin{pmatrix}
+        \\frac{\\partial f_{1}}{\\partial x_{1}}(x^0) &amp; \\dots &amp; \\frac{\\partial f_{1}}{\\partial x_n}(x^0) \\\\
+        \\dots &amp; \\frac{\\partial f_{i}}{\\partial x_j}(x^0)&amp; \\dots \\\\
+        \\frac{\\partial f_m}{\\partial x_{1}}(x^0) &amp; \\dots &amp; \\frac{\\partial f_m}{\\partial x_n}(x^0)
+        \\end{pmatrix}
+
+
     </string>
     <string name="domanda_2_19">
-        \\mbox{domanda 2.19}
+        \\mbox{Come si definisce la derivata di
+        \\\\una funzione di una variabile
+        \\\\a valori in $R^m$?
+}
     </string>
     <string name="soluzione_2_19">
         \\mbox{\\textit{\\textbf{Soluzione 2.19}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A \\subseteq R$, $t_0 \\in A\\cap D(A)$. Sia
+        \\\\poi $f : A \\to R^m$. Per $t \\in A\\setminus\\{t_0\\}$,
+        \\\\poniamo
+        \\\\ \\;
+        \\\\ \\qquad $r_{x^0}(t) := \\frac{f(t)−f(t_0)}{t−t_0}$
+        \\\\ \\;
+        \\\\Se esiste}
+        \\\\ \\;
+        \\\\ \\qquad \\lim_{t\\to t_0}r_{x^0} (t) = lim_{t\\to t_0}\\frac{f(t)−f(t_0)}{t−t_0}
+        \\\\ \\;
+        \\\\mbox{lo chiameremo \\textbf{derivata di $f$ in $t_0$}\\ e lo
+        \\\\indicheremo con una delle notazioni $\\frac{df}{dt} (x^0)$, $f\'(t^0)$, $Df(t^0)$.
+        \\\\ \\;
+        \\\\In tal caso, si dice che $f$ è \\textbf{derivabile in t_0}
+
         }
     </string>
     <string name="domanda_2_20">
@@ -295,21 +400,34 @@
         \\mbox{\\textit{\\textbf{Soluzione 2.20}}
         \\\\
         \\;
-        \\\\Se $f(t) = (f_1(t), \\dots, f_m(t))$, $f$ è derivabile in $t^0$ se
+        \\\\Se $f(t) = (f_{1}(t), \\dots, f_m(t))$, $f$ è derivabile in $t^0$ se
         \\\\e solo se ciascuna delle funzioni $f_1, \\dots, f_m$ è derivabile in $t^0$.
         \\\\In tal caso, si ha:}
         \\\\ \\;
         \\\\ \\qquad f\'(t^0) = (f_1\'(t^0), \\dots, f_m\'(t^0))
     </string>
     <string name="domanda_2_21">
-        \\mbox{domanda 2.21}
+        \\mbox{Conoscete un teorema di derivazione
+        \\\\di funzioni composte (\\textit{“chain rule”})?}
     </string>
     <string name="soluzione_2_21">
         \\mbox{\\textit{\\textbf{Soluzione 2.21}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A$ aperto in $R^n$, $B$ aperto in $R^m$,
+        \\\\$g \\in C^1(A)$, $f \\in C^1(B; Rn)$, tale che
+        \\\\$f(B) \\subseteq A$.
+        \\\\Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)} $g \\circ f \\in C^1(B)$
+        \\\\ \\;
+        \\\\ \\textit{b)} $\\forall x \\in B$, $\\forall i \\in \\{1, \\dots, m\\}$,
+        \\\\\\qquad si ha}
+        \\\\ \\;
+        \\\\ \\qquad
+        \\begin{align*}D_i(g \\circ f)(x) &amp;= \\nabla g(f(x)) \\cdot Dif(x) =
+        \\\\&amp;\\sum_{j=1}^nD_jg(f(x))\\frac{\\partial f_j}{\\partial x_i}(x)
+        \\end{align*}
     </string>
     <string name="domanda_2_22">
         \\mbox{Che cosa si può dire della composizione

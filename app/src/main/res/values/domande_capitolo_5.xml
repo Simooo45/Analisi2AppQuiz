@@ -59,11 +59,10 @@
         \\\\
         \\;
         \\\\Sia $\\alpha : [a, b] → R^n$ un cammino continuo.
-        \\\\Chiameremo \\textbf{lunghezza di \\alpha}\\ e indicheremo
-        \\\\con la scrittura $l(\\alpha):$}
+        \\\\Chiameremo \\textbf{lunghezza di \\alpha}\\ e indicheremo con $l(\\alpha):$}
         \\\\\\quad\\sup\\bigg\\{\\sum_{j=1}^k\\lVert\\alpha(t_j ) − α(t_{j−1})\\rVert : k \\in N, a = t_0 &#60; t_1 &#60;\\dots &#60; t_k = b\\bigg\\}
         \\\\ \\;
-        \\\\\\mbox{Diremo che $\\alpha$ è \\textbf{rettificabile}\\ se $l(α) &#60; +\\infty$}
+        \\\\\\mbox{Diremo che $\\alpha$ è \\textbf{rettificabile}\\ se $l(α) &#60; +\\infty$.}
 
     </string>
     <string name="domanda_5_4">
@@ -103,7 +102,7 @@
         \\\\ \\qquad $f : \\alpha([a, b]) = \\beta([c, d]) \\to R
         \\\\ \\;
         \\\\tale che è definito $\\int_\\alpha f(x) ds$. Allora è definito
-        \\\\anche $\\int_\\betaf(x) ds e}
+        \\\\anche $\\int_\\beta f(x) ds e}
         \\\\ \\;
         \\\\\\qquad \\int_\\beta f(x) ds =\\int_\\alpha f(x) ds
     </string>
@@ -196,13 +195,30 @@
         }
     </string>
     <string name="domanda_5_12">
-        \\mbox{domanda 5.1}
+        \\mbox{Che relazione c\'è tra due potenziali
+        \\\\dello stesso campo vettoriale?}
     </string>
     <string name="soluzione_5_12">
         \\mbox{\\textit{\\textbf{Soluzione 5.12}}
         \\\\
         \\;
-        \\\\
+        \\\\Se $U$ è un potenziale di $F$, qualunque sia $c\\in R$,
+        \\\\la funzione di dominio $A$ che associa a $x$ il valore
+        \\\\$U(x)+c$ è ancora un potenziale di $F$.
+        \\\\ \\;
+        \\\\Inversamente, se $V$ è un secondo potenziale di $F$,}
+        \\\\ \\;
+        \\\\ \\qquad \\begin{align}\\nabla (U −V )(x) &amp;= \\nabla U(x) − \\nabla V (x) =
+        \\\\ &amp;=F(x) − F(x) = 0$
+        \\end{align}
+        \\\\ \\;
+        \\\\\\mbox{$∀x ∈ A$. Dato che una funzione con il gradiente
+        \\\\identicamente nullo è costante, segue che $U − V$ è
+        \\\\una funzione costante. Di conseguenza, dato che si
+        \\\\considerano esclusivamente campi vettorial definiti
+        \\\\su aperti connessi per archi, due potenziali dello
+        \\\\stesso campo vettoriale differiscono solo per una
+        \\\\costante.
         }
     </string>
     <string name="domanda_5_13">

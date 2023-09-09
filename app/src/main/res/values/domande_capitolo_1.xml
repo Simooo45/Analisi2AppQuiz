@@ -16,7 +16,7 @@
         \\;
         \\\\Dati $x = (x_1, \\dots, x_n)$ e $y = (y_1, \\dots, y_n)$
         \\\\elementi di $R^n$, definiamo la \\textbf{somma}\\ come
-        \\\\$x+y:=(x_1+y_1, \\dots, x_n+y_n)$.
+        \\\\$x+y:=(x_{1}+y_{1}, \\dots, x_n+y_n)$.
         \\\\
         \\;
         \\\\Sia poi $\\lambda \\in R$, definiamo il \\textbf{prodotto per}
@@ -69,7 +69,7 @@
         \\;
         \\\\Siano $x, y \\in R^n$, definiamo il loro \\textbf{prodotto scalare}
         \\\\indicato con il simbolo $\\langle x, y \\rangle$ o $x \\cdot y$ come:}
-        \\\\ \\qquad $x\\cdot y = x_1y_1+\\dots+x_ny_n = \\sum_{i=1}^nx_iy_i$
+        \\\\ \\qquad $x\\cdot y = x_{1}y_{1}+\\dots+x_ny_n = \\sum_{i=1}^nx_iy_i$
         \\\\ \\;
         \\\\ \\mbox{Mentre definiamo la \\textbf{norma euclidea}\\;di un
         \\\\valore $x\\in R^n$ come:}
@@ -127,9 +127,9 @@
     </string>
     <string name="domanda_1_5">
         \\mbox{Come si definiscono le palle aperte e che
-        \\\\cosa si intende per interno di
-        \\\\un sottoinsieme di $R^n$ e per
-        \\\\sottoinsieme aperto di $R^n$?}
+        \\\\cosa si intende per interno di un
+        \\\\sottoinsieme di $R^n$ e per sottoinsieme
+        \\\\aperto di $R^n$?}
     </string>
     <string name="soluzione_1_5">
         \\mbox{\\textit{\\textbf{Soluzione 1.5}}
@@ -137,6 +137,7 @@
         \\;
         \\\\Siano $x \\in R^n$ e $r \\in R | r > 0$, definiamo una \\textbf{palla aperta}
         \\\\con centro $x$ e raggio $r$ come:}
+        \\\\ \\;
         \\\\ \\qquad B(x, r) := \\{y \\in R^n | d(x, y):\\lVert x-y \\rVert &#60; r\\}
         \\\\ \\;
         \\\\ \\mbox{ Siano ora $A \\subseteq R^n$, $x_0 \\in R^n$ e $r \\in R$, diremo che $x_0$ appartiene
@@ -223,8 +224,10 @@
         \\\\Scriveremo}
         \\\\ \\;
         \\\\ \\qquad \\lim_{x \\to x^0} f(x) = l
+        \\\\ \\;
         \\\\\\mbox{se $\\forall\\epsilon > 0\\ \\exists\\delta(\\epsilon) > 0$ con $\\epsilon, \\delta(\\epsilon)\\in R$ tale che
         \\\\$\\forall x \\in A \\cap B(x^0, \\delta(\\epsilon))$ con $x \\ne x^0$ si ha:}
+        \\\\ \\;
         \\\\ \\qquad \\lVert f(x)-l\\rVert_m &#60; \\epsilon
     </string>
     <string name="domanda_1_11">
@@ -251,7 +254,7 @@
         \\\\
         \\;
         \\\\Siano $A\\subseteq R^n$, $f:A \\to R^m$, $x^0 \\in D(A)$ e $l \\in R^m$ con
-        \\\\$f(x) = (f_1(x), \\dots, f_m(x))$ e $l = (l_1, \\dots, l_m)$, allora le
+        \\\\$f(x) = (f_{1}(x), \\dots, f_m(x))$ e $l = (l_1, \\dots, l_m)$, allora le
         \\\\seguenti condizioni sono equivalenti:
         \\\\\\;
         \\\\\\textit{a)}}
@@ -292,10 +295,10 @@
         \\\\ \\;
         \\\\ \\textit{a)}\\ Se $x^0\\in D(A)$, si ha $x^0 \\in D(B)$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ Se $x^0\\in D(A)$, se vale $\\lim_{x\\to x^0} = l$ si
-        \\\\\\quad ha anche $\\lim_{x\\to x^0}f_{|A}(x) = l$
+        \\\\ \\textit{b)}\\ Se $x^0\\in D(A)$, se vale $\\lim_{x\\to x^0} = l$ si ha anche
+        \\\\\\quad $\\lim_{x\\to x^0}f_{|A}(x) = l$
         \\\\ \\;
-        \\\\ \\textit{c)}\\ Se esiste $r >0$ per cui si ha $B(x^0, r)\\cap B)\\setminus \\{x^0\\}\\subseteq A$
+        \\\\ \\textit{c)}\\ Se esiste $r >0$ per cui si ha $(B(x^0, r)\\cap B)\\setminus \\{x^0\\}\\subseteq A$
         \\\\\\quad e vale $\\lim_{x\\to x^0}f_{|A}(x) = l$, si ha anche $\\lim_{x\\to x^0} = l$
         }
     </string>

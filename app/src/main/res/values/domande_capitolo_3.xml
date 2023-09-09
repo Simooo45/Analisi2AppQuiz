@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Domande Capitolo 3. -->
     <integer name="numero_domande_3">24</integer>
     <string name="domanda_3_1">
@@ -164,13 +164,22 @@
         }
     </string>
     <string name="domanda_3_11">
-        \\mbox{domanda 3.1}
+        \\mbox{Che cosa si intende per equazione
+        \\\\differenziale ordinaria lineare di
+        \\\\ordine $m$}
     </string>
     <string name="soluzione_3_11">
         \\mbox{\\textit{\\textbf{Soluzione 3.11}}
         \\\\
         \\;
-        \\\\
+        \\\\Un\'\\textbf{equazione differenziale ordinaria lineare}
+        \\\\di ordine $m$ (con $m \\in N$) è un\'equazione della
+        \\\\forma
+        \\\\ \\;
+        \\\\ $x^{(m)}(t) = a_0(t)x(t) + \\dots + a_{m−1}(t)x^{(m−1)}(t) + b(t)$
+        \\\\ \\;
+        \\\\con $a_0, \\dots, a_{m−1}, b : I \\to R$ continue e $I$ intervallo
+        \\\\aperto in $R$.
         }
     </string>
     <string name="domanda_3_12">

@@ -224,21 +224,47 @@
         \\\\Siano $A \\in M_n$, $f : A → R$ semplice, a valori non negativi.
         \\\\Poniamo}
         \\\\ \\;
-        \\\\\\quad \\int_A f(x) dx := \\alpha_1L_n(A_1) + \\dots + \\alpha_mL_n(A_m) = \\sum_{i=1}^m \\alpha_iL_n(A_i)
+        \\\\\\quad \\int_A f(x) dx := \\alpha_{1}L_n(A_{1}) + \\dots + \\alpha_mL_n(A_m) = \\sum_{i=1}^m \\alpha_iL_n(A_i)
         \\\\ \\;
         \\\\\\mbox{Chiameremo $\\int_A f(x) dx$ integrale (nel senso di Lebesgue)
         \\\\di $f$ su $A$.
         }
     </string>
     <string name="domanda_4_15">
-        \\mbox{domanda 4.15}
+        \\mbox{Quali sono le principali proprietà
+        \\\\dell’integrale di una funzione
+        \\\\semplice non negativa?}
     </string>
     <string name="soluzione_4_15">
         \\mbox{\\textit{\\textbf{Soluzione 4.15}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A \\in M_n$, $f, g : A \\to R$ semplici non negative.
+        \\\\Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $\\int_A f(x) dx \\in [0, +\\infty]
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ se $f(x) \\le g(x)$ $\\forall x \\in A$, allora}
+        \\\\ \\;
+        \\\\ \\qquad \\int_A f(x) dx \\le \\int_A g(x) dx
+        \\\\ \\;
+        \\\\\\mbox{ \\textit{c)}\\ $f + g$ è semplice non negativa e}
+        \\\\ \\;
+        \\\\ \\qquad \\int_A (f + g)(x) dx = \\int_A f(x) dx + \\int_A g(x) dx
+        \\\\ \\;
+        \\\\\\mbox{ \\textit{d)} se $\\alpha \\in [0, +\\infty[$, $\\alpha f$ è semplice
+        \\\\\\qquad non negativa e}
+        \\\\ \\;
+        \\\\ \\qquad \\int_A \\alpha f(x) dx = \\alpha \\int_A f(x) dx
+        \\\\ \\;
+        \\\\\\mbox{\\textit{e)} se $A = A_1 \\cup \\dots \\cup A_p$ ($p \\in N$), con
+        \\\\\\qquad $A_1, \\dots, A_p$ misurabili a due a due disgiunti}
+        \\\\ \\;
+        \\\\ \\qquad \\int_A f(x) dx = \\int_{A_1} f(x) dx + \\dots + \\int_{A_p}f(x) dx
+        \\\\ \\;
+        \\\\\\mbox{\\qquad con $\\forall j \\in\\{1, \\dots p\\} $}
+        \\\\ \\;
+        \\\\ \\qquad \\int_{A_j} f(x) dx := \\int_{A_j} f_{|A_j}(x) dx
     </string>
     <string name="domanda_4_16">
         \\mbox{Come si definiscono le funzioni
@@ -291,13 +317,22 @@
         }
     </string>
     <string name="domanda_4_19">
-        \\mbox{domanda 4.19}
+        \\mbox{Come si definisce l\'integrale di una
+        \\\\funzione misurabile non negativa?
+}
     </string>
     <string name="soluzione_4_19">
         \\mbox{\\textit{\\textbf{Soluzione 4.19}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A \\in M_n$, $f : A \\to [0, +\\infty]$ misurabile e consideriamo
+        \\\\$\\phi:A \\to R$ semplice tale che $0 \\le \\phi (x)\\le f(x)$ $\\forall x \\in A$.
+        \\\\Poniamo:}
+        \\\\ \\;
+        \\\\ \\qquad \\int_A f(x)dx := \\sup\\bigg\\{\\int_A \\phi(x)dx\\bigg\\}
+        \\\\ \\;
+        \\\\\\mbox{Chiamiamo $\\int_Af(x)dx$ \\textbf{integrale di $f$ su}
+        \\\\\\textbf{$A$ nel senso di Lebesgue}.
         }
     </string>
     <string name="domanda_4_20">
@@ -321,24 +356,59 @@
         }
     </string>
     <string name="domanda_4_22">
-        \\mbox{domanda 4.22}
+        \\mbox{Quali sono le principali proprietà e
+        \\\\regole di calcolo per integrali
+        \\\\delle funzioni sommabili?}
     </string>
     <string name="soluzione_4_22">
         \\mbox{\\textit{\\textbf{Soluzione 4.22}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A \\in M_n$, $f, g : A \\to R$, sommabili. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)} Se $f(x) \\le g(x)$ $\\forall x \\in A$, allora
+        \\\\ \\;
+        \\\\ \\qquad $\\int_A f(x) dx \\le \\int_A g(x) dx$
+        \\\\ \\;
+        \\\\ \\textit{b)} $f + g$ è sommabile e
+        \\\\ \\;
+        \\\\ \\qquad $\\int_A(f + g)(x) dx =\\int_A f(x) dx + \\int_A g(x) dx$
+        \\\\ \\;
+        \\\\ \\textit{c)} Se $\\alpha \\in R$, $\\alpha f$ è sommabile e
+        \\\\ \\;
+        \\\\ \\qquad $\\int_A \\alpha f(x) dx = \\alpha \\int_A f(x) dx$
+        \\\\ \\;
+        \\\\ \\textit{d)} Sia $A = A_1 \\cup \\dots \\cup A_p$ ($p \\in N$), con
+        \\\\\\qquad $A_1, \\dots, A_p$ misurabili a due a due disgiunti. Allora
+        \\\\ \\;
+        \\\\ \\qquad $\\int_A f(x) dx = \\int_{A_1}f(x) dx + \\dots + \\int_{A_p}f(x) dx
+        \\\\ \\;
+        \\\\ \\textit{e)} viceversa, se $f$ è sommabile su ciascuno degli
+        \\\\\\qquad insiemi $A_1, \\dots, A_p$, $f$ è sommabile su $A$.
         }
     </string>
     <string name="domanda_4_23">
-        \\mbox{domanda 4.23}
+        \\mbox{Che cosa si può dire della sommabilità
+        \\\\delle funzioni definite sugli insiemi di
+        \\\\misura nulla?}
     </string>
     <string name="soluzione_4_23">
         \\mbox{\\textit{\\textbf{Soluzione 4.23}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Sia $A \\in M_n$, con $L_n(A) = 0$, $f : A \\to [−\\infty, +\\infty]$.
+        \\\\Allora:
+        \\\\ \\;}
+        \\\\ \\textit{a)} $f$ è misurabile
+        \\\\ \\;
+        \\\\ \\textit{b)} se $f$ è a valori in $[0, +\\infty]$}
+        \\\\ \\;
+        \\\\ \\qquad \\int_Af(x) dx = 0;
+        \\\\ \\;
+        \\\\\\mbox{ \\textit{c)} se $f : A \\to R$, $f$ è
+        \\\\\\qquad sommabile e}
+        \\\\ \\;
+        \\\\ \\qquad \\int_Af(x) dx = 0;
     </string>
     <string name="domanda_4_24">
         \\mbox{Nel caso di un intervallo chiuso e limitato,
@@ -408,10 +478,10 @@
         \\\\ \\;
         \\\\ \\textit{a)}\\ $T$ è iniettiva
         \\\\ \\;
-        \\\\ \\textit{b)} $T$ è di classe $C^1$
+        \\\\ \\textit{b)}\\ $T$ è di classe $C^1$
         \\\\ \\;
-        \\\\ \\textit{c)} $\\forall x ∈ Ω$, il determinante della
-        \\\\ \\qquad matrice jacobiana $J_T (x)$ è diverso da 0.
+        \\\\ \\textit{c)}\\ $\\forall x ∈ Ω$, il determinante della matrice
+        \\\\\\qquad jacobiana $J_T (x)$ è diverso da 0.
         }
     </string>
     <string name="domanda_4_30">
@@ -439,13 +509,32 @@
         \\\\ \\qquad \\int_Af(y) dy =\\int_{T^{−1}(A)}f(T(x)) \\cdot |det(J_T (x))| dx
     </string>
     <string name="domanda_4_31">
-        \\mbox{domanda 4.31}
+        \\mbox{Come si inquadra nel teorema del cambiamento
+        \\\\di variaboile il teorema corrispondente
+        \\\\visto in Analisi A?}
     </string>
     <string name="soluzione_4_31">
         \\mbox{\\textit{\\textbf{Soluzione 4.31}}
         \\\\
         \\;
-        \\\\
+        \\\\In analisi A venivano considerate funzioni
+        \\\\da $R$ in $R$. Di conseguanza, $|det(J_t(x))| = T\'(x)$
+        \\\\essendo $J_T(x)$ una matrice $1\\times 1$
+        \\\\ \\;
+        \\\\\Il teorema del cambiamento di variabile diventa
+        \\\\\quindi:
+        \\\\\ \\;
+        \\\\Siano Ω un aperto in $R$, $T : Ω → R$ un
+        \\\\cambiamento di variabile, $f : A \\to R$. Supponiamo
+        \\\\inoltre che $A \\subseteq T(Ω)$. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $f$ è integrabile su $A$ se
+        \\\\ \\qquad e solo se la funzione $x \\to f(T(x)) \\cdot T\'(x)$,
+        \\\\ \\qquad di dominio $T^{−1}(A), è integrabile su $T^{−1}(A)
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ nel caso ciò avvenga:}
+        \\\\ \\;
+        \\\\ \\qquad \\int_Af(y) dy =\\int_{T^{−1}(A)}f(T(x)) \\cdot T\'(x) dx
         }
     </string>
     <!--
