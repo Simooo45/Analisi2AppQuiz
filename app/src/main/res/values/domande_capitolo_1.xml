@@ -77,7 +77,7 @@
         \\\\ \\;
         \\\\ \\mbox{Siano dunque $x, y, z \\in R^n$ e $\\lambda\\in R$
         \\\\ \\textbf{Proprietà prodotto scalare}:
-        \\\\ \\textit{a)}\\; $(x+y)\\cdot z= x\\cdot +y\\cdot z$
+        \\\\ \\textit{a)}\\; $(x+y)\\cdot z= x\\cdot z+y\\cdot z$
         \\\\ \\textit{b)}\\; $(\\lambda x)\\cdot y= \\lambda(x\\cdot y)$
         \\\\ \\textit{c)}\\; $x\\cdot y= y\\cdot x$
         \\\\ \\textit{d)}\\; $x\\cdot x\\ge 0$

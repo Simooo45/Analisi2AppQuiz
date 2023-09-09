@@ -116,8 +116,8 @@
         \\;
         \\\\Siano $a, b \\in R$, con $a &#60; b$, $\\alpha \\in C^1([a, b]; R^n)$,
         \\\\$f : \\alpha([a, b]) \\to R^n$. Supponiamo che
-        \\\\$t \\to f(\\alpha(t)) \\cdot \\alpha\'(t)$ sia
-        \\\\sommabile in $[a, b]$. Allora poniamo}
+        \\\\$t \\to f(\\alpha(t)) \\cdot \\alpha\'(t)$ sia sommabile in $[a, b]$.
+        \\\\Allora poniamo}
         \\\\ \\;
         \\\\ \\int f \\cdot d\\alpha := \\int_{[a,b]}f(\\alpha(t)) \\cdot \\alpha \'(t) dt
         \\\\ \\;
@@ -127,14 +127,82 @@
         }
     </string>
     <string name="domanda_5_8">
-        \\mbox{domanda 5.1}
+        \\mbox{Come si interpreta fisicamente
+        \\\\l\'integrale curvilineo di seconda
+        \\\\specie?}
     </string>
     <string name="soluzione_5_8">
         \\mbox{\\textit{\\textbf{Soluzione 5.8}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Consideriamo un punto pesante che si muove
+        \\\\di moto rettilineo e uniforme in $R^3$
+        \\\\nell’intervallo di tempo $[a, b]$ ($a, b \\in R$,
+        \\\\$a &#60; b$). Se $v \\in R^3$ è il vettore velocità
+        \\\\(costante), la legge oraria del moto del punto
+        \\\\è descritta dal cammino}
+        \\\\ \\;
+        \\\\ \\qquad \\begin{cases}
+        \\alpha : [a, b] \\to R^3\\\\
+        \\alpha(t) = x^0 + (t − a)v
+        \\end{cases}
+        \\\\ \\;
+        \\\\\\mbox{ove $x^0 \\in R^3$ rappresenta la posizione
+        \\\\del punto nell’istante $t = a$. Supponiamo che sul
+        \\\\punto agisca una certa forza costante $F$, che
+        \\\\possiamo pensare come un certo elemento di $R^3$.
+        \\\\Allora il lavoro svolto dalla forza sul punto
+        \\\\nell’intervallo temporale $[a, b]$ è dato da}
+        \\\\ \\;
+        \\\\ \\quad \\begin{align} L &amp;= F \\cdot [\\alpha(b)−\\alpha(a)] = \\\\
+        &amp;= F \\cdot [x^0 + (b−a)v−x^0] = \\\\
+        &amp;= (b − a)F \\cdot v
+        \\end{align}
+        \\\\ \\;
+        \\\\\\mbox{Supponiamo ora che la forza non sia più
+        \\\\necessariamente costante, nè che il punto si muova
+        \\\\di moto rettilineo e uniforme. Supponiamo allora
+        \\\\che la traiettoria del punto sia descritta da un
+        \\\\certo cammino $\\alpha \\in C^1([a, b]; R^3)$ e che
+        \\\\la forza che si esercita punto per punto nello
+        \\\\spazio sia schematizzabile con la funzione continua
+        \\\\$f : R^3 \\to R^3$. Sia $\\tau \\in [a, b]$. Allora,
+        \\\\per la formula di Taylor applicata componente per
+        \\\\componente,}
+        \\\\ \\;
+        \\\\\\quad \\alpha(t) = \\alpha(\\tau) + (t − \\tau )\\alpha\'(\\tau ) + o(t − \\tau ) (t → \\tau ).
+        \\\\ \\;
+        \\\\\\mbox{Trascurando allora il resto, possiamo osservare che,
+        \\\\per piccoli valori di $Delta \\tau > 0$, nell’intervallo
+        \\\\temporale $[\\tau, \\tau + \\Delta \\tau ]$, si ha $a(t) \\approx \\alpha(\\tau ) + (t − \\tau )\\alpha \'(\\tau )$,
+        \\\\ovvero il moto è essenzialmente rettilineo e uniforme.
+        \\\\ \\;
+        \\\\Inoltre, se $f$ è continua, ancora per $\\Delta \\tau$ ”piccolo”,
+        \\\\si avrà $f(t) \\approx f(\\tau )$ se $t \\in [\\tau, \\tau + \\Delta\\tau ]$.
+        \\\\Allora, per definire il lavoro svolto dalla forza,
+        \\\\possiamo decomporre l’intervallo $[a, b]$ in $k$ parti
+        \\\\uguali, ponendo $t_0 = a, t_1 = a + \\frac{b−a}k,\\dots,$
+        \\\\$t_j = a + \\frac{j(b−a)}k, \\dots, t_k = b$.
+        \\\\Indichiamo con $L_j$ il lavoro svolto nell\'intervallo
+        \\\\temporale $[t_{j−1}, t_{j}]$ $(1 \\le j \\le k)$. Sarà
+        \\\\ragionevole supporre
+        \\\\ \\;
+        \\\\\\; $L_j \\approx (t_j − t_{j−1})f(t_{j−1}) \\cdot \\alpha\'(t_{j−1})$
+        \\\\ \\;
+        \\\\e, sommando in $j$,}
+        \\\\ \\;
+        \\\\L =\\sum_{j=1}^k L_j \\approx \\sum_{j=1}^k(t_j − t_{j−1})f(t_{j−1}) · \\alpha\'(t_j−1)
+        \\\\ \\;
+        \\\\\\mbox{Ci si aspetta che l’approssimazione migliori aumentando
+        \\\\il valore di $k$. Ora, nelle ipotesi fatte su $\\alpha$ e $f$
+        \\\\si può dimostrare che la somma al secondo membro dell\'
+        \\\\equazione sopra tende, per $k \\to +\\infty$, a}
+        \\\\ \\;
+        \\\\\\; \\int_a^b f(\\alpha(t)) \\cdot \\alpha\'(t) dt =\\int f \\cdot d\\alpha
+        \\\\ \\;
+        \\\\\\mbox{Si pone allora, per definizione,}
+        \\\\ \\;
+        \\\\ \\qquad L:= \\int f \\cdot d\\alpha
     </string>
     <string name="domanda_5_9">
         \\mbox{Come cambia l’integrale curvilineo di

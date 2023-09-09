@@ -153,14 +153,65 @@
         }
     </string>
     <string name="domanda_4_10">
-        \\mbox{domanda 4.1}
+        \\mbox{Quali sono le principali proprietà della
+        \\\\classe degli insiemi misurabili e
+        \\\\della misura rispetto a unioni,
+        \\\\intersezioni e differenze?}
     </string>
     <string name="soluzione_4_10">
         \\mbox{\\textit{\\textbf{Soluzione 4.10}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Sia $n \\in N$. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $\\O \\in M_n
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $A \\in M_n, allora $A^c \\in M_n$
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ Se $(A_k)_{k\\in N}$ è una successione
+        \\\\\\qquad di elementi di $M_n$, allora}
+        \\\\ \\;
+        \\\\ \\qquad \\bigcup_{k\\inN}A_k \\in M_n
+        \\\\ \\;
+        \\\\\\mbox{\\textit{d)}\\ $L_n(\\O) = 0
+        \\\\ \\;
+        \\\\ \\textite)}\\ se $(A_k)_{k\\in N}$ è una successione di
+        \\\\\\qquad elementi di $M_n$ a due a due disgiunti, si ha}
+        \\\\ \\qquad L_n(\\bigcup_{k\\in N}A_k) = \\sum_{k=1}^{\\infty}L_n(A_k)
+        \\\\ \\;
+        \\\\\\mbox{Si ha inoltre:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $R^n \\in M_n$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $(A_k)_{k\\in N}$ è una successione di
+        \\\\\\qquad elementi di $M_n$, allora}
+        \\\\ \\;
+        \\\\ \\qquad \\bigcap_{k\\in N}A_k \\in M_n
+        \\\\ \\;
+        \\\\\\mbox{\\textit{c)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono
+        \\\\\\qquad elementi di $M_n$, allora}
+        \\\\ \\;
+        \\\\\\qquad \\bigcup_{k\\in \\{1,\\dots,m}A_k \\in M_n
+        \\\\ \\;
+        \\\\\\mbox{\\textit{d)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono
+        \\\\\\qquad elementi di $M_n$, allora}
+        \\\\ \\;
+        \\\\\\qquad \\bigcap_{k\\in \\{1,\\dots,m}A_k \\in M_n
+        \\\\ \\;
+        \\\\ \\textit{e)}\\ Se $A$ e $B$ sono elementi di $M_n$,
+        \\\\\\qquad allora $B \\setminus A \\in M_n$
+        \\\\ \\;
+        \\\\ \\textit{f)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono
+        \\\\\\qquad elementi di $M_n$ a due a due disgiunti,}
+        \\\\ \\;
+        \\\\ \\quad L_n(\\bigcup_{k\\in\\{1,\\dots,m\\}}A_k) = \\sum_{k=1}^m L_n(A_k)
+        \\\\ \\;
+        \\\\\\mbox{ \\textit{g)}\\ Se $A$ e $B$ sono elementi di $M_n$,
+        \\\\\\qquad $A \\subseteq B$ e $L_n(B) &#60; +\\infty$, allora
+        \\\\\\qquad$L_n(A) &#60; +\\infty$ e vale}
+        \\\\ \\;
+        \\\\ \\qquad L_n(B \\setminus A) = L_n(B) − L_n(A)
+
     </string>
     <string name="domanda_4_11">
         \\mbox{Conoscete delle condizioni che assicurino
@@ -336,23 +387,65 @@
         }
     </string>
     <string name="domanda_4_20">
-        \\mbox{domanda 4.20}
+        \\mbox{Quali ne sono le principali proprietà
+        \\\\di una funzione misurabile non negativa}
     </string>
     <string name="soluzione_4_20">
         \\mbox{\\textit{\\textbf{Soluzione 4.20}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A \\in M_n$, $f, g : A \\to [0, +\\inty[$, misurabili.
+        \\\\Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $\\int_A f(x)dx \\in [0, +\\infty]$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Se $f(x) \\le g(x)$ $\\forall x \\in A$, allora
+        \\\\ \\;
+        \\\\ \\qquad $\\int_A f(x) dx \\le \\int_A g(x) dx
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ \\int_A(f + g)(x) dx = \\int_Af(x) dx +\\int_A g(x) dx
+        \\\\ \\;
+        \\\\ \\textit{d)}\\ se $\\alpha \\in [0, +\\infty[$,
+        \\\\ \\;
+        \\\\ \\qquad $\\int_A\\alpha f(x) dx = \\alpha\\int_A f(x) dx
+        \\\\ \\;
+        \\\\ \\textit{e)}\\ se $A = A_{1} \\cup \\dots \\cup A_p$ ($p \\in N),
+        \\\\\\qquad con $A_1, \\dots, A_p$ misurabili a due a due disgiunti}
+        \\\\ \\;
+        \\\\ \\qquad \\int_Af(x) dx = \\int_{A_{1}}f(x) dx + \\dots + \\int_{A_p}f(x) dx
     </string>
     <string name="domanda_4_21">
-        \\mbox{domanda 4.21}
+        \\mbox{Come si definiscono le funzioni sommabili e
+        \\\\l’integrale di una funzione sommabile?}
     </string>
     <string name="soluzione_4_21">
         \\mbox{\\textit{\\textbf{Soluzione 4.21}}
         \\\\
         \\;
-        \\\\
+        \\\\Poniamo
+        \\\\ \\qquad $\\phi_+ : R \\to R$, $ϕ+(x) = \\max\\{x, 0\\}$
+        \\\\e
+        \\\\ \\qquad $\\phi_- : R \\to R$, $ϕ+(x) = \\max\\{-x, 0\\}$
+        \\\\Poniamo inoltre
+        \\\\ \\;
+        \\\\ \\qquad $f_\\pm := \\phi_\\pm \\circ f$.
+        \\\\ \\;
+        \\\\Siano $A \\in M_n$, $f : A \\to R$ misurabile.
+        \\\\Diremo che f è \\textbf{sommabile} se
+        \\\\ \\;
+        \\\\ \\qquad $\\int_A|f(x)| dx &#60; +\\infty
+        \\\\ \\;
+        \\\\In tal caso, poniamo}
+        \\\\ \\;
+        \\\\ \\; \\int_Af(x) dx := \\int_A f_+(x) dx − \\int_A f_−(x) dx
+        \\\\ \\;
+        \\\\\\mbox{Se $f$ è misurabile, $|f|$ è misurabile non
+        \\\\negativa. Ne segue che $\\int_A |f(x)| dx$ è definito.
+        \\\\Dato che $\\forall x \\in R$ si ha $|f(x)| = f_+(x) +f_−(x)$,
+        \\\\segue che ∀x ∈ A si ha $f_+(x) \\le |f(x)| e $f_−(x) \\le |f(x)|$.
+        \\\\Di conseguenza si ha}
+        \\\\ \\;
+        \\\\ \\int_A f_+ dx \\le +\\infty,\\qquad \\int_Af_−(x) dx \\le +∞
         }
     </string>
     <string name="domanda_4_22">
@@ -427,44 +520,125 @@
         }
     </string>
     <string name="domanda_4_25">
-        \\mbox{domanda 4.25}
+        \\mbox{Conoscete una condizione sufficiente
+        \\\\per sommabilità valido per un
+        \\\\intervallo semiaperto?}
     </string>
     <string name="soluzione_4_25">
         \\mbox{\\textit{\\textbf{Soluzione 4.25}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $−\\infty &#60; a &#60; b \\le +\\infty$, $f : [a, b[\\to R$,
+        \\\\integrabile secondo Riemann in ogni intervallo $[a, c]$, con
+        \\\\$a &#60; c &#60; b$. Supponiamo inoltre che }
+        \\\\ \\;
+        \\\\ \\quad \\lim_{c\\to b}\\int_a^c|f(x)| dx &#60; +\\infty.
+        \\\\ \\;
+        \\\\\\mbox{Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ $f$ è sommabile in $[a, b[$
+        \\\\ \\;
+        \\\\ \\textit{b)} Esiste in $R$}
+        \\\\ \\;
+        \\\\ \\qquad lim_{c\\to b}\\int_a^c f(x) dx
+        \\\\ \\;
+        \\\\\\mbox{ \\textit{c)} $\\int_{[a,b[}f(x) dx = \\lim_{c\\to b} \\int_a^cf(x) dx$,
+        \\\\\\qquad ove abbiamo indicato con $\\int_{[a,b[} f(x) dx$ l’integrale nel
+        \\\\\\qquad senso di Lebesgue.
         }
     </string>
     <string name="domanda_4_26">
-        \\mbox{domanda 4.26}
+        \\mbox{Conoscete un risultato che riconduce il
+        \\\\calcolo della misura di un insieme
+        \\\\al calcolo di integrali in dimensione
+        \\\\più bassa?}
     </string>
     <string name="soluzione_4_26">
         \\mbox{\\textit{\\textbf{Soluzione 4.26}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\\\textbf{Definizione preliminare}
+        \\\\Sia $A \\subseteq R^{m+n}$. Indichiamo con $(x, y)$
+        \\\\un generico elemento di $R^{m+n}$, ove $x$ indica
+        \\\\il blocco delle prime $m$ variabili e $y$ il blocco
+        \\\\delle ultime $n$.
+        \\\\Poniamo, $\\forall x \\in R^m$,
+        \\\\ \\;
+        \\\\ \\qquad $A_x := {y \\in R^n : (x, y) \\in A}$
+        \\\\ \\;
+        \\\\$A_x \\subseteq R^n$ indica la “sezione” di $A$ in corrispondenza
+        \\\\di $x \\in R^m$.
+        \\\\ \\;
+        \\\\Siano $m$ e $n$ numeri naturali, $A \\in M_{m+n}$. Allora:
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ Per quasi ogni $x \\in R^m$, $A_x \\in $M_n$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ Poniamo}
+        \\\\ \\begin{cases}
+        g : R^m \\to [0, +\\infty]\\\\
+        g(x) = \\begin{cases}
+            L_n(A_x) \\quad&amp; \\text{se } A_x \\in M_n \\\\
+            0 \\quad&amp; \\text{altrimenti}
+        \\end{cases}
+        \\end{cases}
+        \\\\ \\;
+        \\\\\\mbox{Allora $g$ è misurabile, non negativa e}
+        \\\\ \\qquad \\int_{R^m} g(x) dx = L_{m+n}(A).
+
+
     </string>
     <string name="domanda_4_27">
-        \\mbox{domanda 4.27}
+        \\mbox{Che cosa dice il teorema di Tonelli?}
     </string>
     <string name="soluzione_4_27">
         \\mbox{\\textit{\\textbf{Soluzione 4.27}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $A \\in M_{m+n}$, $f : A \\to [0, +\\infty]$ misurabile,
+        \\\\$B \\in M_m$, tale che
+        \\\\ \\;
+        \\\\ \\quad $\\{x \\in R^m : A_x \\in M_n, L_n(A_x) >0} \\subseteq B$
+        \\\\ \\;
+        \\\\Definiamo}
+        \\\\ \\;
+        \\\\ \\begin{cases}
+        g : B \\to R \\\\
+        g(x) = \\begin{cases}
+        \\int_{A_x}f(x, y) dy \\quad &amp;\\text{se }A_x \\in M_n, f(x, .) \\text{ è misurabile in } A_x \\\\
+        0 \\quad &amp; altrimenti
+        \\end{cases}
+        \\end{cases}
+        \\\\ \\;
+        \\\\\\mbox{Allora $g$ è misurabile e}
+        \\\\ \\;
+        \\\\\\qquad \\int_B g(x) dx = \\int_f(x, y) dx dy
         }
     </string>
     <string name="domanda_4_28">
-        \\mbox{domanda 4.28}
+        \\mbox{Che cosa dice il teorema di Fubini?}
     </string>
     <string name="soluzione_4_28">
         \\mbox{\\textit{\\textbf{Soluzione 4.28}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Siano $A \\in M_{m+n}$, $f : A \\to R$ sommabile,
+        \\\\$B \\in M_m$, tale che
+        \\\\ \\;
+        \\\\ \\quad $\\{x \\in R^m : A_x \\in M_n, L_n(A_x) >0} \\subseteq B$
+        \\\\ \\;
+        \\\\Definiamo}
+        \\\\ \\;
+        \\\\ \\begin{cases}
+        g : B \\to R \\\\
+        g(x) = \\begin{cases}
+        \\int_{A_x}f(x, y) dy \\quad &amp;\\text{se }A_x \\in M_n, f(x, .) \\text{ è sommabile in } A_x \\\\
+        0 \\quad &amp; altrimenti
+        \\end{cases}
+        \\end{cases}
+        \\\\ \\;
+        \\\\\\mbox{Allora $g$ è sommabile su $B$ e}
+        \\\\ \\;
+        \\\\\\qquad \\int_B g(x) dx = \\int_f(x, y) dx dy
     </string>
     <string name="domanda_4_29">
         \\mbox{Che cos’è un cambiamento di variabile?}
