@@ -12,7 +12,7 @@
         \\mbox{\\textit{\\textbf{Soluzione 3.1}}
         \\\\
         \\;
-        \\\\Siano $Ω$ un aperto in $R^{n+1}, $f : Ω \\to R^n$.
+        \\\\Siano $Ω$ un aperto in $R^{n+1}$, $f : Ω \\to R^n$.
         \\\\Nel caso di equazioni differenziali del primo ordine
         \\\\si usa il termine ”sistema” invece di ”equazione”
         \\\\riferendosi al fatto che l’espressione
@@ -22,14 +22,14 @@
         \\\\è equivalente a}
         \\\\ \\;
         \\\\
-        \\begin{cases}
+        \\qquad \\begin{cases}
         x_1\'(t) = f_1(t, x_1(t), \\dots, x_n(t)) \\\\
         \\dots \\\\
         x_n\'(t) = f_n(t, x_1(t), \\dots, x_n(t))
         \\end{cases}
         \\\\ \\;
-        \\\\\\mbox{ove, naturalmente, $f_1, \\dots, f_n$ sono
-        \\\\le componenti di $f$ e $x(t) = (x1(t), \\dots, xn(t))$.
+        \\\\\\mbox{ove, naturalmente, $f_1, \\dots, f_n$ sono le componenti
+        \\\\di $f$ e $x(t) = (x_1(t), \\dots, x_n(t))$.
         \\\\ \\;
         \\\\Una \\textbf{soluzione locale}\\ dell\'equazione
         \\\\ \\;
@@ -37,14 +37,11 @@
         \\\\ \\;
         \\\\è una funzione $x : I \\to R^n$, tale che:
         \\\\ \\;
-        \\\\ \\textit{a)} $I$ è un intervallo in R con
-        \\\\interno non vuoto
+        \\\\ \\textit{a)}\\ $I$ è un intervallo in R con interno non vuoto
         \\\\ \\;
-        \\\\ \\textit{b)} $x$ è derivabile una volta in $I$
+        \\\\ \\textit{b)}\\ $x$ è derivabile una volta in $I$
         \\\\ \\;
-        \\\\ \\textit{c)} $\\forall t \\in I$, $(t, x(t)) \\in Ω$ e vale}
-        \\\\ \\;
-        \\\\ \\qquad x\'(t) = f(t, x(t))
+        \\\\ \\textit{c)}\\ $\\forall t \\in I$, $(t, x(t)) \\in Ω$ e vale $x\'(t) = f(t, x(t))$}
     </string>
     <string name="domanda_3_2">
         \\mbox{In cosa consiste il problema di
@@ -66,7 +63,7 @@
         \\\\ \\;
         \\\\Siano Ω un aperto in $R^{n+1}$, $f : Ω \\to R^n$,
         \\\\$t_0 \\in R$, $x^0 \\in R^n$, tali che $(t_0, x^0) \\in Ω$. Per
-        \\\\soluzione locale del problema di Cauchy}
+        \\\\\\textbf{soluzione locale del problema di Cauchy}}
         \\\\ \\;
         \\\\ \\qquad \\begin{cases}
         x\'(t) = f(t, x(t))
@@ -74,8 +71,8 @@
         \\end{cases}
         \\\\ \\;
         \\\\\\mbox{intendiamo una soluzione locale $x$ dell\'equazione
-        \\\\$x\'(t) = f(t, x(t))$, di dominio $I$, tale che
-        \\\\$t_0\\in I$ e $x(t_0) = x^0$.
+        \\\\$x\'(t) = f(t, x(t))$, di dominio $I$, tale che $t_0\\in I$
+        \\\\e $x(t_0) = x^0$.
         }
     </string>
     <string name="domanda_3_3">
@@ -91,19 +88,19 @@
         \\\\ \\;
         \\\\ \\textit{a)}\\ $f$ sia continua
         \\\\ \\;
-        \\\\ \\textit{b)}\\ Se indichiamo con $x = (x_1, \\dots, x_n)$ le
-        \\\\\\qquad variabili successive a $t, \\forall (t, x) \\in Ω$,
-        \\\\\\qquad $\\forall j \\in \\{1, \\dots, n\\}$, esista la derivata
-        \\\\\\qquad parziale $\\frac{\\partial f}{\\partial x_j}(t, x)$ e $\\frac{\\partial f}{\\partial x_j}$ sia continua
-        \\\\\\qquad in $Ω$.
+        \\\\ \\textit{b)}\\ Se indichiamo con $x = (x_1, \\dots, x_n)$ le variabili
+        \\\\ \\quad successive a $t, \\forall (t, x) \\in Ω$, $\\forall j \\in \\{1, \\dots, n\\}$,
+        \\\\ \\quad esista la derivata parziale $\\frac{\\partial f}{\\partial x_j}(t, x)$ e $\\frac{\\partial f}{\\partial x_j}$
+        \\\\ \\quad sia continua in $Ω$.
         \\\\ \\;
         \\\\Considerando il problema di Cauchy, allora:
         \\\\ \\;
         \\\\ \\textit{a)}\\ Esiste una soluzione locale, definita su un
-        \\\\\\qquad intervallo aperto contenente $t_0$
+        \\\\ \\quad intervallo aperto contenente $t_0$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ Due soluzioni locali qualunque del problema di
-        \\\\\\qquad Cauchy coincidono sull’intersezione dei loro domini.
+        \\\\ \\textit{b)}\\ Due soluzioni locali qualunque del problema
+        \\\\ \\quad di Cauchy coincidono sull’intersezione dei
+        \\\\ \\quad loro domini.
         }
     </string>
     <string name="domanda_3_4">
@@ -131,9 +128,10 @@
         \\\\Una soluzione locale $x$ dell’equazione
         \\\\$x^{(m)}(t) = f(t, x(t), \\dots, x(m−1)(t))$
         \\\\si dice \\textbf{massimale}\\ se non esiste un\'altra
-        \\\\soluzione locale $y$ che sia prolungamento proprio di $x$
-        \\\\(tale, cioè, che $x$ sia una restrizione di $y$ e il
-        \\\\dominio di $x$ non coincida con il dominio di $y$).
+        \\\\soluzione locale $y$ che sia prolungamento
+        \\\\proprio di $x$ (tale, cioè, che $x$ sia una
+        \\\\restrizione di $y$ e il dominio di $x$ non
+        \\\\coincida con il dominio di $y$).
         }
     </string>
     <string name="domanda_3_6">
@@ -149,16 +147,15 @@
         \\\\il problema di Cauchy possiede un\’unica soluzione massimale
         \\\\e tale soluzione ha come dominio un intervallo aperto in $R$.
         \\\\ \\;
-        \\\\Sia poi $x : I =]a_0, a_{1}[\\to R^n$ una soluzione locale
-        \\\\del sistema $x\'(t) = f(t, x(t))$, con $−\\infty \\le a0 &#60; a1 \\le +\\infty$.
+        \\\\Sia poi $x : I =]a_0, a_{1}[\\to R^n$ una soluzione locale del sistema
+        \\\\$x\'(t) = f(t, x(t))$, con $−\\infty \\le a_0 &#60; a_{1} \\le +\\infty$.
         \\\\Allora sono equivalenti:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ $x$ non è una soluzione massimale di
-        \\\\ \\qquad $x\'(t) = f(t, x(t))$
+        \\\\ \\textit{a)}\\ $x$ non è una soluzione massimale di $x\'(t) = f(t, x(t))$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ per almeno un $j \\in \\{0, 1\\}$ esiste
-        \\\\ \\qquad $\\lim {t\\to a_j}(t, x(t))$ e tale limite appartiene
-        \\\\ \\qquad a $Ω$.}
+        \\\\ \\textit{b)}\\ per almeno un $j \\in \\{0, 1\\}$ esiste}
+        \\\\ \\qquad \\qquad \\lim_{t\\to a_j}(t, x(t))$
+        \\\\\\mbox{ \\quad e tale limite appartiene a $Ω$.}
     </string>
     <string name="domanda_3_7">
         \\mbox{Qual è la forma di un\'equazione differenziale
@@ -183,7 +180,7 @@
         \\\\di $R^n$, tali che $(t_0, y^0,\\dots, y^{m−1}) \\in Ω$. Il
         \\\\problema di Cauchy relativo a
         \\\\ \\;
-        \\\\ \\quad $x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t))
+        \\\\ \\quad $x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t))$
         \\\\ \\;
         \\\\con le condizioni iniziali $y^0, \\dots, y^{m−1}$ assegnate
         \\\\in $t_0$, consiste nel determinare le soluzioni locali
@@ -193,9 +190,9 @@
         \\\\ \\;
         \\\\tali che in più verificano le seguenti condizioni:
         \\\\ \\;
-        \\\\ \\textit{a)} $t_0$ appartiene al dominio di $x$
+        \\\\ \\textit{a)}\\ $t_0$ appartiene al dominio di $x$
         \\\\ \\;
-        \\\\ \\textit{b)} $x(t_0) = y^0, \\dots, x^{(m−1)}(t_0) = y^{m−1}$
+        \\\\ \\textit{b)}\\ $x(t_0) = y^0, \\dots, x^{(m−1)}(t_0) = y^{m−1}$
         }
     </string>
     <string name="domanda_3_8">
@@ -212,15 +209,15 @@
         \\\\ \\;
         \\\\ \\qquad x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t))
         \\\\ \\;
-        \\\\\\mbox{è una funzione $x : I → R^n$, tale che:
+        \\\\\\mbox{è una funzione $x : I \\to R^n$, tale che:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $I$ è un intervallo in R con
-        \\\\ \\qquadinterno non vuoto
+        \\\\ \\quad interno non vuoto
         \\\\ \\;
         \\\\ \\textit{b)}\\ $x$ è derivabile $m$ volte in $I$
         \\\\ \\;
         \\\\ \\textit{c)}\\ $\\forall t \\in I)$, $(t, x(t), \\dots, x^{(m−1)}(t)) \\in Ω$
-        \\\\ \\qquad e vale x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t)).
+        \\\\ \\quad e vale $x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t))$.
         }
     </string>
     <string name="domanda_3_9">
@@ -232,19 +229,16 @@
         \\mbox{\\textit{\\textbf{Soluzione 3.9}}
         \\\\
         \\;
-        \\\\Siano $Ω$ un aperto in $R^{nm+1}$ $f : Ω \\to R^n$,
-        \\\\$t_0 \\in R$, $y^0, \\dots, y^{m−1}\\in R^n$ tali che
-        \\\\$(t_0, y^0, \\dots, y^{m−1}) \\in Ω$.
+        \\\\Siano $Ω$ un aperto in $R^{nm+1}$ $f : Ω \\to R^n$, $t_0 \\in R$,
+        \\\\$y^0, \\dots, y^{m−1}\\in R^n$ tali che $(t_0, y^0, \\dots, y^{m−1}) \\in Ω$.
         \\\\Supponiamo inoltre che:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $f$ sia continua
         \\\\ \\;
-        \\\\ \\textit{b)} se indichiamo con $x = (x_1, \\dots, x_{nm})$
-        \\\\\\qquad $(\\in R^{nm})$ il blocco delle variabili
-        \\\\\\qquad successive a $t$ in $R^{nm+1}$, $\\forall (t, x) \\in Ω$,
-        \\\\\\qquad $\\forall j \\in \\{1, \\dots, nm\\}$, esista la
-        \\\\\\qquad derivata parziale $\\frac{\\partial f}{\\partial x_j}(t, x)$ e $\\frac{\\partial f}{\\partial x_j}$
-        \\\\\\qquad sia continua in Ω.
+        \\\\ \\textit{b)}\\ se indichiamo con $x = (x_1, \\dots, x_{nm})$ $(\\in R^{nm})$
+        \\\\ \\quad il blocco delle variabili successive a $t$ in $R^{nm+1}$,
+        \\\\ \\quad $\\forall (t, x) \\in Ω$, $\\forall j \\in \\{1, \\dots, nm\\}$, esista la derivata
+        \\\\ \\quad parziale $\\frac{\\partial f}{\\partial x_j}(t, x)$ e $\\frac{\\partial f}{\\partial x_j}$ sia continua in Ω.
         \\\\ \\;
         \\\\Consideriamo il problema di Cauchy}
         \\\\ \\;
@@ -257,12 +251,12 @@
         \\\\ \\;
         \\\\\\mbox{Allora
         \\\\ \\;
-        \\\\ \\textit{a)}\\ Esiste una soluzione locale, definita
-        \\\\\\qquad su un intervallo aperto contenente $t_0$
+        \\\\ \\textit{a)}\\ Esiste una soluzione locale, definita su un
+        \\\\ \\quad intervallo aperto contenente $t_0$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ Due soluzioni locali qualunque del
-        \\\\\\qquad problema di cauchy coincidono sull\'intersezione
-        \\\\\\qquad dei loro domini}
+        \\\\ \\textit{b)}\\ Due soluzioni locali qualunque del problema di
+        \\\\ \\quad cauchy coincidono sull\'intersezione dei loro
+        \\\\ \\quad domini}
     </string>
     <string name="domanda_3_10">
         \\mbox{Sotto le ipotesi del teorema di esistenza
@@ -278,20 +272,21 @@
         \\\\Siano soddisfatte le ipotesi del teorema di esistenza
         \\\\e unicità delle soluzioni locali. Allora il problema
         \\\\di Cauchy possiede un\'unica soluzione massimale.
-        \\\\Tale soluzione ha come dominio un intervallo aperto in $R$.
+        \\\\Tale soluzione ha come dominio un intervallo aperto
+        \\\\in $R$.
         \\\\ \\;
-        \\\\Sia poi $x : I =]a0, a1[\\to R^n$ una soluzione locale
+        \\\\Sia poi $x : I =]a_0, a_1[\\to R^n$ una soluzione locale
         \\\\del problema di Cauchy, con $−\\infty \\le a_0 &#60; a_1 \\le +\\infty$.
         \\\\Allora sono equivalenti:
         \\\\ \\;
-        \\\\ \\textit{a)} $x$ non è una soluzione massimale del
-        \\\\\\qquad problema di Cauchy
+        \\\\ \\textit{a)}\\ $x$ non è una soluzione massimale del
+        \\\\ \\quad problema di Cauchy
         \\\\ \\;
-        \\\\ \\textit{b)} Per almeno un $j \\in \\{0, 1\\}$ esiste}
+        \\\\ \\textit{b)}\\ Per almeno un $j \\in \\{0, 1\\}$ esiste}
         \\\\ \\;
         \\\\ \\qquad \\lim_{t→a_j}(t, x(t), \\dots, x(m−1)(t))
         \\\\ \\;
-        \\\\\\mbox{\\qquad e tale limite appartiene a $Ω$.}
+        \\\\\\mbox{ \\quad e tale limite appartiene a $Ω$.}
     </string>
     <string name="domanda_3_11">
         \\mbox{Che cosa si intende per equazione
@@ -336,26 +331,24 @@
         \\;
         \\\\Data una generica equazione differenziale
         \\\\ \\;
-        \\\\ \\quad $x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t))
+        \\\\ \\quad $x^{(m)}(t) = f(t, x(t), \\dots, x^{(m−1)}(t))$
         \\\\ \\;
-        \\\\un\'equazione differenziale ordinaria lineare è un suo
-        \\\\caso particolare: in questo caso, si ha $n = 1$,
-        \\\\$Ω = I \\times R^m$ e}
+        \\\\un\'equazione differenziale ordinaria lineare è un suo caso
+        \\\\particolare: in questo caso, si ha $n = 1$, $Ω = I \\times R^m$ e}
         \\\\ \\;
-        \\\\\quad\\begin{cases}
+        \\\\\\begin{cases}
         f : Ω \\to R\\\\
         f(t, X_0, \\dots, X_{m−1}) = a_0(t)X_0 + \\dots + a_{m−1}(t)X_{m−1} + b(t)\\\\
         t \\in I, X_0, \\dots, X_{m−1} \\in R
         \\end{cases}
         \\\\ \\;
-        \\\\\\mbox{$f$ soddisfa le ipotesi del teorema di Picard
-        \\\\perchè è continua e per $j = 0, \\dots, m−1$ e
-        \\\\$(t, X_0, \\dots, X_j , \\dots, X_{m−1}) \\in Ω$, si ha
+        \\\\\\mbox{$f$ soddisfa le ipotesi del teorema di Picard perchè è continua
+        \\\\e per $j = 0, \\dots, m−1$ e $(t, X_0, \\dots, X_j , \\dots, X_{m−1}) \\in Ω$, si ha
         \\\\ \\;
         \\\\ \\qquad $\\frac{\\partial f}{\\partial X_j}(t, X_0, \\dots, X_j , \\dots, X_{m−1}) = a_j(t)$
         \\\\ \\;
-        \\\\Dunque, comunque si prendano $t_0 \\in I$, $y^0, \\dots, y^{m−1}$ in
-        \\\\$R$, il problema di Cauchy}
+        \\\\Dunque, comunque si prendano $t_0 \\in I$, $y^0, \\dots, y^{m−1}$ in $R$,
+        \\\\il problema di Cauchy}
         \\\\ \\;
         \\\\ \\begin{cases}
         x^{(m)}(t) = a_0(t)x(t) + \\dots + a_{m−1}(t)x^{(m−1)}(t) + b(t)\\\\
@@ -364,27 +357,31 @@
         x^{(m−1)}(t_0) = y^{m−1}
         \\end{cases}
         \\\\ \\;
-        \\\\ha un\'unica soluzione massimale.
-        \\\\Il dominio di qualunque soluzione locale è un
-        \\\\sottoinsieme di $I$.}
+        \\\\\\mbox{ha un\'unica soluzione massimale.
+        \\\\Il dominio di qualunque soluzione locale è un sottoinsieme
+        \\\\di $I$.}
     </string>
     <string name="domanda_3_14">
-        \\mbox{Qual è il dominio di una soluzione massimale?}
+        \\mbox{Qual è il dominio di una soluzione
+        \\\\massimale?}
     </string>
     <string name="soluzione_3_14">
         \\mbox{\\textit{\\textbf{Soluzione 3.14}}
         \\\\
         \\;
-        \\\\Siano soddisfatte le condizioni $a_0, \\dots, a_{m−1}, b : I \\to R$
+        \\\\Siano soddisfatte le condizioni
+        \\\\ \\;
+        \\\\ \\qquad $a_0, \\dots, a_{m−1}, b : I \\to R$
+        \\\\ \\;
         \\\\continue e $I$ intervallo aperto in $R$.
         \\\\Sia poi $x$ una soluzione massimale di un’equazione
-        \\\\differenziale ordinaria lineare di ordine $m$.
-        \\\\Allora il dominio di $x$ è $I$.
+        \\\\differenziale ordinaria lineare di ordine $m$. Allora
+        \\\\il dominio di $x$ è $I$.
         \\\\ \\;
         \\\\Nel caso di un problema di Cauchy, comunque si
-        \\\\prendano $_t0 \\in I$ e $y^0, \\dots, y^{m−1} \\in R$,
-        \\\\il problema ammette un\'unica soluzione massimale,
-        \\\\la quale appartiene a $C^m(I).
+        \\\\prendano $t_0 \\in I$ e $y^0, \\dots, y^{m−1} \\in R$, il problema
+        \\\\ammette un\'unica soluzione massimale, la quale
+        \\\\appartiene a $C^m(I).
         }
     </string>
     <string name="domanda_3_15">
@@ -397,33 +394,31 @@
         \\mbox{\\textit{\\textbf{Soluzione 3.15}}
         \\\\
         \\;
-        \\\\Siano $I$ un intervallo aperto in $R$, $a, b \\in C(I)$, $J$ un
-        \\\\sottointervallo di $I$ con interno non vuoto, $x : J \\to R$
-        \\\\derivabile, tale che
+        \\\\Siano $I$ un intervallo aperto in $R$, $a, b \\in C(I)$,
+        \\\\$J$ un sottointervallo di $I$ con interno non vuoto,
+        \\\\$x : J \\to R$ derivabile, tale che
         \\\\ \\;
         \\\\\\qquad $x\'(t) = a(t)x(t) + b(t) ∀t ∈ J$
         \\\\ \\;
-        \\\\Sia $A$ un\'arbitraria primitiva di $a$ in $I$. Dall’equazione
-        \\\\sopra segue
+        \\\\Sia $A$ un\'arbitraria primitiva di $a$ in $I$.
+        \\\\Dall’equazione sopra segue
         \\\\ \\;
-        \\\\ \\quad $e^{−A(t)}x\'(t) − a(t)e^{−A(t)}x(t) = e{−A(t)}b(t)$
+        \\\\ \\quad $e^{−A(t)}x\'(t) − a(t)e^{−A(t)}x(t) = e^{−A(t)}b(t)$
         \\\\ \\;
-        \\\\ $\\forall t \\in J$.
-        \\\\Poniamo}
+        \\\\$\\forall t \\in J$. Poniamo}
         \\\\ \\;
-        \\\\ \\begin{cases}
+        \\\\ \\qquad \\qquad \\begin{cases}
         \\Phi : J \\to R\\\\
         \\Phi(t) = e^{−A(t)}x(t)
         \\end{cases}
-        \\\\\;
+        \\\\ \\;
         \\\\\\\mbox{Si osserva che il primo membro dell’equazione
         \\\\\differenziale sopra è uguale a $\\Phi\'(t)$. Fissato
         \\\\dunque $t_0 \\in J$, esiste $C \\in R$, tale che}
         \\\\ \\;
         \\\\\\quad \\Phi(t) = \\int_{t_0}{t} e^{−A(s)}b(s) ds + C
         \\\\ \\;
-        \\\\∀t ∈ J.
-        \\\\\\mbox{da cui}
+        \\\\\\mbox{$\\forall t ∈ J$. Da cui}
         \\\\ \\;
         \\\\\\quad x(t) = e^{A(t)}\\cdot \\bigg(\\int_{t_0}^t e^{−A(s)}b(s) ds + C\\bigg)
         \\\\ \\;
@@ -446,8 +441,8 @@
         Tx = x^{(m)} − a_0x − \\dots − a_{m−1}x^{(m−1)}
         \\end{cases}
         \\\\ \\;
-        \\\\\\mbox{Allora $T$ è un operatore lineare
-        \\\\tra gli spazi vettoriali $C^m(I)$ e $C(I)$.
+        \\\\\\mbox{Allora $T$ è un operatore lineare tra
+        \\\\gli spazi vettoriali $C^m(I)$ e $C(I)$.
         }
     </string>
     <string name="domanda_3_17">
@@ -458,15 +453,16 @@
         \\mbox{\\textit{\\textbf{Soluzione 3.17}}
         \\\\
         \\;
-        \\\\Per \\textbf{integrale generale}\\ di un\’equazione differenziale
-        \\\\ordinaria lineare si intende l\’insieme delle soluzioni
-        \\\\massimali (e quindi di dominio $I$).
+        \\\\Per \\textbf{integrale generale}\\ di un\’equazione
+        \\\\differenziale ordinaria lineare si intende
+        \\\\l\’insieme delle soluzioni massimali (e
+        \\\\quindi di dominio $I$).
         }
     </string>
     <string name="domanda_3_18">
         \\mbox{Qual è la struttura dell\’integrale generale
-        \\\\di un\’equazione differenziale ordinaria lineare
-        \\\\omogenea di ordine $m$?}
+        \\\\di un\’equazione differenziale ordinaria
+        \\\\lineare omogenea di ordine $m$?}
     </string>
     <string name="soluzione_3_18">
         \\mbox{\\textit{\\textbf{Soluzione 3.18}}
@@ -479,18 +475,20 @@
         }
     </string>
     <string name="domanda_3_19">
-        \\mbox{ Che cosa si intende per sistema fondamentale
-        \\\\di soluzioni?}
+        \\mbox{Che cosa si intende per sistema
+        \\\\fondamentale di soluzioni?}
     </string>
     <string name="soluzione_3_19">
         \\mbox{\\textit{\\textbf{Soluzione 3.19}}
         \\\\
         \\;
-        \\\\Data un\’equazione differenziale lineare omogenea di
-        \\\\ordine $m$, si definisce sistema fondamentale di soluzioni
-        \\\\una base qualunque dell’integrale generale.
+        \\\\Data un\’equazione differenziale lineare omogenea
+        \\\\di ordine $m$, si definisce \\textbf{sistema fondamentale}
+        \\\\\\textbf{di soluzioni}\\ una base qualunque dell\'integrale
+        \\\\generale.
         \\\\ \\;
-        \\\Tutti i sistemi fondamentali di soluzioni hanno $m$ elementi.
+        \\\\Tutti i sistemi fondamentali di soluzioni hanno $m$
+        \\\\elementi.
         }
     </string>
     <string name="domanda_3_20">
@@ -504,7 +502,8 @@
         \\;
         \\\\Il wronskiano $w(\\psi_0, \\dots, \\psi_{m−1})(t)$ di $\\{\\psi_0, \\dots, \\psi_{m−1}\\}$
         \\\\è una funzione di dominio $I$ tale che, $\\forall t \\in I$,
-        \\\\$w(\\psi_0, \\dots, \\psi_{m−1})(t)$ è pari al determinante della matrice:}
+        \\\\$w(\\psi_0, \\dots, \\psi_{m−1})(t)$ è pari al determinante della
+        \\\\matrice:}
         \\\\ \\;
         \\\\ \\quad \\begin{pmatrix}
         \\psi_0(t)&amp; \\dots &amp; \\psi_{m−1}(t)\\\\
@@ -517,20 +516,19 @@
         \\\\ \\;
         \\\\ \\qquad $x^{(m)}(t) = a_0(t)x(t) + \\dots + a_{m−1}(t)x^{(m−1)}(t)$
         \\\\ \\;
-        \\\\con $a_0, \\dots, a_{m−1} \\in C(I)$, ove I `e un intervallo
+        \\\\con $a_0, \\dots, a_{m−1} \\in C(I)$, ove I è un intervallo
         \\\\con interno non vuoto in $R$. Siano $\\psi_0, \\dots, \\psi_{m−1}$
         \\\\$m$ soluzioni massimali dell’equazione differenziale
         \\\\sopra. Allora le seguenti condizioni sono equivalenti:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ $\\{\\psi_0, \\dots, \\psi_{m−1}\\}$ è un
-        \\\\\\qquad sistema fondamentale di soluzioni per l\'equazione
-        \\\\\\qquad differenziale sopra
+        \\\\ \\textit{a)}\\ $\\{\\psi_0, \\dots, \\psi_{m−1}\\}$ è un sistema fondamentale di
+        \\\\ \\quad soluzioni per l\'equazione differenziale sopra
         \\\\ \\;
-        \\\\ \\textit{b)}\\ $\\forall t \\in I$ $w(\\psi_0, \\dots, \\psi_{m−1})(t) \ne 0$
+        \\\\ \\textit{b)}\\ $\\forall t \\in I$ $w(\\psi_0, \\dots, \\psi_{m−1})(t) \\ne 0$
         \\\\ \\;
         \\\\ \\textit{c)}\\ esiste $t_0 \\in I$, tale che}
         \\\\ \\;
-        \\\\ \\qquad w(\\psi_0, \\dots, \\psi_{m−1)(t_0)\\ne 0
+        \\\\ \\qquad  \\qquad(\\psi_0, \\dots, \\psi_{m−1})(t_0)\\ne 0
 
     </string>
     <string name="domanda_3_21">
@@ -566,18 +564,17 @@
         \\\\con $a_0, a_1 \\in R$. Sia $P(\\lambda) = \\lambda^2 − a_1\\lambda − a_0$ il suo \\textbf{polinomio}
         \\\\\\textbf{caratteristico}. Allora:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ se $P$ ha \\textbf{due zeri reali e distinti}\\ $\\lambda_0$ e $\\lambda_1$, le funzioni
-        \\\\\\qquad $\\psi_0(t) = e^{\\lambda_0t}$ e $\\psi_1(t) = e^{\\lambda_1t}$ costituiscono un sistema
-        \\\\\\qquad fondamentale di soluzioni
+        \\\\ \\textit{a)}\\ Se $P$ ha \\textbf{due zeri reali e distinti}\\ $\\lambda_0$ e $\\lambda_1$, le funzioni
+        \\\\ \\quad $\\psi_0(t) = e^{\\lambda_0t}$ e $\\psi_1(t) = e^{\\lambda_1t}$ costituiscono un sistema
+        \\\\ \\quad fondamentale di soluzioni
         \\\\ \\;
-        \\\\ \\textit{b)}\\ se $P$ ha un \\textbf{unico zero reale}\\ $\\lambda_0$ di molteplicità algebrica
-        \\\\\\qquad 2, le funzioni $\\psi_0(t) = e^{\\lambda_0t}$ e $\\psi_1(t) = te^{\\lambda_0t}$
-        \\\\\\qquad costituiscono un sistema fondamentale di soluzioni.
+        \\\\ \\textit{b)}\\ Se $P$ ha un \\textbf{unico zero reale}\\ $\\lambda_0$ di molteplicità algebrica
+        \\\\ \\quad 2, le funzioni $\\psi_0(t) = e^{\\lambda_0t}$ e $\\psi_1(t) = te^{\\lambda_0t}$ costituiscono
+        \\\\ \\quad un sistema fondamentale di soluzioni.
         \\\\ \\;
-        \\\\ \\textit{c)}\\ se $P$ ha gli \\textbf{zeri complessi coniugati}\\ $\\alpha \\pm i\\beta$ ($\\alpha, \\beta \\in R$,
-        \\\\\\qquad $\\beta \\ne 0$), le funzioni $\\psi_0(t) = e^{\\alpha t} \\cos(\\beta t)$ e
-        \\\\\\qquad $\\psi_1(t) = e^{\\alpha t} \\sin(\\beta t)$ costituiscono un sistema
-        \\\\\\qquad fondamentale di soluzioni.
+        \\\\ \\textit{c)}\\ Se $P$ ha gli \\textbf{zeri complessi coniugati}\\ $\\alpha \\pm i\\beta$ ($\\alpha, \\beta \\in R$,
+        \\\\ \\quad $\\beta \\ne 0$), le funzioni $\\psi_0(t) = e^{\\alpha t} \\cos(\\beta t)$ e $\\psi_1(t) = e^{\\alpha t} \\sin(\\beta t)$
+        \\\\ \\quad costituiscono un sistema fondamentale di soluzioni.
         }
     </string>
     <string name="domanda_3_22">
@@ -593,18 +590,20 @@
         \\\\Si consideri un’equazione differenziale ordinaria
         \\\\lineare di ordine $m$ con le opportune condizioni.
         \\\\ \\;
-        \\\\Siano ${\\psi_0, \\dots, \\psi_{m−1}} un sistema fondamentale
+        \\\\Siano ${\\psi_0, \\dots, \\psi_{m−1}}$ un sistema fondamentale
         \\\\di soluzioni dell\'equazione omogenea associata
         \\\\e sia $\\phi$ una soluzione massimale (qualunque)
-        \\\\dell\'equazione differenziale ordinaria lineare considerata.
-        \\\\Allora l’integrale generale dell’equazione differenziale
-        \\\\coincide con:}
+        \\\\dell\'equazione differenziale ordinaria lineare
+        \\\\considerata.
+        \\\\Allora l’integrale generale dell’equazione
+        \\\\differenziale coincide con:}
         \\\\ \\;
         \\\\ \\quad \\{c_0\\psi_0 + \\dots + c_{m−1}\\psi_{m−1} + \\phi : c_0, \\dots, c_{m−1} \\in R\\}
 
     </string>
     <string name="domanda_3_23">
-        \\mbox{In cosa consiste il metodo di variazione delle costanti?}
+        \\mbox{In cosa consiste il metodo di variazione
+        \\\\delle costanti?}
     </string>
     <string name="soluzione_3_23">
         \\mbox{\\textit{\\textbf{Soluzione 3.23}}
@@ -627,7 +626,7 @@
         \\\\soluzioni $\\{\\psi_0, \\psi_1\\}$ dell’equazione omogenea
         \\\\associata
         \\\\ \\;
-        \\\\ \\quad $x\'\'(t) = a_0(t)x(t) + a_1(t)x\'(t)
+        \\\\ \\quad $x\'\'(t) = a_0(t)x(t) + a_1(t)x\'(t)$
         \\\\ \\;
         \\\\Cerchiamo una soluzione $\\phi$ dell’equazione differenziale
         \\\\non omogenea nella forma
@@ -637,11 +636,14 @@
         \\\\con $c_0, c_1 \\in C^1(I)$.
         \\\\Osserviamo che, se $c_0$ e $c_1$ sono costanti, $\\phi(t)$ è
         \\\\soluzione dell’equazione omogenea associata.
-        \\\\Si ha allora, per ogni $t \\in I$,
+        \\\\Si ha allora, per ogni $t \\in I$,}
         \\\\ \\;
-        \\\\ \\; $\\phi\'(t) = c_0\'(t)\\psi_0(t) + c_1\'(t)\\psi_1(t) + c_0(t)\\psi_0\'(t) + c_1(t)\\psi_1\'(t)$
         \\\\ \\;
-        \\\\Imponiamo allora la prima condizione
+        \\begin{align} \\phi\'(t) = &amp;c_0\'(t)\\psi_0(t) + c_1\'(t)\\psi_1(t) + c_0(t)\\psi_0\'(t) +\\\\
+        &amp;+ c_1(t)\\psi_1\'(t)
+        \\end{align}
+        \\\\ \\;
+        \\\\\\mbox{Imponiamo allora la prima condizione
         \\\\ \\;
         \\\\ \\; $c_0\'(t)\\psi_0(t) + c_1\'(t)\\psi_1(t) = 0\\; \\forall t \\in I$
         \\\\ \\;
@@ -653,8 +655,8 @@
         \\\\-a_0(c_0ψ_0 + c_1ψ_1) = c_0\'\\psi_0\'+c_1\'\\psi_1\'$
         \\\\ \\;
         \\\\Ci siamo dunque ricondotti al seguente sistema di
-        \\\\equazioni lineari algebriche, dipendente dal parametro
-        \\\\$t \\in I$, nelle incognite $c_0\'(t), c_1\'(t):}
+        \\\\equazioni lineari algebriche, dipendente dal
+        \\\\parametro $t \\in I$, nelle incognite $c_0\'(t), c_1\'(t):}
         \\\\ \\;
         \\\\ \\quad \\begin{cases}
         c_0\'(t)\\psi_0(t) + c_1\'(t)\\psi_1(t) = 0\\\\
@@ -664,18 +666,18 @@
         \\\\\\mbox{Questo sistema è risolubile solo se la matrice dei
         \\\\termini $\\psi$ ha determinante diverso da $0$ e in questo
         \\\\caso la matrice coincide con il wronskiano.
-        \\\\Per il teorema del wronskiano il determinante della matrice
-        \\\\dei termini $\\psi$ è sempre diverso da 0 e quindi il sistema
-        \\\\è univocamente risolubile per ogni $t \\in I$.
+        \\\\Per il teorema del wronskiano il determinante della
+        \\\\matrice dei termini $\\psi$ è sempre diverso da 0 e quindi
+        \\\\il sistema è univocamente risolubile per ogni $t \\in I$.
         \\\\Si ottiene:}
         \\\\ \\;
         \\\\ \\quad c_0\'(t) = −\\frac{b(t)\\psi_1(t)}{w(\\psi_0, \\psi_1)}(t)
         \\\\ \\;
         \\\\ \\quad c_0\'(t) = \\frac{b(t)\\psi_0(t)}{w(\\psi_0, \\psi_1)}(t)
         \\\\ \\;
-        \\\\\\mbox{Allora, se $c_0$ e $c_1$ sono primitive delle funzioni
-        \\\\$c_0\'$ e $c_1\'$, $\\phi(t)$ è soluzione dell\'equazione
-        \\\\differenziale non omogenea.
+        \\\\\\mbox{Allora, se $c_0$ e $c_1$ sono primitive delle funzioni $c_0\'$ e
+        \\\\$c_1\'$, $\\phi(t)$ è soluzione dell\'equazione differenziale non
+        \\\\omogenea.
         }
     </string>
     <string name="domanda_3_24">
@@ -685,26 +687,26 @@
         \\mbox{\\textit{\\textbf{Soluzione 3.24}}
         \\\\
         \\;
-        \\\\Il metodo dell\'annullatore è un metodo per determinare,
+        \\\\Il \\textbf{metodo dell\'annullatore} è un metodo per determinare,
         \\\\noto un sistema fondamentale di soluzioni dell’omogenea
         \\\\associata, una soluzione particolare di un’equazione
         \\\\differenziale lineare a coefficienti costanti del secondo
         \\\\ordine non omogenea.
         \\\\ \\;
-        \\\\Consideriamo un\'equazione del secondo ordine a coefficienti
-        \\\\costanti non omogenea del tipo:}
+        \\\\Consideriamo un\'equazione del secondo ordine a
+        \\\\coefficienti costanti non omogenea del tipo:}
         \\\\ \\;
         \\\\ \\qquad x\'\'(t) = a_0x(t) + a_1x\'(t) + b(t)
         \\\\ \\;
         \\\\ \\mbox{con $a_0, a_1 \\in R$.
         \\\\Supponiamo che $b$ sia della forma $b(t) = t^me^{\\alpha t}\\cos(\\beta t)$
-        \\\\oppure $b(t) = t^me^{\\alpha t}\\sin(\\beta t)$, con $m \\in N_0$ e
-        \\\\$\\alpha, \\beta \\in R$. Sia $P$ il polinomio caratteristico
-        \\\\dell\'equazione omogenea associata. Supponiamo che $\\alpha + i\\beta$
-        \\\\sia uno zero di molteplicità $r \\in N_0$ di $P$, intendendo che
-        \\\\la molteplicità è nulla se $P(\\alpha + i\\beta) \\ne 0$. Allora
-        \\\\si potrebbe dimostrare che l\'equazione differenziale non
-        \\\\omogenea ammette una soluzione $\\phi$ della forma:}
+        \\\\oppure $b(t) = t^me^{\\alpha t}\\sin(\\beta t)$, con $m \\in N_0$ e $\\alpha, \\beta \\in R$.
+        \\\\Sia $P$ il polinomio caratteristico dell\'equazione omogenea
+        \\\\associata. Supponiamo che $\\alpha + i\\beta$ sia uno zero di
+        \\\\molteplicità $r \\in N_0$ di $P$, intendendo che la molteplicità
+        \\\\è nulla se $P(\\alpha + i\\beta) \\ne 0$. Allora si potrebbe
+        \\\\dimostrare che l\'equazione differenziale non omogenea
+        \\\\ammette una soluzione $\\phi$ della forma:}
         \\\\ \\;
         \\\\ \\quad \\phi(t) = t^r[P(t) e^{\\alpha t} \\cos(\\beta t) + Q(t)e^{\\alpha t} \\sin(\\beta t)]
         \\\\ \\;
