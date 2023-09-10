@@ -67,8 +67,9 @@
         \\mbox{\\textit{\\textbf{Soluzione 1.2}}
         \\\\
         \\;
-        \\\\Siano $x, y \\in R^n$, definiamo il loro \\textbf{prodotto scalare}
-        \\\\indicato con il simbolo $\\langle x, y \\rangle$ o $x \\cdot y$ come:}
+        \\\\Siano $x, y \\in R^n$, definiamo il loro \\textbf{prodotto}
+        \\\\\\textbf{scalare}\\ indicato con il simbolo $\\langle x, y \\rangle$ o $x \\cdot y$
+        \\\\come:}
         \\\\ \\qquad $x\\cdot y = x_{1}y_{1}+\\dots+x_ny_n = \\sum_{i=1}^nx_iy_i$
         \\\\ \\;
         \\\\ \\mbox{Mentre definiamo la \\textbf{norma euclidea}\\;di un
@@ -112,17 +113,19 @@
         \\\\Quali sono le principali proprietà?}
     </string>
     <string name="soluzione_1_4">
-    \\mbox{\\textit{\\textbf{Soluzione 1.4}}
-    \\\\
-    \\;
-    \\\\Siano $x, y \\in R^n$, la \\textbf{metrica euclidea}\\ è definita come: }
-    \\\\ \\qquad d:R^n \\times R^n \\to R \\quad d(x, y) =\\lVert x-y\\rVert
-    \\\\ \\;
-    \\\\ \\textbf{Proprietà della metrica euclidea}
-    \\\\\\mbox{Siano $x, y, z \\in R^n$:
-    \\\\ \\textit{a)}\\; $d(x, y) \\ge 0$
-    \\\\ \\textit{b)}\\; $d(x, y) = d(y, x)$
-    \\\\ \\textit{c)}\\; $d(x, z)\\le d(x, y)+ d(y, z)$
+        \\mbox{\\textit{\\textbf{Soluzione 1.4}}
+        \\\\
+        \\;
+        \\\\Siano $x, y \\in R^n$, la \\textbf{metrica euclidea}\\ è
+        \\\\definita come: }
+        \\\\ \\;
+        \\\\ \\qquad d:R^n \\times R^n \\to R \\quad d(x, y) =\\lVert x-y\\rVert
+        \\\\ \\;
+        \\\\ \\textbf{Proprietà della metrica euclidea}
+        \\\\\\mbox{Siano $x, y, z \\in R^n$:
+        \\\\ \\textit{a)}\\; $d(x, y) \\ge 0$
+        \\\\ \\textit{b)}\\; $d(x, y) = d(y, x)$
+        \\\\ \\textit{c)}\\; $d(x, z)\\le d(x, y)+ d(y, z)$
     }
     </string>
     <string name="domanda_1_5">
@@ -135,14 +138,14 @@
         \\mbox{\\textit{\\textbf{Soluzione 1.5}}
         \\\\
         \\;
-        \\\\Siano $x \\in R^n$ e $r \\in R | r > 0$, definiamo una \\textbf{palla aperta}
-        \\\\con centro $x$ e raggio $r$ come:}
+        \\\\Siano $x \\in R^n$ e $r \\in R | r > 0$, definiamo una \\textbf{palla}
+        \\\\\\textbf{aperta}\\ con centro $x$ e raggio $r$ come:}
         \\\\ \\;
         \\\\ \\qquad B(x, r) := \\{y \\in R^n | d(x, y):\\lVert x-y \\rVert &#60; r\\}
         \\\\ \\;
-        \\\\ \\mbox{ Siano ora $A \\subseteq R^n$, $x_0 \\in R^n$ e $r \\in R$, diremo che $x_0$ appartiene
-        \\\\all\'\\textbf{interno}\\ di $A$ ($x \\in \\mathop A\\limits^ \\circ$) se esiste una palla aperta $B(x_0, r)$
-        \\\\con $r &#62; 0$ tale che $B(x_0, r) \\subseteq A$.
+        \\\\\\mbox{Siano ora $A \\subseteq R^n$, $x_0 \\in R^n$ e $r \\in R$, diremo che $x_0$
+        \\\\appartiene all\'\\textbf{interno}\\ di $A$ ($x \\in \\mathop A\\limits^ \\circ$) se esiste una palla
+        \\\\aperta $B(x_0, r)$ con $r > 0$ tale che $B(x_0, r) \\subseteq A$.
         \\\\ \\;
         \\\\ Diremo inoltre che $A$ è \\textbf{aperto}\\ se $A = \\mathop A\\limits^ \\circ$
         }
@@ -173,7 +176,7 @@
         \\\\
         \\;
         \\\\Sia $A \\subseteq R^n$, allora diremo che $A$ è aperto
-        \\\\se e solo se $A\\cap Fr(A) =\\O$
+        \\\\se e solo se $A\\cap Fr(A) =\\O$.
 
         }
     </string>
@@ -204,7 +207,7 @@
         \\\\aperta $B(x_0, r)$ con $r > 0$ contiene qualche punto
         \\\\appartenente ad $A$ diverso da $x_0$.
         \\\\ \\;
-        \\\\ L\'insieme dei punti di accumulazione è definito
+        \\\\L\'insieme dei punti di accumulazione è definito
         \\\\\\textbf{derivato}\\ di $A$ ed è indicato con $D(A)$.
         }
     </string>
@@ -220,13 +223,14 @@
         \\mbox{\\textit{\\textbf{Soluzione 1.10}}
         \\\\
         \\;
-        \\\\Siano $A\\subseteq R^n$, $f:A\\to R^m$, $x^0\\in D(A)$, $l \\in R^m$.
-        \\\\Scriveremo}
+        \\\\Siano $A\\subseteq R^n$, $f:A\\to R^m$, $x^0\\in D(A)$,
+        \\\\$l \\in R^m$. Scriveremo}
         \\\\ \\;
         \\\\ \\qquad \\lim_{x \\to x^0} f(x) = l
         \\\\ \\;
-        \\\\\\mbox{se $\\forall\\epsilon > 0\\ \\exists\\delta(\\epsilon) > 0$ con $\\epsilon, \\delta(\\epsilon)\\in R$ tale che
-        \\\\$\\forall x \\in A \\cap B(x^0, \\delta(\\epsilon))$ con $x \\ne x^0$ si ha:}
+        \\\\\\mbox{se $\\forall\\epsilon > 0\\ \\exists\\delta(\\epsilon) > 0$ con $\\epsilon, \\delta(\\epsilon)\\in R$ tale
+        \\\\che $\\forall x \\in A \\cap B(x^0, \\delta(\\epsilon))$ con $x \\ne x^0$ si
+        \\\\ha:}
         \\\\ \\;
         \\\\ \\qquad \\lVert f(x)-l\\rVert_m &#60; \\epsilon
     </string>
@@ -253,9 +257,9 @@
         \\mbox{\\textit{\\textbf{Soluzione 1.12}}
         \\\\
         \\;
-        \\\\Siano $A\\subseteq R^n$, $f:A \\to R^m$, $x^0 \\in D(A)$ e $l \\in R^m$ con
-        \\\\$f(x) = (f_{1}(x), \\dots, f_m(x))$ e $l = (l_1, \\dots, l_m)$, allora le
-        \\\\seguenti condizioni sono equivalenti:
+        \\\\Siano $A\\subseteq R^n$, $f:A \\to R^m$, $x^0 \\in D(A)$ e $l \\in R^m$
+        \\\\con $f(x) = (f_{1}(x), \\dots, f_m(x))$ e $l = (l_1, \\dots, l_m)$,
+        \\\\allora le seguenti condizioni sono equivalenti:
         \\\\\\;
         \\\\\\textit{a)}}
         \\\\ \\qquad \\lim_{x\\to x^0}f(x) = l
@@ -264,8 +268,8 @@
         \\\\\ \\qquad \\lim_{x\\to x^0}f_i(x) = l_i\\qquad \\forall i \\in \\{1, \\dots, m\\}
     </string>
     <string name="domanda_1_13">
-        \\mbox{Conoscete qualche risultato su
-        \\\\limiti di somme, prodotti, quozienti?}
+        \\mbox{Conoscete qualche risultato su limiti
+        \\\\di somme, prodotti, quozienti?}
     </string>
     <string name="soluzione_1_13">
         \\mbox{\\textit{\\textbf{Soluzione 1.13}}
@@ -278,8 +282,8 @@
         \\\\ \\;
         \\\\\\textit{b)}\\ Se $m = 1$ esiste $\\lim_{x\\to x^0}(f(x)\\cdot g(x))$ e vale $l \\cdot l\'$
         \\\\ \\;
-        \\\\\\textit{c)}\\ Se $m = 1$, $g(x)\\ne 0\\; \\forall x \\in A$ e $l\'\\ne 0$
-        \\\\\\quad esiste $\\lim_{x\\to x^0}(\\frac{f(x)}{g(x)}$ e vale $\\frac{l}{l\'}$
+        \\\\\\textit{c)}\\ Se $m = 1$, $g(x)\\ne 0\\; \\forall x \\in A$ e $l\'\\ne 0$ esiste
+        \\\\\\quad $\\lim_{x\\to x^0}(\\frac{f(x)}{g(x)})$ e vale $\\frac{l}{l\'}$
         }
 
     </string>
@@ -313,11 +317,13 @@
         \\\\
         \\;
         \\\\Siano $A\\subseteq R^n$, $x^0\\in A \\to R^m$. Diremo che $f$
-        \\\\è \\textbf{continua in $x_0$}\\ se $\\forall\\epsilon \> 0$ esiste
-        \\\\\\delta(\\epsilon)\>0 tale che $\\forall x \\in A\\cap B_n(x^0, \\delta(\\epsilon))$ si
-        \\\\ha $\\lVert f(x) - f(x^0)\\rVert &#60; \\epsilon$.
+        \\\\è \\textbf{continua in $x_0$}\\ se $\\forall\\epsilon \> 0$ esiste $\\delta(\\epsilon)\>0$
+        \\\\$\\delta(\\epsilon)\>0$ tale che $\\forall x \\in A\\cap B_n(x^0, \\delta(\\epsilon))$
+        \\\\si ha
         \\\\ \\;
-        \\\\ Diremo che $f$ è \\textbf{continua}\\ in $A$ se è continua
+        \\\\ \\qquad $\\lVert f(x) - f(x^0)\\rVert &#60; \\epsilon$
+        \\\\ \\;
+        \\\\Diremo che $f$ è \\textbf{continua}\\ in $A$ se è continua
         \\\\in corrispondenza di ogni $x_0\\in A$.
         }
     </string>
@@ -350,8 +356,9 @@
         \\\\Siano $A\\subseteq R^n$, $B\\subseteq R^m$, $f:A\\to R^m$ tale
         \\\\che $f(A)\\subseteq B$ e $g:B\\to R^l$, allora:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ Se $x^0\\in A$ tale che $f$ è continua in $x^0$ e $g$ è
-        \\\\ \\quad continua in $f(x^0)$. Allora anche $g\\circ f$ è continua in $x^0$.
+        \\\\ \\textit{a)}\\ Se $x^0\\in A$ tale che $f$ è continua in $x^0$ e $g$
+        \\\\ \\quad è continua in $f(x^0)$. Allora anche $g\\circ f$
+        \\\\ \\quad è continua in $x^0$.
         \\\\ \\;
         \\\\ \\textit{b)}\\ Se $f$ e $g$ sono continue lo è anche $g\\circ f$.
         }
@@ -377,8 +384,8 @@
         \\mbox{\\textit{\\textbf{Soluzione 1.19}}
         \\\\
         \\;
-        \\\\Siano $A\\subseteq R^n$ non vuoto, chiuso e limitato, $f:A \\to R^m$
-        \\\\continua. Allora:
+        \\\\Siano $A\\subseteq R^n$ non vuoto, chiuso e limitato,
+        \\\\$f:A \\to R^m$ continua. Allora:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $f(A)$ è chiuso e limitato in $R^m$.
         \\\\ \\;
@@ -395,8 +402,7 @@
         \\;
         \\\\Sia $A\\subseteq R^n$, diremo che $A$ è \\textbf{connesso per archi}
         \\\\se comunque si prendano $x$ e $y$ in $A$, esistono $a$ e $b$
-        \\\\reali con $a\\le b$ e $\\phi:[a, b]\\to R^n$ continua, tali
-        \\\\che:
+        \\\\reali con $a\\le b$ e $\\phi:[a, b]\\to R^n$ continua, tali che:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $\\phi(a) = x$, $\\phi(a) = y$.
         \\\\ \\;
@@ -437,9 +443,9 @@
     <string name="domanda_1_23">
         \\mbox{Conoscete qualche generalizzazione
         \\\\del teorema di Bolzano a funzioni
-        \\\\di più variabili e che cosa
-        \\\\comporta questo risultato
-        \\\\nel caso di funzioni a valori reali?}</string>
+        \\\\di più variabili e che cosa comporta
+        \\\\questo risultato nel caso di funzioni
+        \\\\a valori reali?}</string>
     <string name="soluzione_1_23">
         \\mbox{\\textit{\\textbf{Soluzione 1.23}}
         \\\\

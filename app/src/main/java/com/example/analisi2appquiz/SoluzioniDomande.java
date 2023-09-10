@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import ru.noties.jlatexmath.JLatexMathDrawable;
@@ -51,7 +50,7 @@ public class SoluzioniDomande extends AppCompatActivity {
                 .align(JLatexMathDrawable.ALIGN_RIGHT)
                 .build();
         JLatexMathView latexView = (JLatexMathView) findViewById(R.id.soluzione_domanda_latex);
-        latexView.getLayoutParams().height = 400 + lines*45;
+        latexView.getLayoutParams().height = 400 + lines*50;
         latexView.setLatexDrawable(drawable);
 
     }
