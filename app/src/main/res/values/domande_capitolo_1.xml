@@ -204,8 +204,8 @@
         \\;
         \\\\Siano $A \\subseteq R^n$ e $x_0 \\in R^n$, diremo che $x_0$ è un
         \\\\\\textbf{punto di accumulazione}\\ di $A$ se ogni palla
-        \\\\aperta $B(x_0, r)$ con $r > 0$ contiene qualche punto
-        \\\\appartenente ad $A$ diverso da $x_0$.
+        \\\\aperta $B(x_0, r)$ con $r > 0$ contiene qualche
+        \\\\punto appartenente ad $A$ diverso da $x_0$.
         \\\\ \\;
         \\\\L\'insieme dei punti di accumulazione è definito
         \\\\\\textbf{derivato}\\ di $A$ ed è indicato con $D(A)$.

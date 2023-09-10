@@ -4,8 +4,8 @@
     <!-- Domande Capitolo 4  -->
     <integer name="numero_domande_4">31</integer>
     <string name="domanda_4_1">
-        \\mbox{Come si definisce relazione di ordine,
-        \\\\somma e prodotto in $[0, +\\infty]$?}
+        \\mbox{Come si definiscono somma e prodotto
+        \\\\in $[0, +\\infty]$?}
     </string>
     <string name="soluzione_4_1">
         \\mbox{\\textit{\\textbf{Soluzione 4.1}}
@@ -51,9 +51,9 @@
         \\\\\\mbox{Chiameremo $l(I)$ \\textbf{lunghezza}\\ dell\'intervallo $I$.}
     </string>
     <string name="domanda_4_4">
-        \\mbox{Che cosa si intende per intervallo $n$−dimensionale
-        \\\\e per volume $n$−dimensionale di un intervallo
-        \\\\$n$−dimensionale?}
+        \\mbox{Che cosa si intende per intervallo $n$-dimensionale
+        \\\\e per volume $n$-dimensionale di un intervallo
+        \\\\$n$-dimensionale?}
     </string>
     <string name="soluzione_4_4">
         \\mbox{\\textit{\\textbf{Soluzione 4.4}}
@@ -88,32 +88,59 @@
         \\\\ \\;
         \\\\\\mbox{\\textbf{Proprietà misura esterna}
         \\\\\\;
-        \\\\ \\quad\\textit{a)}\\ Se $I$ è un intervallo $n$-dimensionale
-        \\\\ \\qquad si ha $L_n^*(I) = vol_n(I)$
-        \\\\ \\quad\\textit{b)}\\ $L_n^*(\\O) = 0$
-        \\\\ \\quad\\textit{c)}\\ Se $A\\subseteq B \\subseteq R^n$, si ha $L_n^*(A)\\le L_n^*(B)$
-        \\\\ \\quad\\textit{d)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in N$ tale che}
-        \\\\ \\qquad E\\subseteq \\bigcup_{k\\in N}E^k\\mbox{ si ha:}
-        \\\\ \\qquad\\;\\qquad L_n^*(E)\\le \\sum_{k=1}^{\\infty}L_n^*(E^k)
+        \\\\ \\textit{a)}\\ Se $I$ è un intervallo $n$-dimensionale
+        \\\\ \\quad si ha $L_n^*(I) = vol_n(I)$
         \\\\ \\;
-        \\\\\\mbox{ \\quad\\textit{e)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in \\{1,\\dots, m\\}$ tale che}
-        \\\\ \\qquad E\\subseteq \\bigcup_{1 \\le k\\le m}E^k\\mbox{ si ha:}
+        \\\\ \\textit{b)}\\ $L_n^*(\\O) = 0$
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ Se $A\\subseteq B \\subseteq R^n$, si ha $L_n^*(A)\\le L_n^*(B)$
+        \\\\ \\;
+        \\\\ \\textit{d)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in N$ tale che}
+        \\\\\\mbox{ \\quad} E\\subseteq \\bigcup_{k\\in N}E^k\\mbox{ si ha:}
+        \\\\ \\;
+        \\\\ \\quad\\;\\qquad L_n^*(E)\\le \\sum_{k=1}^{\\infty}L_n^*(E^k)
+        \\\\ \\;
+        \\\\\\mbox{ \\textit{e)}\\ Se $E \\subseteq R^n$ e $E^k \\subseteq R^n$ $\\forall k \\in \\{1,\\dots, m\\}$}
+        \\\\\\mbox{ \\quad tale che} \\ E\\subseteq \\bigcup_{1 \\le k\\le m}E^k\\mbox{ si ha:}
+        \\\\ \\;
         \\\\ \\qquad\\;\\qquad L_n^*(E)\\le \\sum_{k=1}^mL_n^*(E^k)
 
     </string>
     <string name="domanda_4_6">
-        \\mbox{domanda 4.1}
+        \\mbox{Quali sono le principali proprietà
+        \\\\della misura esterna?}
     </string>
     <string name="soluzione_4_6">
         \\mbox{\\textit{\\textbf{Soluzione 1.1}}
         \\\\
         \\;
-        \\\\
-        }
+        \\\\Sia $n \\in N$. Allora
+        \\\\ \\;
+        \\\\ \\textit{a)}\\ Se $I$ è un intervallo $n$-dimensionale, si ha
+        \\\\ \\;
+        \\\\ \\qquad $L_n^∗(I) = vol_n(I)$
+        \\\\ \\;
+        \\\\ \\textit{b)}\\ $L_n^∗(\\O) = 0$
+        \\\\ \\;
+        \\\\ \\textit{c)}\\ Se $A \\subseteq B \\subseteq R^n$, si ha
+        \\\\ \\;
+        \\\\ \\qquad $L_n^*(A) \\le L_n^*(B)$
+        \\\\ \\;
+        \\\\ \\textit{d)}\\  Se $E \\subseteq R^n$, $E_k \\subseteq R^n$ $\\forall k \\in N$ e $E \\subseteq \\bigcup_{k\\in N}E_k$,
+        \\\\ \\quad si ha}
+        \\\\ \\;
+        \\\\ \\qquad L_n^*(E) \\le \\sum_{k=1}^\\infty L_n^* (E_k)
+        \\\\ \\;
+        \\\\\\mbox{ \\textit{e)}\\ se $m \\in N$, $E \\subseteq R^n$, $E_k \\subseteq R^n$ $\\forall k \\in \\{1, \\dots, m\\}$
+        \\\\ \\quad e $E \\subseteq \\bigcup_{1\\le k\\le m}E_k$, si ha}
+        \\\\ \\;
+        \\\\ \\qquad L_n^∗(E) \\le \\sum_{k=1}^m L_n^*(E_k)
+
+
     </string>
     <string name="domanda_4_7">
-        \\mbox{A che cosa è uguale la misura
-        \\\\esterna di un intervallo $n$-dimensionale?}
+        \\mbox{A che cosa è uguale la misura esterna
+        \\\\di un intervallo $n$-dimensionale?}
     </string>
     <string name="soluzione_4_7">
         \\mbox{\\textit{\\textbf{Soluzione 4.7}}
@@ -147,16 +174,16 @@
         \\mbox{\\textit{\\textbf{Soluzione 4.9}}
         \\\\
         \\;
-        \\\\Indichiamo con $L_n$ la restrizione della funzione misura
-        \\\\esterna $L^∗_n$ a $M_n$. Chiameremo $L_n$ \\textbf{misura di}
-        \\\\\\textbf{Lesbesgue} in $R^n$.
+        \\\\Indichiamo con $L_n$ la restrizione della funzione
+        \\\\misura esterna $L^∗_n$ a $M_n$.
+        \\\\Chiameremo $L_n$ \\textbf{misura di Lesbesgue}\\ in $R^n$.
         }
     </string>
     <string name="domanda_4_10">
         \\mbox{Quali sono le principali proprietà della
-        \\\\classe degli insiemi misurabili e
-        \\\\della misura rispetto a unioni,
-        \\\\intersezioni e differenze?}
+        \\\\classe degli insiemi misurabili e della
+        \\\\misura rispetto a unioni, intersezioni
+        \\\\e differenze?}
     </string>
     <string name="soluzione_4_10">
         \\mbox{\\textit{\\textbf{Soluzione 4.10}}
@@ -164,51 +191,50 @@
         \\;
         \\\\Sia $n \\in N$. Allora:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ $\\O \\in M_n
+        \\\\ \\textit{a)}\\ $\\O \\in M_n$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ Se $A \\in M_n, allora $A^c \\in M_n$
+        \\\\ \\textit{b)}\\ Se $A \\in M_n$, allora $A^c \\in M_n$
         \\\\ \\;
-        \\\\ \\textit{c)}\\ Se $(A_k)_{k\\in N}$ è una successione
-        \\\\\\qquad di elementi di $M_n$, allora}
+        \\\\ \\textit{c)}\\ Se $(A_k)_{k\\in N}$ è una successione di elementi di $M_n$,
+        \\\\ \\quad allora}
         \\\\ \\;
-        \\\\ \\qquad \\bigcup_{k\\inN}A_k \\in M_n
+        \\\\ \\qquad \\bigcup_{k\\in N}A_k \\in M_n
         \\\\ \\;
-        \\\\\\mbox{\\textit{d)}\\ $L_n(\\O) = 0
+        \\\\\\mbox{ \\textit{d)}\\ $L_n(\\O) = 0$
         \\\\ \\;
-        \\\\ \\textite)}\\ se $(A_k)_{k\\in N}$ è una successione di
-        \\\\\\qquad elementi di $M_n$ a due a due disgiunti, si ha}
+        \\\\ \\textit{e)}\\ se $(A_k)_{k\\in N}$ è una successione di elementi di $M_n$
+        \\\\ \\quad a due a due disgiunti, si ha}
         \\\\ \\qquad L_n(\\bigcup_{k\\in N}A_k) = \\sum_{k=1}^{\\infty}L_n(A_k)
         \\\\ \\;
         \\\\\\mbox{Si ha inoltre:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $R^n \\in M_n$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ Se $(A_k)_{k\\in N}$ è una successione di
-        \\\\\\qquad elementi di $M_n$, allora}
+        \\\\ \\textit{b)}\\ Se $(A_k)_{k\\in N}$ è una successione di elementi di
+        \\\\ \\quad $M_n$, allora}
         \\\\ \\;
         \\\\ \\qquad \\bigcap_{k\\in N}A_k \\in M_n
         \\\\ \\;
-        \\\\\\mbox{\\textit{c)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono
-        \\\\\\qquad elementi di $M_n$, allora}
+        \\\\\\mbox{ \\textit{c)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono elementi di $M_n$,
+        \\\\ \\quad allora}
         \\\\ \\;
-        \\\\\\qquad \\bigcup_{k\\in \\{1,\\dots,m}A_k \\in M_n
+        \\\\\\qquad \\bigcup_{k\\in \\{1,\\dots,m\\}}A_k \\in M_n
         \\\\ \\;
-        \\\\\\mbox{\\textit{d)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono
-        \\\\\\qquad elementi di $M_n$, allora}
+        \\\\\\mbox{ \\textit{d)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono elementi di $M_n$,
+        \\\\ \\quad allora}
         \\\\ \\;
-        \\\\\\qquad \\bigcap_{k\\in \\{1,\\dots,m}A_k \\in M_n
+        \\\\\\qquad \\bigcap_{k\\in \\{1,\\dots,m\\}}A_k \\in M_n
         \\\\ \\;
-        \\\\ \\textit{e)}\\ Se $A$ e $B$ sono elementi di $M_n$,
-        \\\\\\qquad allora $B \\setminus A \\in M_n$
+        \\\\\\mbox{ \\textit{e)}\\ Se $A$ e $B$ sono elementi di $M_n$, allora
+        \\\\ \\quad $B \\setminus A \\in M_n$
         \\\\ \\;
-        \\\\ \\textit{f)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono
-        \\\\\\qquad elementi di $M_n$ a due a due disgiunti,}
+        \\\\ \\textit{f)}\\ Se $m \\in N$ e $A_1, \\dots, A_m$ sono elementi di $M_n$
+        \\\\ \\quad a due a due disgiunti,}
         \\\\ \\;
-        \\\\ \\quad L_n(\\bigcup_{k\\in\\{1,\\dots,m\\}}A_k) = \\sum_{k=1}^m L_n(A_k)
+        \\\\ \\qquad L_n(\\bigcup_{k\\in\\{1,\\dots,m\\}}A_k) = \\sum_{k=1}^m L_n(A_k)
         \\\\ \\;
-        \\\\\\mbox{ \\textit{g)}\\ Se $A$ e $B$ sono elementi di $M_n$,
-        \\\\\\qquad $A \\subseteq B$ e $L_n(B) &#60; +\\infty$, allora
-        \\\\\\qquad$L_n(A) &#60; +\\infty$ e vale}
+        \\\\\\mbox{ \\textit{g)}\\ Se $A$ e $B$ sono elementi di $M_n$, $A \\subseteq B$ e
+        \\\\ \\quad $L_n(B) &#60; +\\infty$, allora $L_n(A) &#60; +\\infty$ e vale}
         \\\\ \\;
         \\\\ \\qquad L_n(B \\setminus A) = L_n(B) − L_n(A)
 
@@ -243,8 +269,8 @@
         \\\\Siano $A \\in M_n$, $f : A \\to R$. Diremo che $f$ è
         \\\\una \\textbf{funzione semplice}\\ se esistono $A_1, \\dots, A_m$
         \\\\sottoinsiemi misurabili di $A$ a due a due disgiunti,
-        \\\\con unione $A$, e dei numeri reali $\\alpha_1, \\dots, \\alpha_m$,
-        \\\\tali che, se $x \\in A_i\\ (1 \\le i \\le m)$, $f(x) = \\alpha_i$.}
+        \\\\con unione $A$, e dei numeri reali $\\alpha_1, \\dots, \\alpha_m$, tali
+        \\\\che, se $x \\in A_i\\ (1 \\le i \\le m)$, $f(x) = \\alpha_i$.}
     </string>
     <string name="domanda_4_13">
         \\mbox{Quali sono le proprietà della
@@ -293,7 +319,7 @@
         \\\\Siano $A \\in M_n$, $f, g : A \\to R$ semplici non negative.
         \\\\Allora:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ $\\int_A f(x) dx \\in [0, +\\infty]
+        \\\\ \\textit{a)}\\ $\\int_A f(x) dx \\in [0, +\\infty]$
         \\\\ \\;
         \\\\ \\textit{b)}\\ se $f(x) \\le g(x)$ $\\forall x \\in A$, allora}
         \\\\ \\;
@@ -303,17 +329,17 @@
         \\\\ \\;
         \\\\ \\qquad \\int_A (f + g)(x) dx = \\int_A f(x) dx + \\int_A g(x) dx
         \\\\ \\;
-        \\\\\\mbox{ \\textit{d)} se $\\alpha \\in [0, +\\infty[$, $\\alpha f$ è semplice
-        \\\\\\qquad non negativa e}
+        \\\\\\mbox{ \\textit{d)}\\ se $\\alpha \\in [0, +\\infty[$, $\\alpha f$ è semplice non negativa
+        \\\\ \\quad e}
         \\\\ \\;
         \\\\ \\qquad \\int_A \\alpha f(x) dx = \\alpha \\int_A f(x) dx
         \\\\ \\;
-        \\\\\\mbox{\\textit{e)} se $A = A_1 \\cup \\dots \\cup A_p$ ($p \\in N$), con
-        \\\\\\qquad $A_1, \\dots, A_p$ misurabili a due a due disgiunti}
+        \\\\\\mbox{ \\textit{e)}\\ se $A = A_1 \\cup \\dots \\cup A_p$ ($p \\in N$), con $A_1, \\dots, A_p$
+        \\\\ \\quad misurabili a due a due disgiunti}
         \\\\ \\;
         \\\\ \\qquad \\int_A f(x) dx = \\int_{A_1} f(x) dx + \\dots + \\int_{A_p}f(x) dx
         \\\\ \\;
-        \\\\\\mbox{\\qquad con $\\forall j \\in\\{1, \\dots p\\} $}
+        \\\\\\mbox{\\quad con $\\forall j \\in\\{1, \\dots p\\} $}
         \\\\ \\;
         \\\\ \\qquad \\int_{A_j} f(x) dx := \\int_{A_j} f_{|A_j}(x) dx
     </string>
@@ -325,12 +351,12 @@
         \\mbox{\\textit{\\textbf{Soluzione 4.16}}
         \\\\
         \\;
-        \\\\Siano $A \\in M_n$, $f : A \\to [−\\infty, +\\infty]$. Diremo
-        \\\\che $f$ è misurabile se esiste una
-        \\\\successione $(\\phi_k)_{k\\in N} di funzioni
-        \\\\semplici di dominio $A$, tali che $\\forall x \\in A$}
+        \\\\Siano $A \\in M_n$, $f : A \\to [−\\infty, +\\infty]$.
+        \\\\Diremo che $f$ è misurabile se esiste una
+        \\\\successione $(\\phi_k)_{k\\in N}$ di funzioni semplici
+        \\\\di dominio $A$, tali che $\\forall x \\in A$}
         \\\\ \\;
-        \\\\ \\qquad f(x) = lim_{k\\to +\\infty}\\phi_k(x).
+        \\\\ \\qquad f(x) = \\lim_{k\\to +\\infty}\\phi_k(x)
 
     </string>
     <string name="domanda_4_17">
@@ -345,14 +371,13 @@
         \\\\Siano $A \\in M_n$, $f, g : A \\to R$ misurabili,
         \\\\$h : R \\to R$ continua, $c \\in R$. Allora:
         \\\\ \\;
-        \\\\ \\textit{a)} $f + g$ e $fg$ sono misurabili
+        \\\\ \\textit{a)}\\ $f + g$ e $fg$ sono misurabili
         \\\\ \\;
-        \\\\ \\textit{b)} Se $g(x) \\ne 0\\ \\forallx \\in A$, $\\frac fg$
-        \\\\\\qquad è misurabile
+        \\\\ \\textit{b)}\\ Se $g(x) \\ne 0\\ \\forall x \\in A$, $\\frac fg$ è misurabile
         \\\\ \\;
-        \\\\ \\textit{c)} $h \\circ f$ è misurabile
+        \\\\ \\textit{c)}\\ $h \\circ f$ è misurabile
         \\\\ \\;
-        \\\\ \\textit{d)} $cf$ è misurabile.
+        \\\\ \\textit{d)}\\ $cf$ è misurabile.
         }
     </string>
     <string name="domanda_4_18">
@@ -376,9 +401,9 @@
         \\mbox{\\textit{\\textbf{Soluzione 4.19}}
         \\\\
         \\;
-        \\\\Siano $A \\in M_n$, $f : A \\to [0, +\\infty]$ misurabile e consideriamo
-        \\\\$\\phi:A \\to R$ semplice tale che $0 \\le \\phi (x)\\le f(x)$ $\\forall x \\in A$.
-        \\\\Poniamo:}
+        \\\\Siano $A \\in M_n$, $f : A \\to [0, +\\infty]$ misurabile
+        \\\\e consideriamo $\\phi:A \\to R$ semplice tale che
+        \\\\$0 \\le \\phi (x)\\le f(x)$ $\\forall x \\in A$. Poniamo:}
         \\\\ \\;
         \\\\ \\qquad \\int_A f(x)dx := \\sup\\bigg\\{\\int_A \\phi(x)dx\\bigg\\}
         \\\\ \\;
@@ -394,23 +419,23 @@
         \\mbox{\\textit{\\textbf{Soluzione 4.20}}
         \\\\
         \\;
-        \\\\Siano $A \\in M_n$, $f, g : A \\to [0, +\\inty[$, misurabili.
+        \\\\Siano $A \\in M_n$, $f, g : A \\to [0, +\\infty[$, misurabili.
         \\\\Allora:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $\\int_A f(x)dx \\in [0, +\\infty]$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ Se $f(x) \\le g(x)$ $\\forall x \\in A$, allora
+        \\\\ \\textit{b)}\\ Se $f(x) \\le g(x)$ $\\forall x \\in A$, allora}
         \\\\ \\;
-        \\\\ \\qquad $\\int_A f(x) dx \\le \\int_A g(x) dx
+        \\\\ \\qquad $\\int_A f(x) dx \\le \\int_A g(x) dx$
         \\\\ \\;
-        \\\\ \\textit{c)}\\ \\int_A(f + g)(x) dx = \\int_Af(x) dx +\\int_A g(x) dx
+        \\\\\\mbox{ \\textit{c)}\\ $\\int_A(f + g)(x) dx = \\int_Af(x) dx +\\int_A g(x) dx$
         \\\\ \\;
-        \\\\ \\textit{d)}\\ se $\\alpha \\in [0, +\\infty[$,
+        \\\\ \\textit{d)}\\ Se $\\alpha \\in [0, +\\infty[$,}
         \\\\ \\;
-        \\\\ \\qquad $\\int_A\\alpha f(x) dx = \\alpha\\int_A f(x) dx
+        \\\\ \\qquad $\\int_A\\alpha f(x) dx = \\alpha\\int_A f(x) dx$
         \\\\ \\;
-        \\\\ \\textit{e)}\\ se $A = A_{1} \\cup \\dots \\cup A_p$ ($p \\in N),
-        \\\\\\qquad con $A_1, \\dots, A_p$ misurabili a due a due disgiunti}
+        \\\\\\mbox{ \\textit{e)}\\ Se $A = A_{1} \\cup \\dots \\cup A_p$ ($p \\in N$), con $A_1, \\dots, A_p$
+        \\\\ \\quad misurabili a due a due disgiunti}
         \\\\ \\;
         \\\\ \\qquad \\int_Af(x) dx = \\int_{A_{1}}f(x) dx + \\dots + \\int_{A_p}f(x) dx
     </string>
@@ -423,30 +448,38 @@
         \\\\
         \\;
         \\\\Poniamo
-        \\\\ \\qquad $\\phi_+ : R \\to R$, $ϕ+(x) = \\max\\{x, 0\\}$
+        \\\\ \\qquad $\\phi_+ : R \\to R$, $\\phi_+(x) = \\max\\{x, 0\\}$
         \\\\e
-        \\\\ \\qquad $\\phi_- : R \\to R$, $ϕ+(x) = \\max\\{-x, 0\\}$
+        \\\\ \\qquad $\\phi_- : R \\to R$, $\\phi_-(x) = \\max\\{-x, 0\\}$
         \\\\Poniamo inoltre
         \\\\ \\;
         \\\\ \\qquad $f_\\pm := \\phi_\\pm \\circ f$.
         \\\\ \\;
         \\\\Siano $A \\in M_n$, $f : A \\to R$ misurabile.
-        \\\\Diremo che f è \\textbf{sommabile} se
+        \\\\Diremo che f è \\textbf{sommabile}\\ se
         \\\\ \\;
-        \\\\ \\qquad $\\int_A|f(x)| dx &#60; +\\infty
+        \\\\ \\qquad $\\int_A|f(x)| dx &#60; +\\infty$
         \\\\ \\;
         \\\\In tal caso, poniamo}
         \\\\ \\;
         \\\\ \\; \\int_Af(x) dx := \\int_A f_+(x) dx − \\int_A f_−(x) dx
         \\\\ \\;
-        \\\\\\mbox{Se $f$ è misurabile, $|f|$ è misurabile non
-        \\\\negativa. Ne segue che $\\int_A |f(x)| dx$ è definito.
+        \\\\\\mbox{Se $f$ è misurabile, $|f|$ è misurabile non negativa.
+        \\\\Ne segue che $\\int_A |f(x)| dx$ è definito.
+        \\\\ \\;
         \\\\Dato che $\\forall x \\in R$ si ha $|f(x)| = f_+(x) +f_−(x)$,
-        \\\\segue che ∀x ∈ A si ha $f_+(x) \\le |f(x)| e $f_−(x) \\le |f(x)|$.
+        \\\\segue che $\\forall x \\in A$ si ha
+        \\\\ \\;
+        \\\\ \\qquad $f_+(x) \\le |f(x)|$
+        \\\\ \\;
+        \\\\e
+        \\\\ \\;
+        \\\\ \\qquad $f_−(x) \\le |f(x)|$
+        \\\\ \\;
         \\\\Di conseguenza si ha}
         \\\\ \\;
-        \\\\ \\int_A f_+ dx \\le +\\infty,\\qquad \\int_Af_−(x) dx \\le +∞
-        }
+        \\\\ \\int_A f_+ dx \\le +\\infty,\\qquad \\int_Af_−(x) dx \\le +\\infty
+
     </string>
     <string name="domanda_4_22">
         \\mbox{Quali sono le principali proprietà e
@@ -459,25 +492,26 @@
         \\;
         \\\\Siano $A \\in M_n$, $f, g : A \\to R$, sommabili. Allora:
         \\\\ \\;
-        \\\\ \\textit{a)} Se $f(x) \\le g(x)$ $\\forall x \\in A$, allora
+        \\\\ \\textit{a)}\\ Se $f(x) \\le g(x)$ $\\forall x \\in A$, allora
         \\\\ \\;
         \\\\ \\qquad $\\int_A f(x) dx \\le \\int_A g(x) dx$
         \\\\ \\;
-        \\\\ \\textit{b)} $f + g$ è sommabile e
+        \\\\ \\textit{b)}\\ $f + g$ è sommabile e
         \\\\ \\;
         \\\\ \\qquad $\\int_A(f + g)(x) dx =\\int_A f(x) dx + \\int_A g(x) dx$
         \\\\ \\;
-        \\\\ \\textit{c)} Se $\\alpha \\in R$, $\\alpha f$ è sommabile e
+        \\\\ \\textit{c)}\\ Se $\\alpha \\in R$, $\\alpha f$ è sommabile e
         \\\\ \\;
         \\\\ \\qquad $\\int_A \\alpha f(x) dx = \\alpha \\int_A f(x) dx$
         \\\\ \\;
-        \\\\ \\textit{d)} Sia $A = A_1 \\cup \\dots \\cup A_p$ ($p \\in N$), con
-        \\\\\\qquad $A_1, \\dots, A_p$ misurabili a due a due disgiunti. Allora
+        \\\\ \\textit{d)}\\ Sia $A = A_1 \\cup \\dots \\cup A_p$ ($p \\in N$), con $A_1, \\dots, A_p$
+        \\\\ \\quad misurabili a due a due disgiunti.
+        \\\\ \\quad Allora
         \\\\ \\;
-        \\\\ \\qquad $\\int_A f(x) dx = \\int_{A_1}f(x) dx + \\dots + \\int_{A_p}f(x) dx
+        \\\\ \\qquad $\\int_A f(x) dx = \\int_{A_1}f(x) dx + \\dots + \\int_{A_p}f(x) dx$
         \\\\ \\;
-        \\\\ \\textit{e)} viceversa, se $f$ è sommabile su ciascuno degli
-        \\\\\\qquad insiemi $A_1, \\dots, A_p$, $f$ è sommabile su $A$.
+        \\\\ \\textit{e)}\\ Viceversa, se $f$ è sommabile su ciascuno degli
+        \\\\ \\quad insiemi $A_1, \\dots, A_p$, $f$ è sommabile su $A$.
         }
     </string>
     <string name="domanda_4_23">
@@ -491,22 +525,22 @@
         \\;
         \\\\Sia $A \\in M_n$, con $L_n(A) = 0$, $f : A \\to [−\\infty, +\\infty]$.
         \\\\Allora:
-        \\\\ \\;}
-        \\\\ \\textit{a)} $f$ è misurabile
         \\\\ \\;
-        \\\\ \\textit{b)} se $f$ è a valori in $[0, +\\infty]$}
+        \\\\ \\textit{a)}\\ $f$ è misurabile
         \\\\ \\;
-        \\\\ \\qquad \\int_Af(x) dx = 0;
+        \\\\ \\textit{b)}\\ Se $f$ è a valori in $[0, +\\infty]$}
         \\\\ \\;
-        \\\\\\mbox{ \\textit{c)} se $f : A \\to R$, $f$ è
-        \\\\\\qquad sommabile e}
+        \\\\ \\qquad \\int_Af(x) dx = 0
         \\\\ \\;
-        \\\\ \\qquad \\int_Af(x) dx = 0;
+        \\\\\\mbox{ \\textit{c)}\\ Se $f : A \\to R$, $f$ è sommabile e}
+        \\\\ \\;
+        \\\\ \\qquad \\int_Af(x) dx = 0
     </string>
     <string name="domanda_4_24">
         \\mbox{Nel caso di un intervallo chiuso e limitato,
         \\\\che relazione c’è tra integrabilità secondo
-        \\\\Riemann e sommabilità tra i rispettivi integrali?
+        \\\\Riemann e sommabilità tra i rispettivi
+        \\\\integrali?
 }
     </string>
     <string name="soluzione_4_24">
@@ -515,8 +549,8 @@
         \\;
         \\\\Siano $a, b \\in R$, con $a &#60; b$, $f : [a, b] \\to R$
         \\\\integrabile nel senso di Riemann. Allora $f$ è
-        \\\\sommabile e l’integrale nel senso di Lebesgue di $f$
-        \\\\coincide con l’integrale nel senso di Riemann.
+        \\\\sommabile e l’integrale nel senso di Lebesgue
+        \\\\di $f$ coincide con l’integrale nel senso di Riemann.
         }
     </string>
     <string name="domanda_4_25">
@@ -529,23 +563,22 @@
         \\\\
         \\;
         \\\\Siano $−\\infty &#60; a &#60; b \\le +\\infty$, $f : [a, b[\\to R$,
-        \\\\integrabile secondo Riemann in ogni intervallo $[a, c]$, con
-        \\\\$a &#60; c &#60; b$. Supponiamo inoltre che }
+        \\\\integrabile secondo Riemann in ogni intervallo
+        \\\\$[a, c]$, con $a &#60; c &#60; b$. Supponiamo inoltre che }
         \\\\ \\;
-        \\\\ \\quad \\lim_{c\\to b}\\int_a^c|f(x)| dx &#60; +\\infty.
+        \\\\ \\quad \\lim_{c\\to b}\\int_a^c|f(x)| dx &#60; +\\infty
         \\\\ \\;
         \\\\\\mbox{Allora:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $f$ è sommabile in $[a, b[$
         \\\\ \\;
-        \\\\ \\textit{b)} Esiste in $R$}
+        \\\\ \\textit{b)}\\ Esiste in $R$}
         \\\\ \\;
-        \\\\ \\qquad lim_{c\\to b}\\int_a^c f(x) dx
+        \\\\ \\qquad \\lim_{c\\to b}\\int_a^c f(x) dx
         \\\\ \\;
-        \\\\\\mbox{ \\textit{c)} $\\int_{[a,b[}f(x) dx = \\lim_{c\\to b} \\int_a^cf(x) dx$,
-        \\\\\\qquad ove abbiamo indicato con $\\int_{[a,b[} f(x) dx$ l’integrale nel
-        \\\\\\qquad senso di Lebesgue.
-        }
+        \\\\\\mbox{ \\textit{c)}\\ Indicando con $\\int_{[a,b[} f(x) dx$ l\'integrale nel
+        \\\\ \\quad nel senso di Lebesgue}
+        \\\\ \\qquad \\int_{[a,b[}f(x) dx = \\lim_{c\\to b} \\int_a^cf(x) dx
     </string>
     <string name="domanda_4_26">
         \\mbox{Conoscete un risultato che riconduce il
@@ -561,20 +594,20 @@
         \\\\Sia $A \\subseteq R^{m+n}$. Indichiamo con $(x, y)$
         \\\\un generico elemento di $R^{m+n}$, ove $x$ indica
         \\\\il blocco delle prime $m$ variabili e $y$ il blocco
-        \\\\delle ultime $n$.
-        \\\\Poniamo, $\\forall x \\in R^m$,
+        \\\\delle ultime $n$. Poniamo, $\\forall x \\in R^m$,
         \\\\ \\;
         \\\\ \\qquad $A_x := {y \\in R^n : (x, y) \\in A}$
         \\\\ \\;
-        \\\\$A_x \\subseteq R^n$ indica la “sezione” di $A$ in corrispondenza
-        \\\\di $x \\in R^m$.
+        \\\\$A_x \\subseteq R^n$ indica la “sezione” di $A$ in
+        \\\\corrispondenza di $x \\in R^m$.
         \\\\ \\;
-        \\\\Siano $m$ e $n$ numeri naturali, $A \\in M_{m+n}$. Allora:
+        \\\\Siano $m$ e $n$ numeri naturali, $A \\in M_{m+n}$.
+        \\\\Allora:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ Per quasi ogni $x \\in R^m$, $A_x \\in $M_n$
+        \\\\ \\textit{a)}\\ Per quasi ogni $x \\in R^m$, $A_x \\in M_n$
         \\\\ \\;
         \\\\ \\textit{b)}\\ Poniamo}
-        \\\\ \\begin{cases}
+        \\\\ \\qquad \\begin{cases}
         g : R^m \\to [0, +\\infty]\\\\
         g(x) = \\begin{cases}
             L_n(A_x) \\quad&amp; \\text{se } A_x \\in M_n \\\\
@@ -597,22 +630,22 @@
         \\\\Siano $A \\in M_{m+n}$, $f : A \\to [0, +\\infty]$ misurabile,
         \\\\$B \\in M_m$, tale che
         \\\\ \\;
-        \\\\ \\quad $\\{x \\in R^m : A_x \\in M_n, L_n(A_x) >0} \\subseteq B$
+        \\\\ \\quad $\\{x \\in R^m : A_x \\in M_n, L_n(A_x) >0\\} \\subseteq B$
         \\\\ \\;
         \\\\Definiamo}
         \\\\ \\;
         \\\\ \\begin{cases}
         g : B \\to R \\\\
         g(x) = \\begin{cases}
-        \\int_{A_x}f(x, y) dy \\quad &amp;\\text{se }A_x \\in M_n, f(x, .) \\text{ è misurabile in } A_x \\\\
-        0 \\quad &amp; altrimenti
+        \\int_{A_x}f(x, y) dy \\quad &amp; \\mbox{se $A_x \\in M_n, f(x, .)$\\\\è misurabile in $A_x$} \\\\
+        0 \\quad &amp; \\text{altrimenti}
         \\end{cases}
         \\end{cases}
         \\\\ \\;
         \\\\\\mbox{Allora $g$ è misurabile e}
         \\\\ \\;
-        \\\\\\qquad \\int_B g(x) dx = \\int_f(x, y) dx dy
-        }
+        \\\\\\qquad \\int_B g(x) dx = \\int_Af(x, y) dx dy
+
     </string>
     <string name="domanda_4_28">
         \\mbox{Che cosa dice il teorema di Fubini?}
@@ -624,21 +657,21 @@
         \\\\Siano $A \\in M_{m+n}$, $f : A \\to R$ sommabile,
         \\\\$B \\in M_m$, tale che
         \\\\ \\;
-        \\\\ \\quad $\\{x \\in R^m : A_x \\in M_n, L_n(A_x) >0} \\subseteq B$
+        \\\\ \\quad $\\{x \\in R^m : A_x \\in M_n, L_n(A_x) >0\\} \\subseteq B$
         \\\\ \\;
         \\\\Definiamo}
         \\\\ \\;
         \\\\ \\begin{cases}
         g : B \\to R \\\\
         g(x) = \\begin{cases}
-        \\int_{A_x}f(x, y) dy \\quad &amp;\\text{se }A_x \\in M_n, f(x, .) \\text{ è sommabile in } A_x \\\\
-        0 \\quad &amp; altrimenti
+        \\int_{A_x}f(x, y) dy \\quad &amp; \\mbox{se $A_x \\in M_n, f(x, .)$\\\\è sommabile in $A_x$}  \\\\
+        0 \\quad &amp; \\text{altrimenti}
         \\end{cases}
         \\end{cases}
         \\\\ \\;
         \\\\\\mbox{Allora $g$ è sommabile su $B$ e}
         \\\\ \\;
-        \\\\\\qquad \\int_B g(x) dx = \\int_f(x, y) dx dy
+        \\\\\\qquad \\int_B g(x) dx = \\int_Af(x, y) dx dy
     </string>
     <string name="domanda_4_29">
         \\mbox{Che cos’è un cambiamento di variabile?}
@@ -648,14 +681,15 @@
         \\\\
         \\;
         \\\\Siano $Ω$ un aperto in $R^n$, $T : Ω \\to R^n$.
-        \\\\Diremo che $T$ è un cambiamento di variabile se:
+        \\\\Diremo che $T$ è un cambiamento di variabile
+        \\\\se:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $T$ è iniettiva
         \\\\ \\;
         \\\\ \\textit{b)}\\ $T$ è di classe $C^1$
         \\\\ \\;
         \\\\ \\textit{c)}\\ $\\forall x ∈ Ω$, il determinante della matrice
-        \\\\\\qquad jacobiana $J_T (x)$ è diverso da 0.
+        \\\\ \\quad jacobiana $J_T (x)$ è diverso da 0.
         }
     </string>
     <string name="domanda_4_30">
@@ -668,15 +702,15 @@
         \\\\
         \\;
         \\\\Siano Ω un aperto in $R^n$, $T : Ω → R^n$ un
-        \\\\cambiamento di variabile, $A \\in M_n$, $f : A \\to [0, +\\infty]
+        \\\\cambiamento di variabile, $A \\in M_n$, $f : A \\to [0, +\\infty]$
         \\\\oppure $f : A \\to R$. Supponiamo inoltre che
         \\\\$A \\subseteq T(Ω)$. Allora:
         \\\\ \\;
         \\\\ \\textit{a)}\\ $T^{−1}(A) \\in M_n$
         \\\\ \\;
-        \\\\ \\textit{b)}\\ $f$ è integrabile su $A$ se
-        \\\\ \\qquad e solo se la funzione $x \\to f(T(x)) \\cdot |\\det(J_T (x))|$,
-        \\\\ \\qquad di dominio $T^{−1}(A), è integrabile su $T^{−1}(A)
+        \\\\ \\textit{b)}\\ $f$ è integrabile su $A$ se e solo se la funzione
+        \\\\ \\quad $x \\to f(T(x)) \\cdot |\\det(J_T (x))|$, di dominio $T^{−1}(A)$,
+        \\\\ \\quad  è integrabile su $T^{−1}(A)$
         \\\\ \\;
         \\\\ \\textit{c)}\\ nel caso ciò avvenga:}
         \\\\ \\;
@@ -699,17 +733,17 @@
         \\\\\quindi:
         \\\\\ \\;
         \\\\Siano Ω un aperto in $R$, $T : Ω → R$ un
-        \\\\cambiamento di variabile, $f : A \\to R$. Supponiamo
-        \\\\inoltre che $A \\subseteq T(Ω)$. Allora:
+        \\\\cambiamento di variabile, $f : A \\to R$.
+        \\\\Supponiamo inoltre che $A \\subseteq T(Ω)$. Allora:
         \\\\ \\;
-        \\\\ \\textit{a)}\\ $f$ è integrabile su $A$ se
-        \\\\ \\qquad e solo se la funzione $x \\to f(T(x)) \\cdot T\'(x)$,
-        \\\\ \\qquad di dominio $T^{−1}(A), è integrabile su $T^{−1}(A)
+        \\\\ \\textit{a)}\\ $f$ è integrabile su $A$ se e solo se la funzione
+        \\\\ \\quad $x \\to f(T(x)) \\cdot T\'(x)$, di dominio $T^{−1}(A)$,
+        \\\\ \\quad è integrabile su $T^{−1}(A)$
         \\\\ \\;
         \\\\ \\textit{b)}\\ nel caso ciò avvenga:}
         \\\\ \\;
-        \\\\ \\qquad \\int_Af(y) dy =\\int_{T^{−1}(A)}f(T(x)) \\cdot T\'(x) dx
-        }
+        \\\\ \\quad \\int_Af(y) dy =\\int_{T^{−1}(A)}f(T(x)) \\cdot T\'(x) dx
+
     </string>
     <!--
     <string name="domanda_4_2">

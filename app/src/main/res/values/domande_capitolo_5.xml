@@ -11,23 +11,22 @@
         \\mbox{\\textit{\\textbf{Soluzione 5.1}}
         \\\\
         \\;
-        \\\\Un \\textbf{cammino}\\ (continuo) \\alpha è una funzione
-        \\\\continua da $J$ a $R^n$, con $J$ intervallo
-        \\\\chiuso e limitato in $R$.
+        \\\\Un \\textbf{cammino}\\ (continuo) $\\alpha$ è una funzione
+        \\\\continua da $J$ a $R^n$, con $J$ intervallo chiuso
+        \\\\e limitato in $R$.
         \\\\ \\;
-        \\\\Se $J = [a, b]$, $\\alpha(a)$ e $\\alpha(b)$ ($\\in R^n$)
-        \\\\si chiamano estremi del cammino.
+        \\\\Se $J = [a, b]$, $\\alpha(a)$ e $\\alpha(b)$ ($\\in R^n$) si chiamano
+        \\\\estremi del cammino.
         \\\\ \\;
         \\\\Se $\\alpha \\in C^1(J; R^n)$, si dice che è un \\textbf{cammino}
         \\\\\\textbf{di classe $C^1$}.
         \\\\ \\;
-        \\\\Sia $J = [a, b]$. Diremo che $\\alpha$$ è \\textbf{$C^1$}
+        \\\\Sia $J = [a, b]$. Diremo che $\\alpha$ è \\textbf{$C^1$}
         \\\\\\textbf{a tratti}\\ se esistono $t_0, t_1, \\dots, t_k$, con
-        \\\\$a = t_0 &#60; t_1 &#60; \\dots &#60; t_k = b$, tali che,
-        \\\\per $j = 1, \\dots, k$, $\\alpha[t_{j−1},t_j]$ è di classe
-        \\\\$C^1$.
+        \\\\$a = t_0 &#60; t_1 &#60; \\dots &#60; t_k = b$, tali che, per
+        \\\\$j = 1, \\dots, k$, $\\alpha[t_{j−1},t_j]$ è di classe $C^1$.
         \\\\ \\;
-        \\\\L\'immagine $\\alpha(J)$ si chiama \\textbf{sostegno} di $\\alpha$.
+        \\\\L\'immagine $\\alpha(J)$ si chiama \\textbf{sostegno}\\ di $\\alpha$.
         }
     </string>
     <string name="domanda_5_2">
@@ -40,11 +39,11 @@
         \\\\
         \\;
         \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$
-        \\\\due cammini continui. Essi si dicono \\textbf{equivalenti}
-        \\\\se esiste $u : [c, d] \\to [a, b]$, iniettiva e
-        \\\\suriettiva, di classe $C^1$ con $u\'(s) \\ne 0$
-        \\\\$\\forall s \\in [c, d]$, tale che $\\beta(s) = \\alpha(u(s))$
-        \\\\$\\forall s \\in [c, d]$.
+        \\\\due cammini continui. Essi si dicono
+        \\\\\\textbf{equivalenti} se esiste $u : [c, d] \\to [a, b]$,
+        \\\\iniettiva e suriettiva, di classe $C^1$
+        \\\\con $u\'(s) \\ne 0$ $\\forall s \\in [c, d]$, tale che
+        \\\\$\\beta(s) = \\alpha(u(s))$ $\\forall s \\in [c, d]$.
         \\\\ \\;
         \\\\Diremo che $\\alpha$ e $\\beta$ sono positivamente
         \\\\\equivalenti se $u$ è crescente.
@@ -66,25 +65,35 @@
 
     </string>
     <string name="domanda_5_4">
-        \\mbox{Sotto quali condizioni la lunghezza  di un cammino
-        \\\\è riconducibile a un integrale?}
+        \\mbox{Sotto quali condizioni la lunghezza
+        \\\\di un cammino è riconducibile a un
+        \\\\integrale?}
     </string>
     <string name="soluzione_5_4">
         \\mbox{\\textit{\\textbf{Soluzione 5.4}}
         \\\\
         \\;
-        \\\\Sia $\\alpha : [a, b] \\to R^n$ un cammino di classe $C^1.
-        \\\\Allora \\alpha è rettificabile e}
-        \\\\ \\qquad l(\\alpha) = \\int_a^b\\lVert\\alpha\'(t)\\rVertdt
+        \\\\Sia $\\alpha : [a, b] \\to R^n$ un cammino di classe $C^1$.
+        \\\\Allora $\\alpha$ è rettificabile e}
+        \\\\ \\qquad l(\\alpha) = \\int_a^b\\lVert\\alpha\'(t)\\rVert dt
     </string>
     <string name="domanda_5_5">
-        \\mbox{domanda 5.1}
+        \\mbox{Come si definiscono gli integrali
+        \\\\curvilinei di prima specie?}
     </string>
     <string name="soluzione_5_5">
         \\mbox{\\textit{\\textbf{Soluzione 5.5}}
         \\\\
         \\;
-        \\\\
+        \\\\Siano $a, b \\in R$, con $a &#60; b$, $\\alpha \\in C^1([a, b]; R^n)$,
+        \\\\$f : \\alpha([a, b]) \\to R$.
+        \\\\Supponiamo che $t \\to f(\\alpha (t)) \\cdot \\lVert \\alpha\'(t)\\rVert$ sia
+        \\\\sommabile in $[a, b]$. Allora poniamo}
+        \\\\ \\;
+        \\\\ \\quad \\int_\\alpha f(x) ds := \\int_{[a,b]}f(\\alpha(t)) \\cdot \\lVert \\alpha \'(t)\\rVert dt
+        \\\\ \\;
+        \\\\\\mbox{Chiamiamo $\\int_\\alpha f(x) ds$ \\textbf{integrale curvilineo }
+        \\\\\\textbf{di prima specie}\\ di $f$ sul cammino $\\alpha$.
         }
     </string>
     <string name="domanda_5_6">
@@ -99,16 +108,16 @@
         \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$
         \\\\cammini $C^1$ a tratti equivalenti. Sia poi
         \\\\ \\;
-        \\\\ \\qquad $f : \\alpha([a, b]) = \\beta([c, d]) \\to R
+        \\\\ \\qquad $f : \\alpha([a, b]) = \\beta([c, d]) \\to R$
         \\\\ \\;
-        \\\\tale che è definito $\\int_\\alpha f(x) ds$. Allora è definito
-        \\\\anche $\\int_\\beta f(x) ds e}
+        \\\\tale che è definito $\\int_\\alpha f(x) ds$. Allora è
+        \\\\definito anche $\\int_\\beta f(x) ds$ e}
         \\\\ \\;
         \\\\\\qquad \\int_\\beta f(x) ds =\\int_\\alpha f(x) ds
     </string>
     <string name="domanda_5_7">
-        \\mbox{Come si definisce l\'integrale
-        \\\\curvilineo di seconda specie $\\int f \\cdot d\\alpha$?}
+        \\mbox{Come si definisce l\'integrale curvilineo
+        \\\\di seconda specie $\\int f \\cdot d\\alpha$?}
     </string>
     <string name="soluzione_5_7">
         \\mbox{\\textit{\\textbf{Soluzione 5.7}}
@@ -122,7 +131,7 @@
         \\\\ \\int f \\cdot d\\alpha := \\int_{[a,b]}f(\\alpha(t)) \\cdot \\alpha \'(t) dt
         \\\\ \\;
         \\\\\\mbox{Chiamiamo $\\int f \\cdot d\\alpha$ \\textbf{integrale curvilineo}
-        \\\\\\textbf{di seconda specie}\\ di f sul cammino α.
+        \\\\\\textbf{di seconda specie}\\ di $f$ sul cammino $\\alpha$.
 
         }
     </string>
@@ -193,12 +202,13 @@
         \\\\ \\;
         \\\\L =\\sum_{j=1}^k L_j \\approx \\sum_{j=1}^k(t_j − t_{j−1})f(t_{j−1}) · \\alpha\'(t_j−1)
         \\\\ \\;
-        \\\\\\mbox{Ci si aspetta che l’approssimazione migliori aumentando
-        \\\\il valore di $k$. Ora, nelle ipotesi fatte su $\\alpha$ e $f$
-        \\\\si può dimostrare che la somma al secondo membro dell\'
-        \\\\equazione sopra tende, per $k \\to +\\infty$, a}
+        \\\\\\mbox{Ci si aspetta che l’approssimazione migliori
+        \\\\aumentando il valore di $k$. Ora, nelle ipotesi fatte
+        \\\\su $\\alpha$ e $f$ si può dimostrare che la somma al secondo
+        \\\\membro dell\'equazione sopra tende, per $k \\to +\\infty$,
+        \\\\a}
         \\\\ \\;
-        \\\\\\; \\int_a^b f(\\alpha(t)) \\cdot \\alpha\'(t) dt =\\int f \\cdot d\\alpha
+        \\\\\\qquad \\int_a^b f(\\alpha(t)) \\cdot \\alpha\'(t) dt =\\int f \\cdot d\\alpha
         \\\\ \\;
         \\\\\\mbox{Si pone allora, per definizione,}
         \\\\ \\;
@@ -214,13 +224,13 @@
         \\\\
         \\;
         \\\\Siano $\\alpha : [a, b] \\to R^n$ e $\\beta : [c, d] \\to R^n$ cammini
-        \\\\$C^1$ a tratti equivalenti. Sia poi
+        \\\\$C^1$ a tratti equivalenti. Sia poi}
         \\\\ \\;
-        \\\\$f : \\alpha([a, b]) = \\beta([c, d])\\to R^n$
+        \\\\\\qquad \\qquad f : \\alpha([a, b]) = \\beta([c, d])\\to R^n
         \\\\ \\;
-        \\\\tale che è definito $\\int f \\cdot d\\alpha$. Allora è definito anche
-        \\\\$\\int f \\cdot d\\beta$ e, se $u$ è la funzione che interviene
-        \\\\nella definizione di cammini equivalenti,}
+        \\\\\\mbox{tale che è definito $\\int f \\cdot d\\alpha$. Allora è definito anche
+        \\\\$\\int f \\cdot d\\beta$ e, se $u$ è la funzione che interviene nella
+        \\\\definizione di cammini equivalenti,}
         \\\\ \\;
         \\\\ \\quad \\int f \\cdot dβ = \\begin{cases}
         \\int f \\cdot d\\alpha \\quad &amp; \\text{se $u$ è crescente}
@@ -229,8 +239,8 @@
     </string>
     <string name="domanda_5_10">
         \\mbox{Sotto quale condizione si può dire che
-        \\\\una funzione con il gradiente identicamente nullo
-        \\\\è costante?
+        \\\\una funzione con il gradiente identicamente
+        \\\\nullo è costante?
 }
     </string>
     <string name="soluzione_5_10">
@@ -243,9 +253,10 @@
         }
     </string>
     <string name="domanda_5_11">
-        \\mbox{Che cos\'è un campo vettoriale? che cosa si
-        \\\\intende per potenziale di un campo vettoriale?
-        \\\\quando si dice che un campo vettoriale è esatto?
+        \\mbox{Che cos\'è un campo vettoriale? che
+        \\\\cosa si intende per potenziale di
+        \\\\un campo vettoriale? quando si dice
+        \\\\che un campo vettoriale è esatto?
         }
     </string>
     <string name="soluzione_5_11">
@@ -253,13 +264,13 @@
         \\\\
         \\;
         \\\\Sia $A$ un aperto connesso per archi in $R^n$.
-        \\\\Un \\textbf{campo vettoriale}\\ in $A$ è una funzione $F : A \\to R^n$
-        \\\\continua.
+        \\\\Un \\textbf{campo vettoriale}\\ in $A$ è una funzione
+        \\\\$F : A \\to R^n$ continua.
         \\\\ \\;
-        \\\\Un \\textbf{potenziale}\\ del campo vettoriale $F$ è una funzione
-        \\\\$U \\in C^1(A)$, tale che $\\nabla U(x) = F(x)$ $\\forall x \\in A$.
-        \\\\Il campo vettoriale F si dice \\textbf{esatto}\\ se possiede
-        \\\\dei potenziali.
+        \\\\Un \\textbf{potenziale}\\ del campo vettoriale $F$ è una
+        \\\\funzione $U \\in C^1(A)$, tale che $\\nabla U(x) = F(x)$
+        \\\\$\\forall x \\in A$. Il campo vettoriale F si dice \\textbf{esatto}\\
+        \\\\se possiede dei potenziali.
         }
     </string>
     <string name="domanda_5_12">
@@ -298,18 +309,18 @@
         \\\\
         \\;
         \\\\Siano $A$ un aperto connesso per archi in $R^n$,
-        \\\\$F \\in C(A; R^n)$. Diremo che il campo vettoriale F è
-        \\\\\\textbf{conservativo}\\ se, comunque si prendano due
-        \\\\cammini $\\alpha$ e $\\beta$ di classe $C^1$ a tratti,
-        \\\\con sostegno in $A$ e aventi lo stesso primo estremo
+        \\\\$F \\in C(A; R^n)$. Diremo che il campo vettoriale
+        \\\\$F$ è\\textbf{conservativo}\\ se, comunque si prendano
+        \\\\due cammini $\\alpha$ e $\\beta$ di classe $C^1$ a tratti, con
+        \\\\sostegno in $A$ e aventi lo stesso primo estremo
         \\\\e lo stesso secondo estremo, si ha}
         \\\\ \\;
         \\\\ \\qquad \\int F \\cdot d\\alpha = \\int F \\cdot d\\beta
     </string>
     <string name="domanda_5_14">
-        \\mbox{Che relazione c’è tra la nozione di campo
-        \\\\vettoriale esatto e quella di campo vettoriale
-        \\\\conservativo?}
+        \\mbox{Che relazione c’è tra la nozione di
+        \\\\campo vettoriale esatto e quella di campo
+        \\\\vettoriale conservativo?}
     </string>
     <string name="soluzione_5_14">
         \\mbox{\\textit{\\textbf{Soluzione 5.14}}
@@ -325,10 +336,10 @@
     </string>
     <string name="domanda_5_15">
         \\mbox{Che cosa vuol dire che un campo
-        \\\\vettoriale è \\textit{chiuso} e che relazione
+        \\\\vettoriale è \\textit{chiuso}\\ e che relazione
         \\\\c’è tra la nozione di campo
-        \\\\vettoriale esatto e quella
-        \\\\di campo vettoriale chiuso?
+        \\\\vettoriale esatto e quella di
+        \\\\campo vettoriale chiuso?
 }
     </string>
     <string name="soluzione_5_15">
@@ -336,19 +347,20 @@
         \\\\
         \\;
         \\\\Siano $A$ un aperto connesso per archi
-        \\\\in $R^n$, $F \\in C^1(A; R^n). Diremo
-        \\\\che il campo vettoriale $F$ è \\textbf{chiuso}
-        \\\\se $\\forall i, \\forall j \\in {1, \\dots, n}$
+        \\\\in $R^n$, $F \\in C^1(A; R^n)$. Diremo che
+        \\\\il campo vettoriale $F$ è \\textbf{chiuso}\\ se
+        \\\\$\\forall i, \\forall j \\in \\{1, \\dots, n\\}$}
         \\\\ \\;
         \\\\ \\qquad \\frac{\\partial F_i}{\\partial x_j} =\\frac{\\partial F_j}{\\partial x_i}
         \\\\ \\;
-        \\\\Sotto le stesse condizioni, se $F$ è esatto, $F$ è
-        \\\\\\textit{chiuso}
+        \\\\\\mbox{Sotto le stesse condizioni, se $F$ è
+        \\\\esatto, $F$ è \\textit{chiuso}.
         }
     </string>
     <string name="domanda_5_16">
-        \\mbox{Sotto quali condizioni si può dire che un
-        \\\\campo vettoriale chiuso è esatto?}
+        \\mbox{Sotto quali condizioni si può dire
+        \\\\che un campo vettoriale chiuso è
+        \\\\esatto?}
     </string>
     <string name="soluzione_5_16">
         \\mbox{\\textit{\\textbf{Soluzione 5.16}}
@@ -361,28 +373,30 @@
     </string>
     <string name="domanda_5_17">
         \\mbox{Che cosa vuol dire che un sottoinsieme
-        \\\\di $R^n$ è stellato rispetto a
-        \\\\qualche suo punto?}
+        \\\\di $R^n$ è stellato rispetto a qualche suo
+        \\\\punto?}
     </string>
     <string name="soluzione_5_17">
         \\mbox{\\textit{\\textbf{Soluzione 5.17}}
         \\\\
         \\;
-        \\\\Siano $A \\subseteq R^n$, $x^0 \\in A$, diremo che
-        \\\\$A$ è stellato rispetto a $x^0$ se, $\\forall x \\in A$ si ha:
+        \\\\Siano $A \\subseteq R^n$, $x^0 \\in A$, diremo che $A$
+        \\\\è \\textbf{stellato rispetto a $x^0$}\\ se, $\\forall x \\in A$
+        \\\\si ha:}
         \\;
         \\\\ \\qquad [x^0, x] \\subseteq A
     </string>
     <string name="domanda_5_18">
-        \\mbox{Che cosa sono i campi vettoriali centrali?}
+        \\mbox{Che cosa sono i campi vettoriali
+        \\\\centrali?}
     </string>
     <string name="soluzione_5_18">
         \\mbox{\\textit{\\textbf{Soluzione 5.18}}
         \\\\
         \\;
         \\\\Sia $A \\subseteq R^n$, $F : A \\to R^n$, diremo che $F$
-        \\\\è un \\textbf{campo centrale}\\ se esiste $g : R^+ \\to R$ continua,
-        \\\\tale che:}
+        \\\\è un \\textbf{campo centrale}\\ se esiste $g : R^+ \\to R$
+        \\\\ continua, tale che:}
         \\\\ \\;
         \\\\ \\qquad F(x) = g(\\lVert x\\rVert^2)x\\quad ∀x ∈ A
 
