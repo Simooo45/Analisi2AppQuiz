@@ -25,8 +25,9 @@
         \\\\ \\;
         \\\\ \\qquad \\lim_{t\\to 0}r_{x^0, \\nu}(t) = \\lim_{t\\to 0}\\frac{f(x^0+t\\nu)-f(x^0)}{t}
         \\\\ \\;
-        \\\\\\mbox{lo chiameremo \\textbf{derivata di $f$ rispetto al vettore}
-        \\\\\\textbf{$\\nu$ in $x^0$}\\ e lo indicheremo con la notazione}
+        \\\\\\mbox{lo chiameremo \\textbf{derivata di $f$ rispetto al}
+        \\\\\\textbf{vettore $\\nu$ in $x^0$}\\ e lo indicheremo con la
+        \\\\notazione:}
         \\\\ \\;
         \\\\ \\qquad\\frac{\\partial f}{\\partial \\nu}(x^0)
     </string>
@@ -41,9 +42,8 @@
         \\\\Siano $A \\subseteq R^n$ con $1 ≤ j ≤ n$, $x^0 \\in A$, tale che
         \\\\$0 \\in D(A_{x^0,e^j})$. Chiamiamo \\textbf{derivata parziale}
         \\\\\\textbf{prima}\\ rispetto alla variabile $x_j$ nel punto $x^0$
-        \\\\la derivata $\\frac{\\partial f}{\\partial e^j} (x^0)$ (se esiste), con $e^j$
-        \\\\definito come il $j$-esimo vettore della base canoinica (tutti $0$
-        \\\\tranne un $1$ in $j$-esima posizione).
+        \\\\la derivata $\\frac{\\partial f}{\\partial e^j} (x^0)$ (se esiste), con $e^j$ definito
+        \\\\come il $j$-esimo vettore della base canoinica.
         \\\\ \\;
         \\\\Tale derivata sarà indicata con il simbolo $\\frac{\\partial f}{\\partial x_j}$
         \\\\o con il simbolo $D_jf(x^0)$
@@ -59,8 +59,8 @@
         \\\\
         \\;
         \\\\Per funzioni di più variabili, l’esistenza
-        \\\\di tutte le derivate parziali prime
-        \\\\finite in un punto non implica la continuità
+        \\\\di tutte le derivate parziali prime finite
+        \\\\in un punto non implica la continuità
         \\\\della funzione in quel punto.
         }
     </string>
@@ -81,16 +81,18 @@
         }
     </string>
     <string name="domanda_2_5">
-        \\mbox{Che cosa dice il teorema del differenziale totale?}
+        \\mbox{Che cosa dice il teorema del differenziale
+        \\\\totale?}
     </string>
     <string name="soluzione_2_5">
         \\mbox{\\textit{\\textbf{Soluzione 2.5}}
         \\\\
         \\;
         \\\\Siano $A$ un aperto in $R^n, f \\in C^1(A)$,
-        \\\\$x \\in A$, $\\nu \\in R^n$. Allora esiste $\\frac{\\partial f}{\\partial \\nu} (x)$ e:        }
+        \\\\$x \\in A$, $\\nu \\in R^n$.
+        \\\\Allora esiste $\\frac{\\partial f}{\\partial \\nu} (x)$ e:        }
         \\\\ \\;
-        \\\\ \\qquad \\frac{\\partial f}{\\partial \\nu} (x) = \\nabla f(x)\\cdot \\nu =\\sum_{j=1}^nD_jf(x)\\nu_j
+        \\\\\\quad \\frac{\\partial f}{\\partial \\nu} (x) = \\nabla f(x)\\cdot \\nu =\\sum_{j=1}^nD_jf(x)\\nu_j
     </string>
     <string name="domanda_2_6">
         \\mbox{Conoscete qualche generalizzazione del
@@ -118,21 +120,22 @@
         \\\\Siano $A \\subseteq R^n$, $f : A \\to R$, $1 \\le j \\le n$.
         \\\\Poniamo $A_j := \\{x \\in A : \\exists D_jf(x) \\in R\\}$.
         \\\\ \\;
-        \\\\Su $A_j$ è definita la funzione $D_jf$, che associa
-        \\\\a ogni elemento $x$ di $A_j$ la derivata $D_jf(x)$.
+        \\\\Su $A_j$ è definita la funzione $D_jf$, che associa a ogni
+        \\\\elemento $x$ di $A_j$ la derivata $D_jf(x)$.
         \\\\Se $x \\in A_j$ e $1 \\le i \\le n$, può esistere la derivata
         \\\\$D_i(D_jf)(x)$ di $D_jf$ in $x$.
         \\\\Essa viene chiamata \\textbf{derivata seconda di $f$ in $x$}
-        \\\\\\textbf{rispetto alle variabili $x_i, x_j$}\\ (nell’ordine)
-        \\\\e viene indicata con uno dei simboli
-        \\\\$D_{ij}f(x)$, $\\frac{\\partial^2f}{\\partial x_i\\partial x_j}(x)$ ($D^2_jf(x)$, $\\frac{\\partial^2f}{\\partial x_i^2}(x)$ se $i= j$).
+        \\\\\\textbf{rispetto alle variabili $x_i, x_j$}\\ (nell’ordine) e
+        \\\\viene indicata con uno dei simboli
+        \\\\ \\;
+        \\\\ \\;$D_{ij}f(x)$, $\\frac{\\partial^2f}{\\partial x_i\\partial x_j}(x)$ ($D^2_jf(x)$, $\\frac{\\partial^2f}{\\partial x_i^2}(x)$ se $i= j$).
         \\\\ \\;
         \\\\Iterando il procedimento, si possono definire le
         \\\\derivate terze, quarte, ecc. (o derivate di ordine 3,
         \\\\4, ecc.).
         \\\\ \\;
-        \\\\Dato $k \\in N$, $j_1, \\dots, j_k \\in \\{1, \\dots, n\\}$,
-        \\\\non necessariamente a due a due distinti, porremo:}
+        \\\\Dato $k \\in N$, $j_1, \\dots, j_k \\in \\{1, \\dots, n\\}$, non
+        \\\\necessariamente a due a due distinti, porremo:}
         \\\\ \\;
         \\\\ D_{j_1,...,j_k}f(x) = D_{j_1}(D_{j_2}(...(D_{j_k}f))...)(x) = \\frac{\\partial^kf}{\\partial_{x_{j_1}}\\dots\\partial_{x_{j_{k}}}}(x)
     </string>
@@ -148,7 +151,8 @@
         \\\\Diremo che $f$ è \\textbf{di classe $C^k$}\\ ($k \\in N$) se
         \\\\possiede a valori reali tutte le derivate
         \\\\parziali di ordine non superiore a k in ogni
-        \\\\punto di A e tali derivate sono continue in $A$.
+        \\\\punto di A e tali derivate sono continue in
+        \\\\$A$.
         \\\\Scriveremo, per indicare tale eventualità,
         \\\\ \\;
         \\\\ \\qquad $f \\in C^k(A)$.
@@ -168,8 +172,9 @@
         \\;
         \\\\Siano $A$ un aperto in $R^n$, $f : A \\to R$, $1 ≤ i, j ≤ n$.
         \\\\Supponiamo che, $\\forall x \\in A$, siano definite e a valori
-        \\\\reali $D_if(x), D_jf(x), D_{ij}f(x), D_{ji}f(x)$. Sia poi $x^0\\in A$,
-        \\\\tale che $D_{ij}f$ e $D_{ji}f$ sono continue in $x^0$. Allora:}
+        \\\\reali $D_if(x), D_jf(x), D_{ij}f(x), D_{ji}f(x)$. Sia poi
+        \\\\$x^0\\in A$, tale che $D_{ij}f$ e $D_{ji}f$ sono continue in $x^0$.
+        \\\\Allora:}
         \\\\ \\;
         \\\\ \\qquad D_{ij}f(x^0) = D_{ji}f(x^0)
     </string>
@@ -182,12 +187,12 @@
         \\mbox{\\textit{\\textbf{Soluzione 2.10}}
         \\\\
         \\;
-        \\\\Dal teorema di Schwarz, segue subito che, se $f ∈ C^2(A)$,
-        \\\\con $A$ aperto in $R^n$, $\\forall i, j \\in \\{1, \\dots, n\\}$,
+        \\\\Dal teorema di Schwarz, segue subito che, se
+        \\\\$f ∈ C^2(A)$, con $A$ aperto in $R^n$, $\\forall i, j \\in \\{1, \\dots, n\\}$,
         \\\\si ha $D_{ij}f = D_{ji}f$. Più in generale, se $f \\in C^k(A)$,
         \\\\due derivate qualunque di ordine non superiore a $k$,
         \\\\che si ottengono applicando lo stesso numero di volte
-        \\\\le singole derivate parziali del primo ordine, coincidono
+        \\\\le singole derivate parziali del primo ordine, coincidono.
         }
     </string>
     <string name="domanda_2_11">
@@ -199,19 +204,21 @@
         \\\\
         \\;
         \\\\Siano $A$ un aperto in $R^n$, $k \\in N$, $f \\in C^k(A)$,
-        \\\\$x^0 = (x^0_1, \\dots, x^0_n) \\in A$. Introduciamo il
-        \\\\seguente polinomio di $n$ variabili reali:}
+        \\\\$x^0 = (x^0_1, \\dots, x^0_n) \\in A$. Introduciamo il seguente
+        \\\\polinomio di $n$ variabili reali:}
         \\\\ \\;
-        \\\\P(x1, \\dots, xn) = f(x^0) +
-        \\\\+ \\sum_{j=1}^n D_jf(x^0)(x_j − x^0_j) + \\dots+
-        \\\\+\\frac{1}{i!}\\sum_{j_{1}=1}^n\\dots \\sum_{j_i=1}^n D_{j_1,\\dots,j_i}f(x^0)(x_{j_{1}} − x^0_{j_{1}})\\dots(x_{j_i} − x^0_{j_i}) + \\dots+
+        \\\\P(x_1, \\dots, x_n) = f(x^0) +
+        \\\\+ \\sum_{j=1}^n D_jf(x^0)(x_j − x^0_j) +
+        \\\\+ \\dots+
+        \\\\+\\frac{1}{i!}\\sum_{j_{1}=1}^n\\dots \\sum_{j_i=1}^n D_{j_1,\\dots,j_i}f(x^0)(x_{j_{1}} − x^0_{j_{1}})\\dots(x_{j_i} − x^0_{j_i}) +
+        \\\\+ \\dots+
         \\\\+ \\frac{1}{k!} \\sum_{j_{1}=1}^n\\dots\\sum_{j_k=1}^nD_{j_1,\\dots,j_k}f(x^0)(x_{j_{1}} − x^0_{j_{1}})\\dots(x_{j_k} − x^0_{j_k})
         \\\\ \\;
-        \\\\ \\mbox{Chiamiamo $P$ \\textbf{polinomio di Taylor}
-        \\\\\\textbf{di grado non superiore a $k$} con punto
-        \\\\iniziale $x^0 per $f$. Allora
+        \\\\ \\mbox{Chiamiamo $P$ \\textbf{polinomio di Taylor di grado }
+        \\\\\\textbf{non superiore a $k$}\\ con punto iniziale $x^0$ per $f$.
+        \\\\Allora
         \\\\ \\;
-        \\\\ \\qquad $f − P = o(\\lVert x − x^0\\rVert^k)
+        \\\\ \\qquad $f − P = o(\\lVert x − x^0\\rVert^k)$
         \\\\ \\;
         \\\\per $x \\to x^0$, nel senso che vale}
         \\\\ \\;
@@ -228,9 +235,10 @@
         \\\\
         \\;
         \\\\Siano $A \\subseteq R^n$, $f : A \\to R$, $x^0 \\in A$.
-        \\\\Diremo che $x^0$ è un \\textbf{punto di massimo (minimo) relativo}
-        \\\\per $f$ se esiste $r > 0$, tale che $f(x^0) \\ge f(x)$
-        \\\\(risp. $f(x^0) \\le f(x))$) $\\forall x \\in A \\cap B(x^0, r)$.
+        \\\\Diremo che $x^0$ è un \\textbf{punto di massimo}
+        \\\\\\textbf{(minimo) relativo}\\ per $f$ se esiste $r > 0$,
+        \\\\tale che $f(x^0) \\ge f(x)$ (risp. $f(x^0) \\le f(x))$)
+        \\\\$\\forall x \\in A \\cap B(x^0, r)$.
         \\\\ \\;
         \\\\Chiameremo \\textbf{estremanti relativi}\\ di $f$ i
         \\\\suoi punti di massimo o minimo relativo.
@@ -254,8 +262,8 @@
         \\\\ \\;
         \\\\ \\qquad$\\nabla f(x^0) = O$.
         \\\\ \\;
-        \\\\Supponiamo che $x^0$ sia un estremante relativo di $f$,
-        \\\\allora $x^0$ è un punto critico di $f$.
+        \\\\Supponiamo che $x^0$ sia un estremante relativo
+        \\\\di $f$, allora $x^0$ è un punto critico di $f$.
 
         }
     </string>
@@ -268,9 +276,8 @@
         \\\\
         \\;
         \\\\Sia $A \\subseteq R^n$ aperto, $f \\in C^1(A)$.
-        \\\\Chiameremo \\textbf{punti di sella di $f$}\\ i
-        \\\\suoi punti critici che non sono
-        \\\\estremanti relativi.
+        \\\\Chiameremo \\textbf{punti di sella di $f$}\\ i suoi punti
+        \\\\critici che non sono estremanti relativi.
         }
     </string>
     <string name="domanda_2_15">
@@ -284,15 +291,16 @@
         \\\\
         \\;
         \\\\Siano $A \\subseteq R^n$, $v \\in R^n$, $x^0 \\in A$.
-        \\\\Sia $f : A \\to R^m$. Per $t \\in A_{x^0,v} \\setminus \\{0\\}$, poniamo
+        \\\\Sia $f : A \\to R^m$. Per $t \\in A_{x^0,v} \\setminus \\{0\\}$.
+        \\\\Poniamo
         \\\\ \\;
-        \\\\ \\qquad $r_{x^0,v(t)} := \\frac{f(x^0+tv)−f(x0)}t$
+        \\\\ \\qquad $r_{x^0,v(t)} := \\frac{f(x^0+tv)−f(x^0)}t$
         \\\\ \\;
-        \\\\e supponiamo che $0 \\in D(A_{x^0},v)$. Se esiste
+        \\\\e supponiamo che $0 \\in D(A_{x^0},v)$. Se esiste}
         \\\\ \\;
-        \\\\ \\qquad $\\lim_{t\\to 0}r_{x^0,v}(t) = \\lim_{t\\to0}\\frac{f(x^0+tv)−f(x^0)}t$
+        \\\\ \\qquad \\lim_{t\\to 0}r_{x^0,v}(t) = \\lim_{t\\to0}\\frac{f(x^0+tv)−f(x^0)}t
         \\\\ \\;
-        \\\\lo chiameremo \\textbf{derivata di $f$ rispetto al}
+        \\\\\\mbox{lo chiameremo \\textbf{derivata di $f$ rispetto al}
         \\\\\\textbf{vettore $v$ in $x^0$}\\ e lo indicheremo con
         \\\\la notazione
         \\\\ \\;
@@ -313,8 +321,8 @@
         \\;
         \\\\Siano $A \\subseteq R^n$, $v \\in R^n$, $x^0 \\in A$.
         \\\\Sia $f : A \\to R^m$.
-        \\\\$\\frac{\\partial f}{\\partial v}(x^0)$ esiste se e solo se,
-        \\\\per ciascun $i = 1, \\dots, m$, esistono a valori reali le
+        \\\\$\\frac{\\partial f}{\\partial v}(x^0)$ esiste se e solo se, per ciascun
+        \\\\$i = 1, \\dots, m$, esistono a valori reali le
         \\\\derivate $\\frac{\\partial f_i}{\\partial v}(x^0)$. Si ha inoltre \
         \\\\ \\;
         \\\\ \\qquad $\\frac{\\partial f}{\\partial v}(x^0) = \\frac{\\partial f_{1}}{\\partial v}(x^0), \\dots, \\frac{\\partial f_m}{\\partial v}(x^0)$
@@ -332,10 +340,10 @@
         \\\\
         \\;
         \\\\Siano $A$ un aperto di $R^n$, $f : A \\to R^m$. Diremo
-        \\\\che $f$ è \\textbf{di classe $C^k$}, con $k \\in N$, se
-        \\\\possiede a valori reali tutte le derivate parziali
-        \\\\di ordine non superiore a $k$ in ogni punto di $A$
-        \\\\e tali derivate sono continue in $A$.
+        \\\\che $f$ è \\textbf{di classe $C^k$}, con $k \\in N$, se possiede
+        \\\\a valori reali tutte le derivate parziali di ordine
+        \\\\non superiore a $k$ in ogni punto di $A$ e tali
+        \\\\derivate sono continue in $A$.
         \\\\ \\;
         \\\\Scriveremo, per indicare tale eventualità:}
         \\\\ \\;
@@ -374,21 +382,22 @@
         \\mbox{\\textit{\\textbf{Soluzione 2.19}}
         \\\\
         \\;
-        \\\\Siano $A \\subseteq R$, $t_0 \\in A\\cap D(A)$. Sia
-        \\\\poi $f : A \\to R^m$. Per $t \\in A\\setminus\\{t_0\\}$,
-        \\\\poniamo
+        \\\\Siano $A \\subseteq R$, $t_0 \\in A\\cap D(A)$. Sia poi
+        \\\\$f : A \\to R^m$. Per $t \\in A\\setminus\\{t_0\\}$, poniamo}
         \\\\ \\;
         \\\\ \\qquad $r_{x^0}(t) := \\frac{f(t)−f(t_0)}{t−t_0}$
         \\\\ \\;
-        \\\\Se esiste}
+        \\\\\\mbox{Se esiste}
         \\\\ \\;
-        \\\\ \\qquad \\lim_{t\\to t_0}r_{x^0} (t) = lim_{t\\to t_0}\\frac{f(t)−f(t_0)}{t−t_0}
+        \\\\ \\qquad \\lim_{t\\to t_0}r_{x^0} (t) = \\lim_{t\\to t_0}\\frac{f(t)−f(t_0)}{t−t_0}
         \\\\ \\;
-        \\\\mbox{lo chiameremo \\textbf{derivata di $f$ in $t_0$}\\ e lo
-        \\\\indicheremo con una delle notazioni $\\frac{df}{dt} (x^0)$, $f\'(t^0)$, $Df(t^0)$.
+        \\\\ \\mbox{lo chiameremo \\textbf{derivata di $f$ in $t_0$}\\ e lo
+        \\\\indicheremo con una delle notazioni
         \\\\ \\;
-        \\\\In tal caso, si dice che $f$ è \\textbf{derivabile in t_0}
-
+        \\\\ \\qquad $\\frac{df}{dt} (x^0)$, $f\'(t^0)$, $Df(t^0)$.
+        \\\\ \\;
+        \\\\In tal caso, si dice che $f$ è \\textbf{derivabile in}
+        \\\\\\textbf{$t_0$}.
         }
     </string>
     <string name="domanda_2_20">
@@ -401,8 +410,8 @@
         \\\\
         \\;
         \\\\Se $f(t) = (f_{1}(t), \\dots, f_m(t))$, $f$ è derivabile in $t^0$ se
-        \\\\e solo se ciascuna delle funzioni $f_1, \\dots, f_m$ è derivabile in $t^0$.
-        \\\\In tal caso, si ha:}
+        \\\\e solo se ciascuna delle funzioni $f_1, \\dots, f_m$ è
+        \\\\derivabile in $t^0$. In tal caso, si ha:}
         \\\\ \\;
         \\\\ \\qquad f\'(t^0) = (f_1\'(t^0), \\dots, f_m\'(t^0))
     </string>
@@ -414,20 +423,18 @@
         \\mbox{\\textit{\\textbf{Soluzione 2.21}}
         \\\\
         \\;
-        \\\\Siano $A$ aperto in $R^n$, $B$ aperto in $R^m$,
-        \\\\$g \\in C^1(A)$, $f \\in C^1(B; Rn)$, tale che
-        \\\\$f(B) \\subseteq A$.
+        \\\\Siano $A$ aperto in $R^n$, $B$ aperto in $R^m$, $g \\in C^1(A)$,
+        \\\\$f \\in C^1(B; Rn)$, tale che $f(B) \\subseteq A$.
         \\\\Allora:
         \\\\ \\;
-        \\\\ \\textit{a)} $g \\circ f \\in C^1(B)$
+        \\\\ \\textit{a)}\\ $g \\circ f \\in C^1(B)$
         \\\\ \\;
-        \\\\ \\textit{b)} $\\forall x \\in B$, $\\forall i \\in \\{1, \\dots, m\\}$,
-        \\\\\\qquad si ha}
+        \\\\ \\textit{b)}\\ $\\forall x \\in B$, $\\forall i \\in \\{1, \\dots, m\\}$, si ha}
         \\\\ \\;
         \\\\ \\qquad
-        \\begin{align*}D_i(g \\circ f)(x) &amp;= \\nabla g(f(x)) \\cdot Dif(x) =
-        \\\\&amp;\\sum_{j=1}^nD_jg(f(x))\\frac{\\partial f_j}{\\partial x_i}(x)
-        \\end{align*}
+        \\begin{align}D_i(g \\circ f)(x) &amp;= \\nabla g(f(x)) \\cdot Dif(x) =
+        \\\\&amp;=\\sum_{j=1}^nD_jg(f(x))\\frac{\\partial f_j}{\\partial x_i}(x)
+        \\end{align}
     </string>
     <string name="domanda_2_22">
         \\mbox{Che cosa si può dire della composizione
@@ -437,9 +444,9 @@
         \\mbox{\\textit{\\textbf{Soluzione 2.22}}
         \\\\
         \\;
-        \\\\Siano $A$ aperto in $R^n$, $B$ aperto in $R^m$,
-        \\\\$g \\in C^k(A)$, $f \\in C^k(B; R^n)$, tale che
-        \\\\$f(B) \\subseteq A$. Allora}
+        \\\\Siano $A$ aperto in $R^n$, $B$ aperto in $R^m$, $g \\in C^k(A)$,
+        \\\\$f \\in C^k(B; R^n)$, tale che $f(B) \\subseteq A$.
+        \\\\Allora}
         \\\\ \\;
         \\\\ \\qquad g \\circ f \\in C^k(B)
 
